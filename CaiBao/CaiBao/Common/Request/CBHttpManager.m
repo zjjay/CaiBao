@@ -44,15 +44,21 @@
         
         switch (status) {
             case AFNetworkReachabilityStatusUnknown:
-                self.isConnect = NO;
-                break;
             case AFNetworkReachabilityStatusNotReachable:
                 self.isConnect = NO;
                 break;
             case AFNetworkReachabilityStatusReachableViaWiFi:
-                self.isConnect = YES;
-                break;
             case AFNetworkReachabilityStatusReachableViaWWAN:
+            {
+                static NSString * instance = nil;
+                static dispatch_once_t onceToken;
+                instance = [[NSString alloc] init];
+                dispatch_once(&onceToken, ^{
+                    [[NSNotificationCenter defaultCenter] postNotificationName:KNOTIFICATION_NetWork object:nil userInfo:nil];
+                });
+                
+            }
+
                 self.isConnect = YES;
                 break;
             default:
@@ -76,9 +82,9 @@
     
     static CBHttpManager * instance = nil;
     static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[self alloc] init];
-    });
+    instance = [[self alloc] init];
+//    dispatch_once(&onceToken, ^{
+//    });
     return instance;
 }
 
@@ -125,6 +131,12 @@
 - (BOOL)isConnectionAvailable {
     
     return self.isConnect;
+}
+
+- (void)cancelNetWork
+{
+    [self.manager.operationQueue cancelAllOperations];
+
 }
 
 @end

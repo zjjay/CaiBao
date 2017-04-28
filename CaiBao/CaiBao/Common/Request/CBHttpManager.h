@@ -50,4 +50,5 @@ typedef void(^UpLoadProgressBlock)(NSProgress * uploadProgress);
                 failure:(FailureBlock)failure
           isHaveNetWork:(void(^) (BOOL isHave))netWork;
 
+- (void)cancelNetWork;
 @end

@@ -28,9 +28,6 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-//    NSArray *array = @[@"#50A260",@"#1C4F82",@"#3694DA",@"#58534C",@"#E93F33",@"#EC6252",@"#EC62C5",@"#7962C5",@"#796200",@"#5B0000"];
-//    
-//    self.naviBackView.backgroundColor = [UIColor colorWithHexRGB:[array objectAtIndex:[NavigationColor integerValue]]];
     self.tabBar = [[CustomTabBar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT - MAIN_BOTTOM_TABBAR_HEIGHT, SCREEN_WIDTH, MAIN_BOTTOM_TABBAR_HEIGHT)];
     WeakSelf(weakSelf);
     self.tabBar.clickBlock = ^(){

@@ -31,6 +31,8 @@
 
 #define USER(x) [[NSUserDefaults standardUserDefaults] objectForKey:x]
 #define KNOTIFICATION_LOGIN     @"caibaologin"
+#define KNOTIFICATION_NetWork     @"network"
+
 #define KNOTIFICATION_AVATAR    @"userAvatar"
 #define USERNAME                @"username"
 #define PASSWORD                @"password"
@@ -103,7 +105,7 @@
 #define JPushAppKey              @"03359d8eb178f40d21c3ecde"
 #define Appid                    @"278"
 #define Launch                   @"launch3"
-#define LoginBackImage           @"loginbackground6"
+#define LoginBackImage           @"loginbackground11"
 #define MyBackIamge              @"mybackimage6"
 #define NavigationColor          @"5"
 

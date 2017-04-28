@@ -20,7 +20,7 @@
         [_plusBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_icon_add"] forState:UIControlStateNormal];
         _plusBtn.backgroundColor = [UIColor colorWithHexString:@"#ff8200" andAlpha:1];
         [_plusBtn addTarget:self action:@selector(plusBtnClick:) forControlEvents:UIControlEventTouchUpInside];
-
+        
     }
     return _plusBtn;
 }

@@ -4230,7 +4230,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB184=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB184-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4277,7 +4277,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB184=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB184-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4324,7 +4324,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB278=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB278-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4371,7 +4371,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB278=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB278-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4418,7 +4418,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB279=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB279-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4465,7 +4465,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB279=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB279-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4606,7 +4606,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB203=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB203-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4653,7 +4653,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB203=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB203-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
