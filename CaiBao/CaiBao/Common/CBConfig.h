@@ -80,7 +80,7 @@
 
 #elif CB270
 
-#define JPushAppKey              @"39db0a47b1d4371c0f079561"
+#define JPushAppKey              @"bc5dd56aba23721ad166c33e"
 #define Appid                    @"270"
 #define Launch                   @"launch1"
 #define LoginBackImage           @"loginbackground4"

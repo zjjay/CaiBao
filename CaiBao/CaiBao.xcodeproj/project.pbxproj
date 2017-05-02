@@ -1166,6 +1166,13 @@
 		4B54C0EC1EA5C05300410B39 /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
 		4B54C0ED1EA5C05300410B39 /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
 		4B54C0EF1EA5C32A00410B39 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B54C0EE1EA5C32A00410B39 /* AVFoundation.framework */; };
+		4B8FDA531EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA541EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA551EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA561EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA571EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA581EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
+		4B8FDA591EB4783900069073 /* userInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B8FDA521EB4783900069073 /* userInfo.html */; };
 		4BA586761E979C21007789DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
 		4BA5867F1E979C21007789DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5867D1E979C21007789DF /* Main.storyboard */; };
 		4BA586811E979C21007789DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586801E979C21007789DF /* Assets.xcassets */; };
@@ -1493,6 +1500,7 @@
 		4B54C0E91EA5C05300410B39 /* MyCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommentViewController.h; sourceTree = "<group>"; };
 		4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommentViewController.m; sourceTree = "<group>"; };
 		4B54C0EE1EA5C32A00410B39 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4B8FDA521EB4783900069073 /* userInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = userInfo.html; sourceTree = "<group>"; };
 		4BA586711E979C21007789DF /* CB157.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB157.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA586751E979C21007789DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BA5867E1E979C21007789DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -2074,6 +2082,7 @@
 		4BA586741E979C21007789DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4B8FDA521EB4783900069073 /* userInfo.html */,
 				4BA5867D1E979C21007789DF /* Main.storyboard */,
 				4BA586801E979C21007789DF /* Assets.xcassets */,
 				4BA586E41E98D1BA007789DF /* Images.xcassets */,
@@ -2673,6 +2682,7 @@
 				4B45E59D1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E65A1EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1171EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA571EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5DC1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1251EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B91EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -2767,6 +2777,7 @@
 				4B45E59E1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E65B1EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1181EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA581EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5DD1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1261EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5BA1EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -2861,6 +2872,7 @@
 				4B45E59F1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E65C1EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1191EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA591EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5DE1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1271EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5BB1EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -2955,6 +2967,7 @@
 				4B45E59A1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E6571EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1141EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA541EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5D91EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1221EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B61EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -3049,6 +3062,7 @@
 				4B45E59B1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E6581EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1151EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA551EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5DA1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1231EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B71EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -3143,6 +3157,7 @@
 				4B45E5991EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E6561EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1131EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA531EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5D81EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1211EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B51EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -3237,6 +3252,7 @@
 				4B45E59C1EB05166001AEF71 /* compose_live_photo_background@2x.png in Resources */,
 				4B45E6591EB05166001AEF71 /* timeline_image_gif@2x.png in Resources */,
 				4B1EA1161EAE0FDC00F4227D /* CB227-Info.plist in Resources */,
+				4B8FDA561EB4783900069073 /* userInfo.html in Resources */,
 				4B45E5DB1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1241EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B81EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
@@ -4226,6 +4242,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB184.entitlements;
 				DEVELOPMENT_TEAM = 9CTSPH8A6E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4273,6 +4290,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB184.entitlements;
 				DEVELOPMENT_TEAM = 9CTSPH8A6E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4320,6 +4338,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB278.entitlements;
 				DEVELOPMENT_TEAM = 38JM24984T;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4367,6 +4386,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB278.entitlements;
 				DEVELOPMENT_TEAM = 38JM24984T;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4414,6 +4434,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB279.entitlements;
 				DEVELOPMENT_TEAM = 38JM24984T;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4461,6 +4482,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB279.entitlements;
 				DEVELOPMENT_TEAM = 38JM24984T;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4508,6 +4530,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB227.entitlements;
 				DEVELOPMENT_TEAM = 9CTSPH8A6E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4555,6 +4578,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB227.entitlements;
 				DEVELOPMENT_TEAM = 9CTSPH8A6E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4602,6 +4626,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB203.entitlements;
 				DEVELOPMENT_TEAM = H8397B36PU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4649,6 +4674,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB203.entitlements;
 				DEVELOPMENT_TEAM = H8397B36PU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
@@ -4788,11 +4814,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB157.entitlements;
 				DEVELOPMENT_TEAM = 9A3738V36U;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB157=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB157-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4821,7 +4848,7 @@
 					"\"SystemConfiguration\"",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.2017.CBcaibao90;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2017.CBcaibao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4835,11 +4862,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB157.entitlements;
 				DEVELOPMENT_TEAM = 9A3738V36U;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB157=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB157-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4868,7 +4896,7 @@
 					"\"SystemConfiguration\"",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.2017.CBcaibao90;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2017.CBcaibao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4882,11 +4910,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB270.entitlements;
 				DEVELOPMENT_TEAM = PF93AXX79V;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB270=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB270-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4915,7 +4944,7 @@
 					"\"SystemConfiguration\"",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.2017.LCcaibao270;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2017.LCCB270;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4929,11 +4958,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = CaiBao/Plist/CB270.entitlements;
 				DEVELOPMENT_TEAM = PF93AXX79V;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB270=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB270-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4962,7 +4992,7 @@
 					"\"SystemConfiguration\"",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.2017.LCcaibao270;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2017.LCCB270;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

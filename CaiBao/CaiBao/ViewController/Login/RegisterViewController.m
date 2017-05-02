@@ -7,7 +7,7 @@
 //
 
 #import "RegisterViewController.h"
-
+#import "ViewController.h"
 @interface RegisterViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textField1;
 @property (weak, nonatomic) IBOutlet UITextField *textFiled2;
@@ -49,6 +49,11 @@
     [user synchronize];
     
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)agreenment:(id)sender {
+    ViewController *view = [[ViewController alloc] init];
+    [self  presentViewController:view  animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {

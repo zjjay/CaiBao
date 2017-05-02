@@ -49,7 +49,6 @@
             }
         };
         
-        
         self.window.rootViewController = viewController;
         return YES;
     }
@@ -160,7 +159,7 @@
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"dd-MM-yyyy-HHmmss"];
-    NSDate *date = [dateFormatter dateFromString:@"30-07-2017-000000"];
+    NSDate *date = [dateFormatter dateFromString:@"30-08-2017-000000"];
     return date;
 }
 
@@ -187,4 +186,7 @@
     
 }
 
+
 @end
+
+
