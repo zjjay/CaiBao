@@ -43,6 +43,7 @@
     avatarImageView.clipsToBounds = YES;
     
     nameLabel = [UILabel new];
+    nameLabel.textColor = Navi_Title_Color;
     nameLabel.font = [UIFont systemFontOfSize:15];
     
     timeLabel = [UILabel new];

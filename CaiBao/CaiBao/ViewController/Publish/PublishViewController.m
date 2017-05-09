@@ -11,6 +11,9 @@
 #import "HXPhotoView.h"
 
 @interface PublishViewController ()<UITextViewDelegate,HXPhotoViewDelegate>
+{
+    UILabel *textViewPlaceholderLabel;
+}
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (strong, nonatomic) HXPhotoManager *manager;
 @property (weak, nonatomic) IBOutlet UIView *naviBackView;
@@ -45,13 +48,19 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *array = @[@"#50A260",@"#1C4F82",@"#3694DA",@"#58534C",@"#E93F33",@"#EC6252",@"#EC62C5",@"#7962C5",@"#796200",@"#5B0000"];
-    
-    self.naviBackView.backgroundColor = [UIColor colorWithHexRGB:[array objectAtIndex:[NavigationColor integerValue]]];
+//    NSArray *array = @[@"#50A260",@"#1C4F82",@"#3694DA",@"#58534C",@"#E93F33",@"#EC6252",@"#EC62C5",@"#7962C5",@"#796200",@"#5B0000"];
+//    
+//    self.naviBackView.backgroundColor = [UIColor colorWithHexRGB:[array objectAtIndex:[NavigationColor integerValue]]];
     
     self.view.backgroundColor = [UIColor colorWithWhite:0.78 alpha:1];
     
     self.textView.delegate = self;
+    
+    textViewPlaceholderLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.textView.frame.origin.x + 4, self.textView.frame.origin.y + 5, 150, 25)];
+    textViewPlaceholderLabel.text = @"请输入你的内容";
+    textViewPlaceholderLabel.textColor = [UIColor grayColor];
+    [self.view addSubview: textViewPlaceholderLabel];
+
     
     HXPhotoView *photoView = [HXPhotoView photoManager:self.manager];
     photoView.frame = CGRectMake(12, 140 + 64, SCREEN_WIDTH - 24, 0);
@@ -82,7 +91,7 @@
     
     [self showHudInView:self.view hint:nil];
 
-    [UIView animateWithDuration:3.0f animations:^{
+    [UIView animateWithDuration:2.0f animations:^{
         self.view.backgroundColor = [UIColor lightGrayColor];
 
     } completion:^(BOOL finished) {
@@ -92,6 +101,28 @@
         }];
     }];
 }
+
+
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    //[text isEqualToString:@""] 表示输入的是退格键
+    if (![text isEqualToString:@""])
+    {
+        textViewPlaceholderLabel.hidden = YES;
+    }
+    
+    //range.location == 0 && range.length == 1 表示输入的是第一个字符
+    if ([text isEqualToString:@""] && range.location == 0 && range.length == 1)
+        
+    {
+        textViewPlaceholderLabel.hidden = NO;
+    }
+    return YES;
+}
+
+
+
 
 - (void)photoViewChangeComplete:(NSArray<HXPhotoModel *> *)allList Photos:(NSArray<HXPhotoModel *> *)photos Videos:(NSArray<HXPhotoModel *> *)videos Original:(BOOL)isOriginal
 {

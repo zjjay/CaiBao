@@ -26,6 +26,10 @@
 #define CB_rgb_hex(rgbValue)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define ALLVIEWBACKCOLOR          CB_rgb(239, 238, 244)
 
+#define Navi_Title_Color          CB_rgb(15, 136, 235)
+
+
+
 
 #define  WeakSelf(x)   __weak typeof(*&self)x = self
 
@@ -83,8 +87,8 @@
 #define JPushAppKey              @"bc5dd56aba23721ad166c33e"
 #define Appid                    @"270"
 #define Launch                   @"launch1"
-#define LoginBackImage           @"loginbackground4"
-#define MyBackIamge              @"mybackimage4"
+#define LoginBackImage           @"loginbackground11"
+#define MyBackIamge              @"mybackimage2"
 #define NavigationColor          @"3"
 
 

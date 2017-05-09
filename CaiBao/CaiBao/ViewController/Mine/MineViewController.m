@@ -13,6 +13,8 @@
 #import "FeedBackViewController.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <AVFoundation/AVFoundation.h>
+#import "CircleDetailViewController.h"
+
 @interface MineViewController ()<UITableViewDelegate,UITableViewDataSource,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 {
     CGFloat headViewHeight;
@@ -35,9 +37,9 @@
     [super viewDidLoad];
     
     
-    titleArray = @[@[@"我的评论",@"扫一扫"],@[@"通知",@"设置"],@[@"意见反馈",@"退出登录"]];
-    imageArray = @[@[@"icon_edu",@"icon_scan"],@[@"icon_notice",@"icon_setting"],@[@"icon_feedback",@"icon_exit"]];
-    controllerArray = @[@[@"MyComment",@"Sweep"],@[@"MyComment",@"Setting"],@[@"FeedBack",@"Exit"]];
+    titleArray = @[@[@"我的收藏",@"扫一扫"],@[@"意见反馈",@"设置"],@[@"退出登录"]];
+    imageArray = @[@[@"icon_edu",@"icon_scan"],@[@"icon_setting",@"icon_feedback"],@[@"icon_exit"]];
+    controllerArray = @[@[@"MyComment",@"Sweep"],@[@"FeedBack",@"Setting"],@[@"Exit"]];
     
     [self.view addSubview:self.tableView];
     [self.tableView addSubview:self.tableHeadView];
@@ -167,7 +169,16 @@
         }
         
     }else if ([leiStr  isEqualToString:@"ExitViewController"]) {
-        [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:nil];
+        [CBAlertHelper alertWithTitle:@"是否要退出" message:nil rightName:@"确定" leftName:@"取消" viewController:self rightAction:^{
+            [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:nil];
+        } leftAction:^{
+            
+        }];
+    }else if([leiStr isEqualToString:@"MyCommentViewController"]){
+        CircleDetailViewController *vc = [[CircleDetailViewController alloc] init];
+        vc.titleName = @"我的收藏";
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController  pushViewController:vc animated:YES];
     }else{
         vc.hidesBottomBarWhenPushed = YES;
         [self.navigationController  pushViewController:vc animated:YES];

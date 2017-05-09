@@ -34,7 +34,6 @@
     [self.right  setTintColor:[UIColor  whiteColor]];
     self.right.titleLabel.font = [UIFont  systemFontOfSize:15];
     [self.right  addTarget:self action:@selector(SendSuggest:) forControlEvents:UIControlEventTouchUpInside];
-    self.tabBarController.tabBar.hidden = YES;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem  alloc]initWithCustomView:self.right];
 }
 

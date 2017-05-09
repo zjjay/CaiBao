@@ -2,159 +2,173 @@
 //  HomeViewController.m
 //  CaiBao
 //
-//  Created by LC on 2017/4/8.
+//  Created by LC on 2017/5/8.
 //  Copyright © 2017年 LC. All rights reserved.
 //
 
 #import "HomeViewController.h"
-#import "HomeViewModel.h"
-#import "HomeCollectionViewCell.h"
-#import "SDCycleScrollView.h"
-#import "HomeHeadView.h" 
-#import "HomeModel.h"
-#import "HomeDetailViewController.h"
-#define HeadHeight SCREEN_WIDTH*26/64
-@interface HomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,SDCycleScrollViewDelegate>
-{
-    HomeViewModel *viewModel;
-    NSMutableArray *cycleImageArray;
-}
+#import "CircleDetailViewController.h"
+#import "CircleViewController.h"
+#import "RESideMenu.h"
 
-@property (nonatomic ,strong) UICollectionView *collectionView;
+@interface HomeViewController ()
+{
+    UIButton *button_hot;
+    UIButton *button_all;
+    CircleDetailViewController *hot;
+    CircleViewController *all;
+    CBViewController *currentVC;
+}
+@property (nonatomic ,strong) UIView *titleView;
+
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"彩宝大厅";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"leftAvatar"] style:UIBarButtonItemStylePlain target:self action:@selector(presentLeftMenuViewController:)];
-
-    viewModel = [[HomeViewModel alloc] init];
-    [viewModel requsetDataWithUrlStr:@"http://api.caipiao.163.com/clientHall_hallInfoAll.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&activityId=cs40&userName=tencent.163.com&version=b0e41ff827fc6d102d6bb69f951558db" callback:^{
-        cycleImageArray = [NSMutableArray new];
-        for (HomeModel *model in viewModel.headArray) {
-            [cycleImageArray addObject:model.picture];
-        }
-        [self.view addSubview:self.collectionView];
-        
-    }];
+    self.navigationItem.titleView = self.titleView;
     
+    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 40, 40);
+    button.layer.cornerRadius = 20;
+    button.clipsToBounds = YES;
+    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
+    [button setImage:image forState:UIControlStateNormal];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    
+    button_hot.userInteractionEnabled = NO;
+    [self addChildController];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(changeAvatar)
+                                                 name:KNOTIFICATION_AVATAR
+                                               object:nil];
+
 }
 
-
-
-- (UICollectionView *)collectionView
+- (void)viewWillAppear:(BOOL)animated
 {
-    if (!_collectionView) {
-        //1.初始化layout
-        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        //设置collectionView滚动方向
-        //    [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
-        //设置headerView的尺寸大小
-        layout.headerReferenceSize = CGSizeMake(SCREEN_WIDTH, HeadHeight);
-        //该方法也可以设置itemSize
-        //    layout.itemSize =CGSizeMake(0, 150);
-        
-        //2.初始化collectionView
-        _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT - MAIN_BOTTOM_TABBAR_HEIGHT - NAVIGATION_BAR_HEIGHT) collectionViewLayout:layout];
-        _collectionView.backgroundColor = [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1];
-        
-        //3.注册collectionViewCell
-        //注意，此处的ReuseIdentifier 必须和 cellForItemAtIndexPath 方法中 一致 均为 cellId
-        [_collectionView registerClass:[HomeCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
-        [_collectionView registerClass:[HomeHeadView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headView"];
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = NO;
+}
 
-        //4.设置代理
-        _collectionView.delegate = self;
-        _collectionView.dataSource = self;
+- (void)changeAvatar
+{
+    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 40, 40);
+    button.layer.cornerRadius = 20;
+    button.clipsToBounds = YES;
+    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
+    [button setImage:image forState:UIControlStateNormal];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+}
+
+- (UIView *)titleView
+{
+    if (!_titleView) {
+        _titleView = [[UIView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2 - 60, 20, 120, 44)];
+        
+        
+        button_hot = [UIButton buttonWithType:UIButtonTypeCustom];
+        button_hot.frame = CGRectMake(0, 7, 60, 30);
+        [button_hot setTitle:@"热帖" forState:UIControlStateNormal];
+        [button_hot setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        button_hot.layer.borderWidth = 1;
+        button_hot.layer.borderColor = Navi_Title_Color.CGColor;
+        button_hot.backgroundColor = Navi_Title_Color;
+        [button_hot addTarget:self action:@selector(touchButtonHot:) forControlEvents:UIControlEventTouchUpInside];
+        button_hot.titleLabel.font = [UIFont systemFontOfSize:14];
+        
+        
+        button_all = [UIButton buttonWithType:UIButtonTypeCustom];
+        button_all.frame = CGRectMake(59, 7, 60, 30);
+        [button_all setTitle:@"圈子" forState:UIControlStateNormal];
+        [button_all setTitleColor:Navi_Title_Color forState:UIControlStateNormal];
+        button_all.layer.borderWidth = 1;
+        button_all.layer.borderColor = Navi_Title_Color.CGColor;
+        [button_all addTarget:self action:@selector(touchButtonAll:) forControlEvents:UIControlEventTouchUpInside];
+        button_all.titleLabel.font = [UIFont systemFontOfSize:14];
+        
+        
+        
+        [_titleView addSubview:button_hot];
+        [_titleView addSubview:button_all];
     }
-    return _collectionView;
+    return _titleView;
 }
 
-//返回section个数
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+- (void)addChildController
 {
-    return 1;
-}
-//每个section的item个数
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
-    return viewModel.listArray.count;
-}
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    HomeCollectionViewCell *cell = (HomeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
-    HomeListModel *model = viewModel.listArray[indexPath.row];
-    cell.model = model;
-    return cell;
-}
-//设置每个item的尺寸
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    return CGSizeMake(SCREEN_WIDTH/2 - 15, 50);
-}
-//设置每个item的UIEdgeInsets
-- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
-{
-    return UIEdgeInsetsMake(10, 10, 10, 10);
-}
-//设置每个item水平间距
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
-{
-    return 10;
-}
-//设置每个item垂直间距
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
-
-{
-    return 10;
-}
-//点击item方法
--(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    HomeListModel *model = viewModel.listArray[indexPath.row];
-    HomeDetailViewController *new = [[HomeDetailViewController alloc] init];
-    new.urlStr = model.attribute.jumpUrl;
-    new.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:new animated:YES];
-}
-//headView/footView
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
-{
-    if (kind == UICollectionElementKindSectionHeader){
-        HomeHeadView *view = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headView" forIndexPath:indexPath];
-        // 网络加载 --- 创建不带标题的图片轮播器
-        SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, HeadHeight) imageURLStringsGroup:nil];
-        
-        cycleScrollView.infiniteLoop = YES;
-        //    _cycleScrollView
-        cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentCenter;
-        cycleScrollView.delegate = self;
-        cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
-        cycleScrollView.autoScrollTimeInterval = 2.5; // 轮播时间间隔，默认1.0秒，可自定义
-        cycleScrollView.imageURLStringsGroup = cycleImageArray;
-        cycleScrollView.pageDotColor = CB_rgba(255, 255, 255, 0.5);
-        cycleScrollView.currentPageDotColor = CB_rgb(255, 255, 255);
-        cycleScrollView.bannerImageViewContentMode = UIViewContentModeScaleAspectFill;
-        [view addSubview:cycleScrollView];
-        return view;
-    }
-    if (kind == UICollectionElementKindSectionFooter){
-        
-    }
-    return nil;
+    hot = [[CircleDetailViewController alloc] init];
+    hot.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - 64 - 49);
+    [self addChildViewController:hot];
+    
+    
+    all = [[CircleViewController alloc] init];
+    all.view.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - 64 - 49);
+    [self addChildViewController:all];
+    
+    currentVC = hot;
+    [self.view addSubview:hot.view];
 }
 
-#pragma mark - SDCycleScrollViewDelegate
-- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
+- (void)touchButtonHot:(UIButton *)button
 {
-    HomeModel *model = viewModel.headArray[index];
-    HomeDetailViewController *new = [[HomeDetailViewController alloc] init];
-    new.urlStr = model.clickHref;
-    new.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:new animated:YES];
+    button_hot.userInteractionEnabled = NO;
+    button_all.userInteractionEnabled = YES;
+    
+    button_hot.backgroundColor = Navi_Title_Color;
+    [button_hot setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
+    
+    button_all.backgroundColor = [UIColor whiteColor];
+    [button_all setTitleColor:Navi_Title_Color forState:UIControlStateNormal];
+    
+    
+    [self transitionFromOldViewController:currentVC toNewViewController:hot];
 }
+
+
+- (void)touchButtonAll:(UIButton *)button
+{
+    button_all.userInteractionEnabled = NO;
+    button_hot.userInteractionEnabled = YES;
+    
+    
+    button_all.backgroundColor = Navi_Title_Color;
+    [button_all setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
+    
+    button_hot.backgroundColor = [UIColor whiteColor];
+    [button_hot setTitleColor:Navi_Title_Color forState:UIControlStateNormal];
+    
+    
+    [self transitionFromOldViewController:currentVC toNewViewController:all];
+}
+
+
+//转换子视图控制器
+- (void)transitionFromOldViewController:(CBViewController *)oldViewController toNewViewController:(CBViewController *)newViewController{
+    [self transitionFromViewController:oldViewController toViewController:newViewController duration:0.25 options:UIViewAnimationOptionTransitionNone animations:nil completion:^(BOOL finished) {
+        if (finished) {
+            [newViewController didMoveToParentViewController:self];
+            currentVC = newViewController;
+        }else{
+            currentVC = oldViewController;
+        }
+    }];
+}
+
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:KNOTIFICATION_AVATAR];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

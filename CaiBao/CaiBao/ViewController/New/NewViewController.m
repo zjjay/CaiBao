@@ -8,7 +8,6 @@
 
 #import "NewViewController.h"
 #import "AFNetworking.h"
-#import "RESideMenu.h"
 
 @interface NewViewController ()<UIWebViewDelegate>
 {
@@ -28,14 +27,6 @@
 {
     [super viewDidLoad];
     self.title = @"资讯";
-    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    button.layer.cornerRadius = 20;
-    button.clipsToBounds = YES;
-    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    [button setImage:image forState:UIControlStateNormal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     
     isBack = NO;
     urlArray = @[@"http://zxwap.caipiao.163.com/",
@@ -76,11 +67,7 @@
         request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     }
     [self.webView loadRequest:request];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(changeAvatar)
-                                                 name:KNOTIFICATION_AVATAR
-                                               object:nil];
+
 }
 
 
@@ -96,17 +83,7 @@
     return _activityIndicator;
 }
 
-- (void)changeAvatar
-{
-    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    button.layer.cornerRadius = 20;
-    button.clipsToBounds = YES;
-    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    [button setImage:image forState:UIControlStateNormal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-}
+
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -218,10 +195,7 @@
     }];
 }
 
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:KNOTIFICATION_AVATAR];
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -10,8 +10,6 @@
 		1B9A260F6901F60E4DF2B445 /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B1E9FCB1EAE0A4000F4227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B1E9FCC1EAE0A4000F4227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4B1E9FCD1EAE0A4000F4227D /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4B1E9FCE1EAE0A4000F4227D /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4B1E9FCF1EAE0A4000F4227D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4B1E9FD01EAE0A4000F4227D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D81EA5BFDB00410B39 /* SettingViewController.m */; };
 		4B1E9FD11EAE0A4000F4227D /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
@@ -30,14 +28,12 @@
 		4B1E9FDE1EAE0A4000F4227D /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B61EA48EC300410B39 /* RESideMenu.m */; };
 		4B1E9FDF1EAE0A4000F4227D /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
 		4B1E9FE01EAE0A4000F4227D /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0E11EA5BFF000410B39 /* FeedBackViewController.m */; };
-		4B1E9FE11EAE0A4000F4227D /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4B1E9FE21EAE0A4000F4227D /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4B1E9FE31EAE0A4000F4227D /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4B1E9FE51EAE0A4000F4227D /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4B1E9FE61EAE0A4000F4227D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4B1E9FE71EAE0A4000F4227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4B1E9FE81EAE0A4000F4227D /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4B1E9FE91EAE0A4000F4227D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4B1E9FEA1EAE0A4000F4227D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4B1E9FEB1EAE0A4000F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1E9FEC1EAE0A4000F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -61,7 +57,6 @@
 		4B1E9FFE1EAE0A4000F4227D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4B1E9FFF1EAE0A4000F4227D /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4B1EA0001EAE0A4000F4227D /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4B1EA0011EAE0A4000F4227D /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4B1EA0021EAE0A4000F4227D /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B81EA48EC300410B39 /* UIViewController+RESideMenu.m */; };
 		4B1EA0041EAE0A4000F4227D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4B1EA0051EAE0A4000F4227D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
@@ -77,11 +72,9 @@
 		4B1EA00F1EAE0A4000F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
 		4B1EA0101EAE0A4000F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0111EAE0A4000F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
-		4B1EA0131EAE0A4000F4227D /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
 		4B1EA0141EAE0A4000F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0151EAE0A4000F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
 		4B1EA0161EAE0A4000F4227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
-		4B1EA0171EAE0A4000F4227D /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
 		4B1EA0181EAE0A4000F4227D /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4B1EA0191EAE0A4000F4227D /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
 		4B1EA01A1EAE0A4000F4227D /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */; };
@@ -94,8 +87,6 @@
 		4B1EA0211EAE0A4000F4227D /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586D81E98802E007789DF /* Tabbar.xcassets */; };
 		4B1EA02D1EAE0B3900F4227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B1EA02E1EAE0B3900F4227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4B1EA02F1EAE0B3900F4227D /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4B1EA0301EAE0B3900F4227D /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4B1EA0311EAE0B3900F4227D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4B1EA0321EAE0B3900F4227D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D81EA5BFDB00410B39 /* SettingViewController.m */; };
 		4B1EA0331EAE0B3900F4227D /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
@@ -114,14 +105,12 @@
 		4B1EA0401EAE0B3900F4227D /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B61EA48EC300410B39 /* RESideMenu.m */; };
 		4B1EA0411EAE0B3900F4227D /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
 		4B1EA0421EAE0B3900F4227D /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0E11EA5BFF000410B39 /* FeedBackViewController.m */; };
-		4B1EA0431EAE0B3900F4227D /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4B1EA0441EAE0B3900F4227D /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4B1EA0451EAE0B3900F4227D /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4B1EA0471EAE0B3900F4227D /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4B1EA0481EAE0B3900F4227D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4B1EA0491EAE0B3900F4227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4B1EA04A1EAE0B3900F4227D /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4B1EA04B1EAE0B3900F4227D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4B1EA04C1EAE0B3900F4227D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4B1EA04D1EAE0B3900F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1EA04E1EAE0B3900F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -145,7 +134,6 @@
 		4B1EA0601EAE0B3900F4227D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4B1EA0611EAE0B3900F4227D /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4B1EA0621EAE0B3900F4227D /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4B1EA0631EAE0B3900F4227D /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4B1EA0641EAE0B3900F4227D /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B81EA48EC300410B39 /* UIViewController+RESideMenu.m */; };
 		4B1EA0661EAE0B3900F4227D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4B1EA0671EAE0B3900F4227D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
@@ -161,11 +149,9 @@
 		4B1EA0711EAE0B3900F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
 		4B1EA0721EAE0B3900F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0731EAE0B3900F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
-		4B1EA0751EAE0B3900F4227D /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
 		4B1EA0761EAE0B3900F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0771EAE0B3900F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
 		4B1EA0781EAE0B3900F4227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
-		4B1EA0791EAE0B3900F4227D /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
 		4B1EA07A1EAE0B3900F4227D /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4B1EA07B1EAE0B3900F4227D /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
 		4B1EA07C1EAE0B3900F4227D /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */; };
@@ -178,8 +164,6 @@
 		4B1EA0831EAE0B3900F4227D /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586D81E98802E007789DF /* Tabbar.xcassets */; };
 		4B1EA0901EAE0C8E00F4227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B1EA0911EAE0C8E00F4227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4B1EA0921EAE0C8E00F4227D /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4B1EA0931EAE0C8E00F4227D /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4B1EA0941EAE0C8E00F4227D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4B1EA0951EAE0C8E00F4227D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D81EA5BFDB00410B39 /* SettingViewController.m */; };
 		4B1EA0961EAE0C8E00F4227D /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
@@ -198,14 +182,12 @@
 		4B1EA0A31EAE0C8E00F4227D /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B61EA48EC300410B39 /* RESideMenu.m */; };
 		4B1EA0A41EAE0C8E00F4227D /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
 		4B1EA0A51EAE0C8E00F4227D /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0E11EA5BFF000410B39 /* FeedBackViewController.m */; };
-		4B1EA0A61EAE0C8E00F4227D /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4B1EA0A71EAE0C8E00F4227D /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4B1EA0A81EAE0C8E00F4227D /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4B1EA0AA1EAE0C8E00F4227D /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4B1EA0AB1EAE0C8E00F4227D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4B1EA0AC1EAE0C8E00F4227D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4B1EA0AD1EAE0C8E00F4227D /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4B1EA0AE1EAE0C8E00F4227D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4B1EA0AF1EAE0C8E00F4227D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4B1EA0B01EAE0C8E00F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1EA0B11EAE0C8E00F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -229,7 +211,6 @@
 		4B1EA0C31EAE0C8E00F4227D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4B1EA0C41EAE0C8E00F4227D /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4B1EA0C51EAE0C8E00F4227D /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4B1EA0C61EAE0C8E00F4227D /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4B1EA0C71EAE0C8E00F4227D /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B81EA48EC300410B39 /* UIViewController+RESideMenu.m */; };
 		4B1EA0C91EAE0C8E00F4227D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4B1EA0CA1EAE0C8E00F4227D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
@@ -245,11 +226,9 @@
 		4B1EA0D41EAE0C8E00F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
 		4B1EA0D51EAE0C8E00F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0D61EAE0C8E00F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
-		4B1EA0D81EAE0C8E00F4227D /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
 		4B1EA0D91EAE0C8E00F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0DA1EAE0C8E00F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
 		4B1EA0DB1EAE0C8E00F4227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
-		4B1EA0DC1EAE0C8E00F4227D /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
 		4B1EA0DD1EAE0C8E00F4227D /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4B1EA0DE1EAE0C8E00F4227D /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
 		4B1EA0DF1EAE0C8E00F4227D /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */; };
@@ -309,10 +288,50 @@
 		4B1EA12C1EAE0FDD00F4227D /* CB279-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EA0FC1EAE0FDC00F4227D /* CB279-Info.plist */; };
 		4B1EA12D1EAE0FDD00F4227D /* CB279-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EA0FC1EAE0FDC00F4227D /* CB279-Info.plist */; };
 		4B1EA12E1EAE0FDD00F4227D /* CB279-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EA0FC1EAE0FDC00F4227D /* CB279-Info.plist */; };
+		4B2358A61EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358A71EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358A81EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358A91EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358AA1EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358AB1EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358AC1EC1F1300049771A /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358A51EC1F1300049771A /* CommentViewController.m */; };
+		4B2358AF1EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B01EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B11EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B21EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B31EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B41EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B51EC1F1460049771A /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
+		4B2358B81EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358B91EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358BA1EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358BB1EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358BC1EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358BD1EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358BE1EC1F3270049771A /* AiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358B71EC1F3270049771A /* AiteViewController.m */; };
+		4B2358C11EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C21EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C31EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C41EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C51EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C61EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358C71EC1F5460049771A /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
+		4B2358CB1EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358CC1EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358CD1EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358CE1EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358CF1EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358D01EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358D11EC2185F0049771A /* LikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C91EC2185F0049771A /* LikeTableViewCell.m */; };
+		4B2358D21EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D31EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D41EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D51EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D61EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D71EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
+		4B2358D81EC2185F0049771A /* LikeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */; };
 		4B3462C71EA1F52C00B1E98F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B3462C91EA1F52C00B1E98F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4B3462CA1EA1F52C00B1E98F /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4B3462CB1EA1F52C00B1E98F /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4B3462CC1EA1F52C00B1E98F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4B3462CD1EA1F52C00B1E98F /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
 		4B3462CE1EA1F52C00B1E98F /* CircleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587131E9B391B007789DF /* CircleViewModel.m */; };
@@ -325,14 +344,12 @@
 		4B3462D51EA1F52C00B1E98F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4B3462D61EA1F52C00B1E98F /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
 		4B3462D71EA1F52C00B1E98F /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
-		4B3462D81EA1F52C00B1E98F /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4B3462D91EA1F52C00B1E98F /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4B3462DA1EA1F52C00B1E98F /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4B3462DB1EA1F52C00B1E98F /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4B3462DC1EA1F52C00B1E98F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4B3462DD1EA1F52C00B1E98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4B3462DE1EA1F52C00B1E98F /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4B3462DF1EA1F52C00B1E98F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4B3462E01EA1F52C00B1E98F /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4B3462E11EA1F52C00B1E98F /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B3462E21EA1F52C00B1E98F /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -349,7 +366,6 @@
 		4B3462ED1EA1F52C00B1E98F /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587071E98F095007789DF /* HomeModel.m */; };
 		4B3462EE1EA1F52C00B1E98F /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4B3462EF1EA1F52C00B1E98F /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4B3462F01EA1F52C00B1E98F /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4B3462F21EA1F52C00B1E98F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4B3462F31EA1F52C00B1E98F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
 		4B3462F41EA1F52C00B1E98F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA586AA1E97A0C9007789DF /* libz.tbd */; };
@@ -372,8 +388,6 @@
 		4B3463061EA1F52C00B1E98F /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586D81E98802E007789DF /* Tabbar.xcassets */; };
 		4B34635D1EA1F9AE00B1E98F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B34635F1EA1F9AE00B1E98F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4B3463601EA1F9AE00B1E98F /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4B3463611EA1F9AE00B1E98F /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4B3463621EA1F9AE00B1E98F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4B3463631EA1F9AE00B1E98F /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
 		4B3463641EA1F9AE00B1E98F /* CircleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587131E9B391B007789DF /* CircleViewModel.m */; };
@@ -386,14 +400,12 @@
 		4B34636B1EA1F9AE00B1E98F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4B34636C1EA1F9AE00B1E98F /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
 		4B34636D1EA1F9AE00B1E98F /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
-		4B34636E1EA1F9AE00B1E98F /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4B34636F1EA1F9AE00B1E98F /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4B3463701EA1F9AE00B1E98F /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4B3463711EA1F9AE00B1E98F /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4B3463721EA1F9AE00B1E98F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4B3463731EA1F9AE00B1E98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4B3463741EA1F9AE00B1E98F /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4B3463751EA1F9AE00B1E98F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4B3463761EA1F9AE00B1E98F /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4B3463771EA1F9AE00B1E98F /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B3463781EA1F9AE00B1E98F /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -410,7 +422,6 @@
 		4B3463831EA1F9AE00B1E98F /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587071E98F095007789DF /* HomeModel.m */; };
 		4B3463841EA1F9AE00B1E98F /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4B3463851EA1F9AE00B1E98F /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4B3463861EA1F9AE00B1E98F /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4B3463881EA1F9AE00B1E98F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4B3463891EA1F9AE00B1E98F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
 		4B34638A1EA1F9AE00B1E98F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA586AA1E97A0C9007789DF /* libz.tbd */; };
@@ -434,12 +445,6 @@
 		4B3463B11EA1FF6000B1E98F /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4B3463B21EA1FF6000B1E98F /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4B3463B31EA1FF6000B1E98F /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
-		4B3463B41EA1FF6000B1E98F /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
-		4B3463B51EA1FF6000B1E98F /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
-		4B3463B61EA1FF6000B1E98F /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
-		4B3463B71EA1FF6000B1E98F /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
-		4B3463B81EA1FF6000B1E98F /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
-		4B3463B91EA1FF6000B1E98F /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
 		4B3463BA1EA1FF6000B1E98F /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png */; };
 		4B3463BB1EA1FF6000B1E98F /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png */; };
 		4B3463BC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png */; };
@@ -467,6 +472,48 @@
 		4B3463E61EA204E400B1E98F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B3463E71EA204E400B1E98F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B3463E81EA204E400B1E98F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
+		4B3D8F641EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F651EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F661EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F671EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F681EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F691EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F6A1EC0A8FE004A4983 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */; };
+		4B3D8F6E1EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F6F1EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F701EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F711EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F721EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F731EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F741EC0B8AD004A4983 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */; };
+		4B3D8F771EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F781EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F791EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F7A1EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F7B1EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F7C1EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F7D1EC0C0DC004A4983 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */; };
+		4B3D8F7E1EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F7F1EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F801EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F811EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F821EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F831EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F841EC0C0DC004A4983 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */; };
+		4B3D8F911EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F921EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F931EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F941EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F951EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F961EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F971EC0C771004A4983 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
+		4B3D8F981EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F991EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F9A1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F9B1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F9C1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F9D1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
+		4B3D8F9E1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */; };
 		4B45E0BE1EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B45E0BC1EAEE167001AEF71 /* TencentOpenAPI.framework */; };
 		4B45E0BF1EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B45E0BC1EAEE167001AEF71 /* TencentOpenAPI.framework */; };
 		4B45E0C01EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B45E0BC1EAEE167001AEF71 /* TencentOpenAPI.framework */; };
@@ -1182,7 +1229,6 @@
 		4BA586B21E97A335007789DF /* CBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586B11E97A335007789DF /* CBMainViewController.m */; };
 		4BA586BF1E98753E007789DF /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4BA586C21E98755F007789DF /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
-		4BA586C91E987792007789DF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4BA586CC1E9877A2007789DF /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586CB1E9877A2007789DF /* NewViewController.m */; };
 		4BA586D21E9877C2007789DF /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D11E9877C2007789DF /* CircleViewController.m */; };
 		4BA586D71E987BCD007789DF /* UIColor+CBExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D61E987BCD007789DF /* UIColor+CBExt.m */; };
@@ -1197,11 +1243,7 @@
 		4BA586FA1E98DE23007789DF /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F11E98DE22007789DF /* SDCollectionViewCell.m */; };
 		4BA586FB1E98DE23007789DF /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4BA586FC1E98DE23007789DF /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
-		4BA586FF1E98DED4007789DF /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4BA587081E98F095007789DF /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587071E98F095007789DF /* HomeModel.m */; };
-		4BA5870B1E9B1A6E007789DF /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
-		4BA5870E1E9B25B9007789DF /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
-		4BA587111E9B2AD0007789DF /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
 		4BA587141E9B391B007789DF /* CircleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587131E9B391B007789DF /* CircleViewModel.m */; };
 		4BA587171E9B3A3F007789DF /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4BA5871E1E9B53BC007789DF /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
@@ -1211,8 +1253,6 @@
 		4BBCA7BB1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7BA1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m */; };
 		4BC5F7E51EA9FAFE0008D67D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4BC5F7E61EA9FAFE0008D67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
-		4BC5F7E71EA9FAFE0008D67D /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */; };
-		4BC5F7E81EA9FAFE0008D67D /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */; };
 		4BC5F7E91EA9FAFE0008D67D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
 		4BC5F7EA1EA9FAFE0008D67D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D81EA5BFDB00410B39 /* SettingViewController.m */; };
 		4BC5F7EB1EA9FAFE0008D67D /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66E1E9D14AD001DFF51 /* SDBrowserImageView.m */; };
@@ -1231,14 +1271,12 @@
 		4BC5F7F81EA9FAFE0008D67D /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B61EA48EC300410B39 /* RESideMenu.m */; };
 		4BC5F7F91EA9FAFE0008D67D /* OneCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6781E9DB670001DFF51 /* OneCircleViewController.m */; };
 		4BC5F7FA1EA9FAFE0008D67D /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0E11EA5BFF000410B39 /* FeedBackViewController.m */; };
-		4BC5F7FB1EA9FAFE0008D67D /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586FE1E98DED4007789DF /* HomeViewModel.m */; };
 		4BC5F7FC1EA9FAFE0008D67D /* CBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586BD1E98753E007789DF /* CBNavigationController.m */; };
 		4BC5F7FD1EA9FAFE0008D67D /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */; };
 		4BC5F7FF1EA9FAFE0008D67D /* CirclrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA587161E9B3A3F007789DF /* CirclrModel.m */; };
 		4BC5F8001EA9FAFE0008D67D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EB1E98DE22007789DF /* TAAnimatedDotView.m */; };
 		4BC5F8011EA9FAFE0008D67D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586921E979D11007789DF /* AppDelegate.m */; };
 		4BC5F8021EA9FAFE0008D67D /* CirclephoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */; };
-		4BC5F8031EA9FAFE0008D67D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C81E987792007789DF /* HomeViewController.m */; };
 		4BC5F8041EA9FAFE0008D67D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586EF1E98DE22007789DF /* TAPageControl.m */; };
 		4BC5F8051EA9FAFE0008D67D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4BC5F8061EA9FAFE0008D67D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
@@ -1262,7 +1300,6 @@
 		4BC5F8181EA9FAFE0008D67D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6701E9D14AD001DFF51 /* SDPhotoBrowser.m */; };
 		4BC5F8191EA9FAFE0008D67D /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4BC5F81A1EA9FAFE0008D67D /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
-		4BC5F81B1EA9FAFE0008D67D /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5870D1E9B25B8007789DF /* HomeHeadView.m */; };
 		4BC5F81C1EA9FAFE0008D67D /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B81EA48EC300410B39 /* UIViewController+RESideMenu.m */; };
 		4BC5F81E1EA9FAFE0008D67D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6991E9E01D0001DFF51 /* libresolv.tbd */; };
 		4BC5F81F1EA9FAFE0008D67D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6971E9E01C4001DFF51 /* UserNotifications.framework */; };
@@ -1278,11 +1315,9 @@
 		4BC5F8291EA9FAFE0008D67D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
 		4BC5F82A1EA9FAFE0008D67D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4BC5F82B1EA9FAFE0008D67D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
-		4BC5F82D1EA9FAFE0008D67D /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */; };
 		4BC5F82E1EA9FAFE0008D67D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4BC5F82F1EA9FAFE0008D67D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
 		4BC5F8301EA9FAFE0008D67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
-		4BC5F8311EA9FAFE0008D67D /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */; };
 		4BC5F8321EA9FAFE0008D67D /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463A91EA1FF6000B1E98F /* icon_hand.png */; };
 		4BC5F8331EA9FAFE0008D67D /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
 		4BC5F8341EA9FAFE0008D67D /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */; };
@@ -1337,11 +1372,20 @@
 		4B1EA0FB1EAE0FDC00F4227D /* CB278.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CB278.entitlements; sourceTree = "<group>"; };
 		4B1EA0FC1EAE0FDC00F4227D /* CB279-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CB279-Info.plist"; sourceTree = "<group>"; };
 		4B1EA0FD1EAE0FDC00F4227D /* CB279.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CB279.entitlements; sourceTree = "<group>"; };
+		4B2358A41EC1F1300049771A /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		4B2358A51EC1F1300049771A /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		4B2358AD1EC1F1460049771A /* LikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		4B2358AE1EC1F1460049771A /* LikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		4B2358B61EC1F3270049771A /* AiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AiteViewController.h; sourceTree = "<group>"; };
+		4B2358B71EC1F3270049771A /* AiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AiteViewController.m; sourceTree = "<group>"; };
+		4B2358BF1EC1F5460049771A /* SystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemViewController.h; sourceTree = "<group>"; };
+		4B2358C01EC1F5460049771A /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemViewController.m; sourceTree = "<group>"; };
+		4B2358C81EC2185E0049771A /* LikeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeTableViewCell.h; sourceTree = "<group>"; };
+		4B2358C91EC2185F0049771A /* LikeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeTableViewCell.m; sourceTree = "<group>"; };
+		4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LikeTableViewCell.xib; sourceTree = "<group>"; };
 		4B34630C1EA1F52C00B1E98F /* CB227.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB227.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3463A21EA1F9AE00B1E98F /* CB203.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB203.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3463A91EA1FF6000B1E98F /* icon_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hand.png; sourceTree = "<group>"; };
-		4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-password.png"; sourceTree = "<group>"; };
-		4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-user.png"; sourceTree = "<group>"; };
 		4B3463AC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-left@2x.png"; sourceTree = "<group>"; };
 		4B3463AD1EA1FF6000B1E98F /* owl-login-arm-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-right@2x.png"; sourceTree = "<group>"; };
 		4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
@@ -1356,6 +1400,15 @@
 		4B3463E01EA204E400B1E98F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		4B3463E11EA204E400B1E98F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		4B3463E21EA204E400B1E98F /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		4B3D8F621EC0A8FE004A4983 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4B3D8F6C1EC0B8AD004A4983 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-user.png"; sourceTree = "<group>"; };
+		4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-password.png"; sourceTree = "<group>"; };
+		4B3D8F8E1EC0C771004A4983 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		4B45E0BC1EAEE167001AEF71 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		4B45E0BD1EAEE167001AEF71 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		4B45E0CC1EAEE1CA001AEF71 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -1530,8 +1583,6 @@
 		4BA586BD1E98753E007789DF /* CBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNavigationController.m; sourceTree = "<group>"; };
 		4BA586C01E98755F007789DF /* CBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
 		4BA586C11E98755F007789DF /* CBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
-		4BA586C71E987792007789DF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		4BA586C81E987792007789DF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4BA586CA1E9877A2007789DF /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
 		4BA586CB1E9877A2007789DF /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		4BA586D01E9877C2007789DF /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
@@ -1559,16 +1610,8 @@
 		4BA586F31E98DE22007789DF /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		4BA586F41E98DE22007789DF /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		4BA586F51E98DE22007789DF /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
-		4BA586FD1E98DED3007789DF /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
-		4BA586FE1E98DED4007789DF /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
 		4BA587061E98F095007789DF /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		4BA587071E98F095007789DF /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
-		4BA587091E9B1A6D007789DF /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
-		4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
-		4BA5870C1E9B25B8007789DF /* HomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeadView.h; sourceTree = "<group>"; };
-		4BA5870D1E9B25B8007789DF /* HomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeadView.m; sourceTree = "<group>"; };
-		4BA5870F1E9B2AD0007789DF /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
-		4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
 		4BA587121E9B391B007789DF /* CircleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewModel.h; sourceTree = "<group>"; };
 		4BA587131E9B391B007789DF /* CircleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewModel.m; sourceTree = "<group>"; };
 		4BA587151E9B3A3F007789DF /* CirclrModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclrModel.h; sourceTree = "<group>"; };
@@ -1833,8 +1876,8 @@
 			isa = PBXGroup;
 			children = (
 				4B3463A91EA1FF6000B1E98F /* icon_hand.png */,
-				4B3463AA1EA1FF6000B1E98F /* iconfont-password.png */,
-				4B3463AB1EA1FF6000B1E98F /* iconfont-user.png */,
+				4B3D8F751EC0C0DC004A4983 /* iconfont-user.png */,
+				4B3D8F761EC0C0DC004A4983 /* iconfont-password.png */,
 				4B3463AC1EA1FF6000B1E98F /* owl-login-arm-left@2x.png */,
 				4B3463AD1EA1FF6000B1E98F /* owl-login-arm-right@2x.png */,
 				4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */,
@@ -1853,6 +1896,29 @@
 				4B3463D91EA204A500B1E98F /* MBProgressHUD.m */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4B3D8F6B1EC0B8A1004A4983 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D8F6C1EC0B8AD004A4983 /* MessageViewController.h */,
+				4B3D8F6D1EC0B8AD004A4983 /* MessageViewController.m */,
+				4B3D8F8E1EC0C771004A4983 /* MessageTableViewCell.h */,
+				4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */,
+				4B3D8F901EC0C771004A4983 /* MessageTableViewCell.xib */,
+				4B2358A41EC1F1300049771A /* CommentViewController.h */,
+				4B2358A51EC1F1300049771A /* CommentViewController.m */,
+				4B2358C81EC2185E0049771A /* LikeTableViewCell.h */,
+				4B2358C91EC2185F0049771A /* LikeTableViewCell.m */,
+				4B2358CA1EC2185F0049771A /* LikeTableViewCell.xib */,
+				4B2358AD1EC1F1460049771A /* LikeViewController.h */,
+				4B2358AE1EC1F1460049771A /* LikeViewController.m */,
+				4B2358B61EC1F3270049771A /* AiteViewController.h */,
+				4B2358B71EC1F3270049771A /* AiteViewController.m */,
+				4B2358BF1EC1F5460049771A /* SystemViewController.h */,
+				4B2358C01EC1F5460049771A /* SystemViewController.m */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 		4B45E0BB1EAEE167001AEF71 /* QQ */ = {
@@ -2123,6 +2189,7 @@
 				4BA586B11E97A335007789DF /* CBMainViewController.m */,
 				4BDBD6A81E9E0FE0001DFF51 /* LaunchViewController.h */,
 				4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */,
+				4B3D8F6B1EC0B8A1004A4983 /* Message */,
 				4B45E36B1EB03FC7001AEF71 /* Publish */,
 				4B3463A71EA1FF4800B1E98F /* Login */,
 				4BA586B91E98753E007789DF /* Base */,
@@ -2267,16 +2334,8 @@
 		4BA586C61E987645007789DF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				4BA586C71E987792007789DF /* HomeViewController.h */,
-				4BA586C81E987792007789DF /* HomeViewController.m */,
-				4BA5870C1E9B25B8007789DF /* HomeHeadView.h */,
-				4BA5870D1E9B25B8007789DF /* HomeHeadView.m */,
-				4BA587091E9B1A6D007789DF /* HomeCollectionViewCell.h */,
-				4BA5870A1E9B1A6E007789DF /* HomeCollectionViewCell.m */,
-				4BA586FD1E98DED3007789DF /* HomeViewModel.h */,
-				4BA586FE1E98DED4007789DF /* HomeViewModel.m */,
-				4BA5870F1E9B2AD0007789DF /* HomeDetailViewController.h */,
-				4BA587101E9B2AD0007789DF /* HomeDetailViewController.m */,
+				4B3D8F621EC0A8FE004A4983 /* HomeViewController.h */,
+				4B3D8F631EC0A8FE004A4983 /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -2616,7 +2675,6 @@
 				4B45E5E31EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E56C1EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5341EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B1EA0131EAE0A4000F4227D /* iconfont-password.png in Resources */,
 				4B45E57A1EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6531EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11E1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -2637,8 +2695,8 @@
 				4B45E66F1EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E6301EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F81EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B1EA0171EAE0A4000F4227D /* iconfont-user.png in Resources */,
 				4B1EA1021EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F9C1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA1091EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5731EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CE1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -2656,6 +2714,7 @@
 				4B45E6611EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E68B1EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5B21EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D61EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E61B1EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA1101EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B1EA01A1EAE0A4000F4227D /* owl-login@2x.png in Resources */,
@@ -2673,6 +2732,7 @@
 				4B45E51F1EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C71EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E53B1EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F821EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5961EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5181EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6761EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -2686,6 +2746,7 @@
 				4B45E5DC1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1251EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B91EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F7B1EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3ED1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60D1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5AB1EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -2711,7 +2772,6 @@
 				4B45E5E41EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E56D1EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5351EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B1EA0751EAE0B3900F4227D /* iconfont-password.png in Resources */,
 				4B45E57B1EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6541EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11F1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -2732,8 +2792,8 @@
 				4B45E6701EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E6311EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F91EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B1EA0791EAE0B3900F4227D /* iconfont-user.png in Resources */,
 				4B1EA1031EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F9D1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA10A1EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5741EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CF1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -2751,6 +2811,7 @@
 				4B45E6621EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E68C1EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5B31EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D71EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E61C1EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA1111EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B1EA07C1EAE0B3900F4227D /* owl-login@2x.png in Resources */,
@@ -2768,6 +2829,7 @@
 				4B45E5201EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C81EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E53C1EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F831EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5971EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5191EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6771EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -2781,6 +2843,7 @@
 				4B45E5DD1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1261EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5BA1EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F7C1EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3EE1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60E1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5AC1EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -2806,7 +2869,6 @@
 				4B45E5E51EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E56E1EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5361EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B1EA0D81EAE0C8E00F4227D /* iconfont-password.png in Resources */,
 				4B45E57C1EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6551EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA1201EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -2827,8 +2889,8 @@
 				4B45E6711EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E6321EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5FA1EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B1EA0DC1EAE0C8E00F4227D /* iconfont-user.png in Resources */,
 				4B1EA1041EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F9E1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA10B1EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5751EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5D01EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -2846,6 +2908,7 @@
 				4B45E6631EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E68D1EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5B41EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D81EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E61D1EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA1121EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B1EA0DF1EAE0C8E00F4227D /* owl-login@2x.png in Resources */,
@@ -2863,6 +2926,7 @@
 				4B45E5211EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C91EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E53D1EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F841EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5981EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E51A1EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6781EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -2876,6 +2940,7 @@
 				4B45E5DE1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1271EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5BB1EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F7D1EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3EF1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60F1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5AD1EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -2901,7 +2966,6 @@
 				4B45E5E01EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E5691EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5311EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B3463B51EA1FF6000B1E98F /* iconfont-password.png in Resources */,
 				4B45E5771EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6501EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11B1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -2922,8 +2986,8 @@
 				4B45E66C1EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E62D1EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F51EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B3463B81EA1FF6000B1E98F /* iconfont-user.png in Resources */,
 				4B1EA0FF1EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F991EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA1061EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5701EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CB1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -2941,6 +3005,7 @@
 				4B45E65E1EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E6881EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5AF1EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D31EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E6181EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA10D1EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B3463C11EA1FF6000B1E98F /* owl-login@2x.png in Resources */,
@@ -2958,6 +3023,7 @@
 				4B45E51C1EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C41EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E5381EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F7F1EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5931EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5151EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6731EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -2971,6 +3037,7 @@
 				4B45E5D91EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1221EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B61EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F781EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3EA1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60A1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5A81EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -2996,7 +3063,6 @@
 				4B45E5E11EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E56A1EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5321EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B3463B61EA1FF6000B1E98F /* iconfont-password.png in Resources */,
 				4B45E5781EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6511EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11C1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -3017,8 +3083,8 @@
 				4B45E66D1EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E62E1EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F61EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B3463B91EA1FF6000B1E98F /* iconfont-user.png in Resources */,
 				4B1EA1001EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F9A1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA1071EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5711EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CC1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -3036,6 +3102,7 @@
 				4B45E65F1EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E6891EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5B01EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D41EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E6191EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA10E1EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B3463C21EA1FF6000B1E98F /* owl-login@2x.png in Resources */,
@@ -3053,6 +3120,7 @@
 				4B45E51D1EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C51EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E5391EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F801EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5941EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5161EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6741EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -3066,6 +3134,7 @@
 				4B45E5DA1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1231EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B71EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F791EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3EB1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60B1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5A91EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -3091,7 +3160,6 @@
 				4B45E5DF1EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E5681EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5301EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4B3463B41EA1FF6000B1E98F /* iconfont-password.png in Resources */,
 				4B45E5761EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E64F1EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11A1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -3112,8 +3180,8 @@
 				4B45E66B1EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E62C1EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F41EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4B3463B71EA1FF6000B1E98F /* iconfont-user.png in Resources */,
 				4B1EA0FE1EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F981EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA1051EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E56F1EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CA1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -3131,6 +3199,7 @@
 				4B45E65D1EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E6871EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5AE1EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D21EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E6171EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA10C1EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4B3463C01EA1FF6000B1E98F /* owl-login@2x.png in Resources */,
@@ -3148,6 +3217,7 @@
 				4B45E51B1EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C31EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E5371EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F7E1EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5921EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5141EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6721EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -3161,6 +3231,7 @@
 				4B45E5D81EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1211EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B51EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F771EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3E91EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E6091EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5A71EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -3186,7 +3257,6 @@
 				4B45E5E21EB05166001AEF71 /* compose_photo_original_highlighted@2x.png in Resources */,
 				4B45E56B1EB05166001AEF71 /* camera_video_background_highlighted@2x.png in Resources */,
 				4B45E5331EB05166001AEF71 /* camera_flashlight_disable@2x.png in Resources */,
-				4BC5F82D1EA9FAFE0008D67D /* iconfont-password.png in Resources */,
 				4B45E5791EB05166001AEF71 /* compose_gifbutton_background@2x.png in Resources */,
 				4B45E6521EB05166001AEF71 /* page_score_pic_background@2x.png in Resources */,
 				4B1EA11D1EAE0FDD00F4227D /* CB270-Info.plist in Resources */,
@@ -3207,8 +3277,8 @@
 				4B45E66E1EB05166001AEF71 /* video_delete_dustbin@2x.png in Resources */,
 				4B45E62F1EB05166001AEF71 /* headlines_icon_arrow@2x.png in Resources */,
 				4B45E5F71EB05166001AEF71 /* compose_photo_preview_disable@2x.png in Resources */,
-				4BC5F8311EA9FAFE0008D67D /* iconfont-user.png in Resources */,
 				4B1EA1011EAE0FDC00F4227D /* CB157-Info.plist in Resources */,
+				4B3D8F9B1EC0C771004A4983 /* MessageTableViewCell.xib in Resources */,
 				4B1EA1081EAE0FDC00F4227D /* CB184-Info.plist in Resources */,
 				4B45E5721EB05166001AEF71 /* compose_delete@2x.png in Resources */,
 				4B45E5CD1EB05166001AEF71 /* compose_live_photo_open_only_icon@3x.png in Resources */,
@@ -3226,6 +3296,7 @@
 				4B45E6601EB05166001AEF71 /* video_delete_button@2x.png in Resources */,
 				4B45E68A1EB05166001AEF71 /* VideoSendIcon@2x.png in Resources */,
 				4B45E5B11EB05166001AEF71 /* compose_live_photo_close_icon@3x.png in Resources */,
+				4B2358D51EC2185F0049771A /* LikeTableViewCell.xib in Resources */,
 				4B45E61A1EB05166001AEF71 /* compose_photo_video_highlighted@2x.png in Resources */,
 				4B1EA10F1EAE0FDC00F4227D /* CB203-Info.plist in Resources */,
 				4BC5F8341EA9FAFE0008D67D /* owl-login@2x.png in Resources */,
@@ -3243,6 +3314,7 @@
 				4B45E51E1EB05166001AEF71 /* camera_flashlight@2x.png in Resources */,
 				4B45E5C61EB05166001AEF71 /* compose_live_photo_open_only_icon@2x.png in Resources */,
 				4B45E53A1EB05166001AEF71 /* camera_flashlight_open@2x.png in Resources */,
+				4B3D8F811EC0C0DC004A4983 /* iconfont-password.png in Resources */,
 				4B45E5951EB05166001AEF71 /* compose_guide_check_box_right@2x.png in Resources */,
 				4B45E5171EB05166001AEF71 /* camera_drop_highlighted@2x.png in Resources */,
 				4B45E6751EB05166001AEF71 /* video_next_button@2x.png in Resources */,
@@ -3256,6 +3328,7 @@
 				4B45E5DB1EB05166001AEF71 /* compose_photo_original@2x.png in Resources */,
 				4B1EA1241EAE0FDD00F4227D /* CB278-Info.plist in Resources */,
 				4B45E5B81EB05166001AEF71 /* compose_live_photo_open_icon@2x.png in Resources */,
+				4B3D8F7A1EC0C0DC004A4983 /* iconfont-user.png in Resources */,
 				4B45E3EC1EB047B2001AEF71 /* PublishViewController.xib in Resources */,
 				4B45E60C1EB05166001AEF71 /* compose_photo_preview_seleted@2x.png in Resources */,
 				4B45E5AA1EB05166001AEF71 /* compose_live_photo_close_icon@2x.png in Resources */,
@@ -3596,9 +3669,8 @@
 				4B45E3611EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1E9FCB1EAE0A4000F4227D /* ViewController.m in Sources */,
 				4B1E9FCC1EAE0A4000F4227D /* main.m in Sources */,
-				4B1E9FCD1EAE0A4000F4227D /* HomeDetailViewController.m in Sources */,
 				4B45E4A11EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4B1E9FCE1EAE0A4000F4227D /* HomeCollectionViewCell.m in Sources */,
+				4B2358CF1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4D91EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A71EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1E9FCF1EAE0A4000F4227D /* UIView+SDExtension.m in Sources */,
@@ -3620,6 +3692,7 @@
 				4B1E9FD81EAE0A4000F4227D /* CBJPushHelper.m in Sources */,
 				4B1E9FD91EAE0A4000F4227D /* CircleListModel.m in Sources */,
 				4B45E4A81EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C51EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B1E9FDA1EAE0A4000F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1E9FDB1EAE0A4000F4227D /* MineViewController.m in Sources */,
 				4B1E9FDC1EAE0A4000F4227D /* SDCycleScrollView.m in Sources */,
@@ -3627,7 +3700,7 @@
 				4B1E9FDE1EAE0A4000F4227D /* RESideMenu.m in Sources */,
 				4B1E9FDF1EAE0A4000F4227D /* OneCircleViewController.m in Sources */,
 				4B1E9FE01EAE0A4000F4227D /* FeedBackViewController.m in Sources */,
-				4B1E9FE11EAE0A4000F4227D /* HomeViewModel.m in Sources */,
+				4B2358BC1EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47E1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4B1E9FE21EAE0A4000F4227D /* CBNavigationController.m in Sources */,
 				4B1E9FE31EAE0A4000F4227D /* LaunchViewController.m in Sources */,
@@ -3637,7 +3710,6 @@
 				4B45E4E01EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1E9FE71EAE0A4000F4227D /* AppDelegate.m in Sources */,
 				4B1E9FE81EAE0A4000F4227D /* CirclephoneView.m in Sources */,
-				4B1E9FE91EAE0A4000F4227D /* HomeViewController.m in Sources */,
 				4B1E9FEA1EAE0A4000F4227D /* TAPageControl.m in Sources */,
 				4B1E9FEB1EAE0A4000F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CB1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -3648,22 +3720,26 @@
 				4B1E9FEE1EAE0A4000F4227D /* MBProgressHUD.m in Sources */,
 				4B1E9FEF1EAE0A4000F4227D /* SweepViewController.m in Sources */,
 				4B1E9FF01EAE0A4000F4227D /* SDWaitingView.m in Sources */,
+				4B2358B31EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1E9FF11EAE0A4000F4227D /* RECommonFunctions.m in Sources */,
 				4B1E9FF21EAE0A4000F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1E9FF31EAE0A4000F4227D /* LeftViewController.m in Sources */,
 				4B1E9FF41EAE0A4000F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4AF1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1E9FF51EAE0A4000F4227D /* CircleTableViewCell.m in Sources */,
+				4B3D8F951EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1E9FF61EAE0A4000F4227D /* TADotView.m in Sources */,
 				4B45E6AE1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1E9FF71EAE0A4000F4227D /* MyCommentViewController.m in Sources */,
 				4B1E9FF81EAE0A4000F4227D /* NewViewController.m in Sources */,
 				4B1E9FF91EAE0A4000F4227D /* CBHttpManager.m in Sources */,
+				4B3D8F721EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4771EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4B1E9FFA1EAE0A4000F4227D /* SDCollectionViewCell.m in Sources */,
 				4B1E9FFB1EAE0A4000F4227D /* OneCircleModel.m in Sources */,
 				4B45E4C41EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1E9FFC1EAE0A4000F4227D /* CircleDetailTableViewCell.m in Sources */,
+				4B2358AA1EC1F1300049771A /* CommentViewController.m in Sources */,
 				4B1E9FFD1EAE0A4000F4227D /* HomeModel.m in Sources */,
 				4B1E9FFE1EAE0A4000F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49A1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -3672,9 +3748,9 @@
 				4B45E4BD1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E4621EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EE1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4B1EA0011EAE0A4000F4227D /* HomeHeadView.m in Sources */,
 				4B45E4691EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B1EA0021EAE0A4000F4227D /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F681EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3685,9 +3761,8 @@
 				4B45E3621EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1EA02D1EAE0B3900F4227D /* ViewController.m in Sources */,
 				4B1EA02E1EAE0B3900F4227D /* main.m in Sources */,
-				4B1EA02F1EAE0B3900F4227D /* HomeDetailViewController.m in Sources */,
 				4B45E4A21EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4B1EA0301EAE0B3900F4227D /* HomeCollectionViewCell.m in Sources */,
+				4B2358D01EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4DA1EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A81EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1EA0311EAE0B3900F4227D /* UIView+SDExtension.m in Sources */,
@@ -3709,6 +3784,7 @@
 				4B1EA03A1EAE0B3900F4227D /* CBJPushHelper.m in Sources */,
 				4B1EA03B1EAE0B3900F4227D /* CircleListModel.m in Sources */,
 				4B45E4A91EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C61EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B1EA03C1EAE0B3900F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1EA03D1EAE0B3900F4227D /* MineViewController.m in Sources */,
 				4B1EA03E1EAE0B3900F4227D /* SDCycleScrollView.m in Sources */,
@@ -3716,7 +3792,7 @@
 				4B1EA0401EAE0B3900F4227D /* RESideMenu.m in Sources */,
 				4B1EA0411EAE0B3900F4227D /* OneCircleViewController.m in Sources */,
 				4B1EA0421EAE0B3900F4227D /* FeedBackViewController.m in Sources */,
-				4B1EA0431EAE0B3900F4227D /* HomeViewModel.m in Sources */,
+				4B2358BD1EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47F1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4B1EA0441EAE0B3900F4227D /* CBNavigationController.m in Sources */,
 				4B1EA0451EAE0B3900F4227D /* LaunchViewController.m in Sources */,
@@ -3726,7 +3802,6 @@
 				4B45E4E11EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1EA0491EAE0B3900F4227D /* AppDelegate.m in Sources */,
 				4B1EA04A1EAE0B3900F4227D /* CirclephoneView.m in Sources */,
-				4B1EA04B1EAE0B3900F4227D /* HomeViewController.m in Sources */,
 				4B1EA04C1EAE0B3900F4227D /* TAPageControl.m in Sources */,
 				4B1EA04D1EAE0B3900F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CC1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -3737,22 +3812,26 @@
 				4B1EA0501EAE0B3900F4227D /* MBProgressHUD.m in Sources */,
 				4B1EA0511EAE0B3900F4227D /* SweepViewController.m in Sources */,
 				4B1EA0521EAE0B3900F4227D /* SDWaitingView.m in Sources */,
+				4B2358B41EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1EA0531EAE0B3900F4227D /* RECommonFunctions.m in Sources */,
 				4B1EA0541EAE0B3900F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1EA0551EAE0B3900F4227D /* LeftViewController.m in Sources */,
 				4B1EA0561EAE0B3900F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4B01EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1EA0571EAE0B3900F4227D /* CircleTableViewCell.m in Sources */,
+				4B3D8F961EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1EA0581EAE0B3900F4227D /* TADotView.m in Sources */,
 				4B45E6AF1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1EA0591EAE0B3900F4227D /* MyCommentViewController.m in Sources */,
 				4B1EA05A1EAE0B3900F4227D /* NewViewController.m in Sources */,
 				4B1EA05B1EAE0B3900F4227D /* CBHttpManager.m in Sources */,
+				4B3D8F731EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4781EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4B1EA05C1EAE0B3900F4227D /* SDCollectionViewCell.m in Sources */,
 				4B1EA05D1EAE0B3900F4227D /* OneCircleModel.m in Sources */,
 				4B45E4C51EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1EA05E1EAE0B3900F4227D /* CircleDetailTableViewCell.m in Sources */,
+				4B2358AB1EC1F1300049771A /* CommentViewController.m in Sources */,
 				4B1EA05F1EAE0B3900F4227D /* HomeModel.m in Sources */,
 				4B1EA0601EAE0B3900F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49B1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -3761,9 +3840,9 @@
 				4B45E4BE1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E4631EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EF1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4B1EA0631EAE0B3900F4227D /* HomeHeadView.m in Sources */,
 				4B45E46A1EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B1EA0641EAE0B3900F4227D /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F691EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3774,9 +3853,8 @@
 				4B45E3631EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1EA0901EAE0C8E00F4227D /* ViewController.m in Sources */,
 				4B1EA0911EAE0C8E00F4227D /* main.m in Sources */,
-				4B1EA0921EAE0C8E00F4227D /* HomeDetailViewController.m in Sources */,
 				4B45E4A31EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4B1EA0931EAE0C8E00F4227D /* HomeCollectionViewCell.m in Sources */,
+				4B2358D11EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4DB1EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A91EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1EA0941EAE0C8E00F4227D /* UIView+SDExtension.m in Sources */,
@@ -3798,6 +3876,7 @@
 				4B1EA09D1EAE0C8E00F4227D /* CBJPushHelper.m in Sources */,
 				4B1EA09E1EAE0C8E00F4227D /* CircleListModel.m in Sources */,
 				4B45E4AA1EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C71EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B1EA09F1EAE0C8E00F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1EA0A01EAE0C8E00F4227D /* MineViewController.m in Sources */,
 				4B1EA0A11EAE0C8E00F4227D /* SDCycleScrollView.m in Sources */,
@@ -3805,7 +3884,7 @@
 				4B1EA0A31EAE0C8E00F4227D /* RESideMenu.m in Sources */,
 				4B1EA0A41EAE0C8E00F4227D /* OneCircleViewController.m in Sources */,
 				4B1EA0A51EAE0C8E00F4227D /* FeedBackViewController.m in Sources */,
-				4B1EA0A61EAE0C8E00F4227D /* HomeViewModel.m in Sources */,
+				4B2358BE1EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E4801EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4B1EA0A71EAE0C8E00F4227D /* CBNavigationController.m in Sources */,
 				4B1EA0A81EAE0C8E00F4227D /* LaunchViewController.m in Sources */,
@@ -3815,7 +3894,6 @@
 				4B45E4E21EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1EA0AC1EAE0C8E00F4227D /* AppDelegate.m in Sources */,
 				4B1EA0AD1EAE0C8E00F4227D /* CirclephoneView.m in Sources */,
-				4B1EA0AE1EAE0C8E00F4227D /* HomeViewController.m in Sources */,
 				4B1EA0AF1EAE0C8E00F4227D /* TAPageControl.m in Sources */,
 				4B1EA0B01EAE0C8E00F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CD1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -3826,22 +3904,26 @@
 				4B1EA0B31EAE0C8E00F4227D /* MBProgressHUD.m in Sources */,
 				4B1EA0B41EAE0C8E00F4227D /* SweepViewController.m in Sources */,
 				4B1EA0B51EAE0C8E00F4227D /* SDWaitingView.m in Sources */,
+				4B2358B51EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1EA0B61EAE0C8E00F4227D /* RECommonFunctions.m in Sources */,
 				4B1EA0B71EAE0C8E00F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1EA0B81EAE0C8E00F4227D /* LeftViewController.m in Sources */,
 				4B1EA0B91EAE0C8E00F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4B11EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1EA0BA1EAE0C8E00F4227D /* CircleTableViewCell.m in Sources */,
+				4B3D8F971EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1EA0BB1EAE0C8E00F4227D /* TADotView.m in Sources */,
 				4B45E6B01EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1EA0BC1EAE0C8E00F4227D /* MyCommentViewController.m in Sources */,
 				4B1EA0BD1EAE0C8E00F4227D /* NewViewController.m in Sources */,
 				4B1EA0BE1EAE0C8E00F4227D /* CBHttpManager.m in Sources */,
+				4B3D8F741EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4791EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4B1EA0BF1EAE0C8E00F4227D /* SDCollectionViewCell.m in Sources */,
 				4B1EA0C01EAE0C8E00F4227D /* OneCircleModel.m in Sources */,
 				4B45E4C61EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1EA0C11EAE0C8E00F4227D /* CircleDetailTableViewCell.m in Sources */,
+				4B2358AC1EC1F1300049771A /* CommentViewController.m in Sources */,
 				4B1EA0C21EAE0C8E00F4227D /* HomeModel.m in Sources */,
 				4B1EA0C31EAE0C8E00F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49C1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -3850,9 +3932,9 @@
 				4B45E4BF1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E4641EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0F01EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4B1EA0C61EAE0C8E00F4227D /* HomeHeadView.m in Sources */,
 				4B45E46B1EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B1EA0C71EAE0C8E00F4227D /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F6A1EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3863,9 +3945,8 @@
 				4B45E35E1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B3462C71EA1F52C00B1E98F /* ViewController.m in Sources */,
 				4B3462C91EA1F52C00B1E98F /* main.m in Sources */,
-				4B3462CA1EA1F52C00B1E98F /* HomeDetailViewController.m in Sources */,
 				4B45E49E1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4B3462CB1EA1F52C00B1E98F /* HomeCollectionViewCell.m in Sources */,
+				4B2358CC1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4D61EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A41EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B3462CC1EA1F52C00B1E98F /* UIView+SDExtension.m in Sources */,
@@ -3887,6 +3968,7 @@
 				4B3462D31EA1F52C00B1E98F /* CBJPushHelper.m in Sources */,
 				4B3462D41EA1F52C00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A51EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C21EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B3463DB1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CB1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B3462D51EA1F52C00B1E98F /* SDCycleScrollView.m in Sources */,
@@ -3894,7 +3976,7 @@
 				4B54C0BD1EA48EC300410B39 /* RESideMenu.m in Sources */,
 				4B3462D71EA1F52C00B1E98F /* OneCircleViewController.m in Sources */,
 				4B54C0E41EA5BFF000410B39 /* FeedBackViewController.m in Sources */,
-				4B3462D81EA1F52C00B1E98F /* HomeViewModel.m in Sources */,
+				4B2358B91EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47B1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4B3462D91EA1F52C00B1E98F /* CBNavigationController.m in Sources */,
 				4B3462DA1EA1F52C00B1E98F /* LaunchViewController.m in Sources */,
@@ -3904,7 +3986,6 @@
 				4B45E4DD1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B3462DD1EA1F52C00B1E98F /* AppDelegate.m in Sources */,
 				4B3462DE1EA1F52C00B1E98F /* CirclephoneView.m in Sources */,
-				4B3462DF1EA1F52C00B1E98F /* HomeViewController.m in Sources */,
 				4B3462E01EA1F52C00B1E98F /* TAPageControl.m in Sources */,
 				4B3462E11EA1F52C00B1E98F /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C81EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -3915,22 +3996,26 @@
 				4B3463DE1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D51EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B3462E41EA1F52C00B1E98F /* SDWaitingView.m in Sources */,
+				4B2358B01EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0BA1EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4B3462E51EA1F52C00B1E98F /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C51EA48F2900410B39 /* LeftViewController.m in Sources */,
 				4B3463D31EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AC1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B3462E61EA1F52C00B1E98F /* CircleTableViewCell.m in Sources */,
+				4B3D8F921EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B3462E71EA1F52C00B1E98F /* TADotView.m in Sources */,
 				4B45E6AB1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0EC1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4B3462E81EA1F52C00B1E98F /* NewViewController.m in Sources */,
 				4B3462E91EA1F52C00B1E98F /* CBHttpManager.m in Sources */,
+				4B3D8F6F1EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4741EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4B3462EA1EA1F52C00B1E98F /* SDCollectionViewCell.m in Sources */,
 				4B3462EB1EA1F52C00B1E98F /* OneCircleModel.m in Sources */,
 				4B45E4C11EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B3462EC1EA1F52C00B1E98F /* CircleDetailTableViewCell.m in Sources */,
+				4B2358A71EC1F1300049771A /* CommentViewController.m in Sources */,
 				4B3462ED1EA1F52C00B1E98F /* HomeModel.m in Sources */,
 				4B3462EE1EA1F52C00B1E98F /* SDPhotoBrowser.m in Sources */,
 				4B45E4971EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -3939,9 +4024,9 @@
 				4B45E4BA1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E45F1EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EB1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4B3462F01EA1F52C00B1E98F /* HomeHeadView.m in Sources */,
 				4B45E4661EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B54C0C01EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F651EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3952,9 +4037,8 @@
 				4B45E35F1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B34635D1EA1F9AE00B1E98F /* ViewController.m in Sources */,
 				4B34635F1EA1F9AE00B1E98F /* main.m in Sources */,
-				4B3463601EA1F9AE00B1E98F /* HomeDetailViewController.m in Sources */,
 				4B45E49F1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4B3463611EA1F9AE00B1E98F /* HomeCollectionViewCell.m in Sources */,
+				4B2358CD1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4D71EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A51EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B3463621EA1F9AE00B1E98F /* UIView+SDExtension.m in Sources */,
@@ -3976,6 +4060,7 @@
 				4B3463691EA1F9AE00B1E98F /* CBJPushHelper.m in Sources */,
 				4B34636A1EA1F9AE00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A61EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C31EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B3463DC1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CC1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B34636B1EA1F9AE00B1E98F /* SDCycleScrollView.m in Sources */,
@@ -3983,7 +4068,7 @@
 				4B54C0BE1EA48EC300410B39 /* RESideMenu.m in Sources */,
 				4B34636D1EA1F9AE00B1E98F /* OneCircleViewController.m in Sources */,
 				4B54C0E51EA5BFF000410B39 /* FeedBackViewController.m in Sources */,
-				4B34636E1EA1F9AE00B1E98F /* HomeViewModel.m in Sources */,
+				4B2358BA1EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47C1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4B34636F1EA1F9AE00B1E98F /* CBNavigationController.m in Sources */,
 				4B3463701EA1F9AE00B1E98F /* LaunchViewController.m in Sources */,
@@ -3993,7 +4078,6 @@
 				4B45E4DE1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B3463731EA1F9AE00B1E98F /* AppDelegate.m in Sources */,
 				4B3463741EA1F9AE00B1E98F /* CirclephoneView.m in Sources */,
-				4B3463751EA1F9AE00B1E98F /* HomeViewController.m in Sources */,
 				4B3463761EA1F9AE00B1E98F /* TAPageControl.m in Sources */,
 				4B3463771EA1F9AE00B1E98F /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C91EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -4004,22 +4088,26 @@
 				4B3463DF1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D61EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B34637A1EA1F9AE00B1E98F /* SDWaitingView.m in Sources */,
+				4B2358B11EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0BB1EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4B34637B1EA1F9AE00B1E98F /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C61EA48F2900410B39 /* LeftViewController.m in Sources */,
 				4B3463D41EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AD1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B34637C1EA1F9AE00B1E98F /* CircleTableViewCell.m in Sources */,
+				4B3D8F931EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B34637D1EA1F9AE00B1E98F /* TADotView.m in Sources */,
 				4B45E6AC1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0ED1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4B34637E1EA1F9AE00B1E98F /* NewViewController.m in Sources */,
 				4B34637F1EA1F9AE00B1E98F /* CBHttpManager.m in Sources */,
+				4B3D8F701EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4751EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4B3463801EA1F9AE00B1E98F /* SDCollectionViewCell.m in Sources */,
 				4B3463811EA1F9AE00B1E98F /* OneCircleModel.m in Sources */,
 				4B45E4C21EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B3463821EA1F9AE00B1E98F /* CircleDetailTableViewCell.m in Sources */,
+				4B2358A81EC1F1300049771A /* CommentViewController.m in Sources */,
 				4B3463831EA1F9AE00B1E98F /* HomeModel.m in Sources */,
 				4B3463841EA1F9AE00B1E98F /* SDPhotoBrowser.m in Sources */,
 				4B45E4981EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4028,9 +4116,9 @@
 				4B45E4BB1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E4601EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EC1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4B3463861EA1F9AE00B1E98F /* HomeHeadView.m in Sources */,
 				4B45E4671EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B54C0C11EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F661EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4041,9 +4129,8 @@
 				4B45E35D1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4BA586961E979D3A007789DF /* ViewController.m in Sources */,
 				4BA586761E979C21007789DF /* main.m in Sources */,
-				4BA587111E9B2AD0007789DF /* HomeDetailViewController.m in Sources */,
 				4B45E49D1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4BA5870B1E9B1A6E007789DF /* HomeCollectionViewCell.m in Sources */,
+				4B2358CB1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4D51EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A31EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4BA586FC1E98DE23007789DF /* UIView+SDExtension.m in Sources */,
@@ -4065,6 +4152,7 @@
 				4BDBD6A41E9E0366001DFF51 /* CBJPushHelper.m in Sources */,
 				4BBCA7B81E9B970D008B67A1 /* CircleListModel.m in Sources */,
 				4B45E4A41EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C11EC1F5460049771A /* SystemViewController.m in Sources */,
 				4B3463DA1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CA1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4BA586FB1E98DE23007789DF /* SDCycleScrollView.m in Sources */,
@@ -4072,7 +4160,7 @@
 				4B54C0BC1EA48EC300410B39 /* RESideMenu.m in Sources */,
 				4BDBD6791E9DB670001DFF51 /* OneCircleViewController.m in Sources */,
 				4B54C0E31EA5BFF000410B39 /* FeedBackViewController.m in Sources */,
-				4BA586FF1E98DED4007789DF /* HomeViewModel.m in Sources */,
+				4B2358B81EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47A1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4BA586BF1E98753E007789DF /* CBNavigationController.m in Sources */,
 				4BDBD6AA1E9E0FE0001DFF51 /* LaunchViewController.m in Sources */,
@@ -4082,7 +4170,6 @@
 				4B45E4DC1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4BA586931E979D11007789DF /* AppDelegate.m in Sources */,
 				4BDBD66B1E9D0C97001DFF51 /* CirclephoneView.m in Sources */,
-				4BA586C91E987792007789DF /* HomeViewController.m in Sources */,
 				4BA586F91E98DE23007789DF /* TAPageControl.m in Sources */,
 				4BDBD67F1E9DB979001DFF51 /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C71EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -4093,22 +4180,26 @@
 				4B3463DD1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D41EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4BDBD6761E9D14AD001DFF51 /* SDWaitingView.m in Sources */,
+				4B2358AF1EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0B91EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4BDBD6A11E9E02E1001DFF51 /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C41EA48F2900410B39 /* LeftViewController.m in Sources */,
 				4B3463D21EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AB1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4BA5871E1E9B53BC007789DF /* CircleTableViewCell.m in Sources */,
+				4B3D8F911EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4BA586F81E98DE23007789DF /* TADotView.m in Sources */,
 				4B45E6AA1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0EB1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4BA586CC1E9877A2007789DF /* NewViewController.m in Sources */,
 				4BA586E01E98B13C007789DF /* CBHttpManager.m in Sources */,
+				4B3D8F6E1EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4731EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4BA586FA1E98DE23007789DF /* SDCollectionViewCell.m in Sources */,
 				4BDBD6821E9DB997001DFF51 /* OneCircleModel.m in Sources */,
 				4B45E4C01EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4BBCA7BB1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m in Sources */,
+				4B2358A61EC1F1300049771A /* CommentViewController.m in Sources */,
 				4BA587081E98F095007789DF /* HomeModel.m in Sources */,
 				4BDBD6751E9D14AD001DFF51 /* SDPhotoBrowser.m in Sources */,
 				4B45E4961EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4117,9 +4208,9 @@
 				4B45E4B91EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E45E1EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EA1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4BA5870E1E9B25B9007789DF /* HomeHeadView.m in Sources */,
 				4B45E4651EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4B54C0BF1EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F641EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4130,9 +4221,8 @@
 				4B45E3601EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4BC5F7E51EA9FAFE0008D67D /* ViewController.m in Sources */,
 				4BC5F7E61EA9FAFE0008D67D /* main.m in Sources */,
-				4BC5F7E71EA9FAFE0008D67D /* HomeDetailViewController.m in Sources */,
 				4B45E4A01EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
-				4BC5F7E81EA9FAFE0008D67D /* HomeCollectionViewCell.m in Sources */,
+				4B2358CE1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
 				4B45E4D81EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A61EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4BC5F7E91EA9FAFE0008D67D /* UIView+SDExtension.m in Sources */,
@@ -4154,6 +4244,7 @@
 				4BC5F7F21EA9FAFE0008D67D /* CBJPushHelper.m in Sources */,
 				4BC5F7F31EA9FAFE0008D67D /* CircleListModel.m in Sources */,
 				4B45E4A71EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
+				4B2358C41EC1F5460049771A /* SystemViewController.m in Sources */,
 				4BC5F7F41EA9FAFE0008D67D /* MBProgressHUD+Add.m in Sources */,
 				4BC5F7F51EA9FAFE0008D67D /* MineViewController.m in Sources */,
 				4BC5F7F61EA9FAFE0008D67D /* SDCycleScrollView.m in Sources */,
@@ -4161,7 +4252,7 @@
 				4BC5F7F81EA9FAFE0008D67D /* RESideMenu.m in Sources */,
 				4BC5F7F91EA9FAFE0008D67D /* OneCircleViewController.m in Sources */,
 				4BC5F7FA1EA9FAFE0008D67D /* FeedBackViewController.m in Sources */,
-				4BC5F7FB1EA9FAFE0008D67D /* HomeViewModel.m in Sources */,
+				4B2358BB1EC1F3270049771A /* AiteViewController.m in Sources */,
 				4B45E47D1EB05166001AEF71 /* HXCameraViewController.m in Sources */,
 				4BC5F7FC1EA9FAFE0008D67D /* CBNavigationController.m in Sources */,
 				4BC5F7FD1EA9FAFE0008D67D /* LaunchViewController.m in Sources */,
@@ -4171,7 +4262,6 @@
 				4B45E4DF1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4BC5F8011EA9FAFE0008D67D /* AppDelegate.m in Sources */,
 				4BC5F8021EA9FAFE0008D67D /* CirclephoneView.m in Sources */,
-				4BC5F8031EA9FAFE0008D67D /* HomeViewController.m in Sources */,
 				4BC5F8041EA9FAFE0008D67D /* TAPageControl.m in Sources */,
 				4BC5F8051EA9FAFE0008D67D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CA1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
@@ -4182,22 +4272,26 @@
 				4BC5F8081EA9FAFE0008D67D /* MBProgressHUD.m in Sources */,
 				4BC5F8091EA9FAFE0008D67D /* SweepViewController.m in Sources */,
 				4BC5F80A1EA9FAFE0008D67D /* SDWaitingView.m in Sources */,
+				4B2358B21EC1F1460049771A /* LikeViewController.m in Sources */,
 				4BC5F80B1EA9FAFE0008D67D /* RECommonFunctions.m in Sources */,
 				4BC5F80C1EA9FAFE0008D67D /* AppDelegate+JPushSDK.m in Sources */,
 				4BC5F80D1EA9FAFE0008D67D /* LeftViewController.m in Sources */,
 				4BC5F80E1EA9FAFE0008D67D /* UIViewController+HUD.m in Sources */,
 				4B45E4AE1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4BC5F80F1EA9FAFE0008D67D /* CircleTableViewCell.m in Sources */,
+				4B3D8F941EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4BC5F8101EA9FAFE0008D67D /* TADotView.m in Sources */,
 				4B45E6AD1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4BC5F8111EA9FAFE0008D67D /* MyCommentViewController.m in Sources */,
 				4BC5F8121EA9FAFE0008D67D /* NewViewController.m in Sources */,
 				4BC5F8131EA9FAFE0008D67D /* CBHttpManager.m in Sources */,
+				4B3D8F711EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4761EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
 				4BC5F8141EA9FAFE0008D67D /* SDCollectionViewCell.m in Sources */,
 				4BC5F8151EA9FAFE0008D67D /* OneCircleModel.m in Sources */,
 				4B45E4C31EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4BC5F8161EA9FAFE0008D67D /* CircleDetailTableViewCell.m in Sources */,
+				4B2358A91EC1F1300049771A /* CommentViewController.m in Sources */,
 				4BC5F8171EA9FAFE0008D67D /* HomeModel.m in Sources */,
 				4BC5F8181EA9FAFE0008D67D /* SDPhotoBrowser.m in Sources */,
 				4B45E4991EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4206,9 +4300,9 @@
 				4B45E4BC1EB05166001AEF71 /* HXPhotoView.m in Sources */,
 				4B45E4611EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0ED1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
-				4BC5F81B1EA9FAFE0008D67D /* HomeHeadView.m in Sources */,
 				4B45E4681EB05166001AEF71 /* HXAlbumModel.m in Sources */,
 				4BC5F81C1EA9FAFE0008D67D /* UIViewController+RESideMenu.m in Sources */,
+				4B3D8F671EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,13 +18,20 @@
         
         _plusBtn = [[UIButton alloc]init];
         [_plusBtn setBackgroundImage:[UIImage imageNamed:@"tabbar_compose_icon_add"] forState:UIControlStateNormal];
-        _plusBtn.backgroundColor = [UIColor colorWithHexString:@"#ff8200" andAlpha:1];
+        _plusBtn.backgroundColor = [UIColor redColor];
+        _plusBtn.layer.cornerRadius = 20;
+        _plusBtn.clipsToBounds = YES;
+        _plusBtn.layer.borderColor = [UIColor whiteColor].CGColor;
+        _plusBtn.layer.borderWidth = 2;
         [_plusBtn addTarget:self action:@selector(plusBtnClick:) forControlEvents:UIControlEventTouchUpInside];
         
     }
     return _plusBtn;
 }
--(void)layoutSubviews{
+
+
+
+- (void)layoutSubviews{
     [super layoutSubviews];
     
     CGFloat btnX = 0;
@@ -45,10 +52,11 @@
     }
     
     self.plusBtn.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
-    self.plusBtn.bounds = CGRectMake(0, 0, 38, 38);
+    self.plusBtn.bounds = CGRectMake(0, 0, 40, 40);
+    
     [self addSubview:self.plusBtn];
     
-    NSLog(@"%@",NSStringFromCGPoint(self.center));
+//    NSLog(@"%@",NSStringFromCGPoint(self.center));
     
     
     

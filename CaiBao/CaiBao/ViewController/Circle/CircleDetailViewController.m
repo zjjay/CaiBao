@@ -14,7 +14,6 @@
 #import "UITableView+SDAutoTableViewCellHeight.h"
 #import "MJRefresh.h"
 #import "OneCircleViewController.h"
-#import "RESideMenu.h"
 
 @interface CircleDetailViewController ()<UITableViewDelegate,UITableViewDataSource,CircleDetailDelegate>
 {
@@ -34,53 +33,33 @@
     if (self.circleModel) {
         self.title = self.circleModel.boardName;
     }else{
-        self.title = @"热帖";
-        UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-        button.frame = CGRectMake(0, 0, 40, 40);
-        button.layer.cornerRadius = 20;
-        button.clipsToBounds = YES;
-        [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-        [button setImage:image forState:UIControlStateNormal];
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(changeAvatar)
-                                                     name:KNOTIFICATION_AVATAR
-                                                   object:nil];
+        self.title = self.titleName;
     }
     [self.view addSubview:self.tableView];
     
-    WeakSelf(weakSelf);
-    footerRefresh = [MJRefreshBackStateFooter footerWithRefreshingBlock:^{
-        NSString *urlStr;
-        CircleListModel *model = [self.dataSource lastObject];
-        if (self.circleModel) {
-            urlStr = [NSString stringWithFormat:@"http://quanzi.caipiao.163.com/circle_getPosts.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&boardId=%@&maxId=%@&sort=hot",self.circleModel.boardId,model.postId];
-        }else{
-            urlStr = [NSString stringWithFormat:@"http://quanzi.caipiao.163.com/circle_getHotPosts.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&maxId=%@&sort=hot",model.postId];
-        }
-        
-        [CircleViewModel DetailRequsetDataWithUrlStr:urlStr callback:^(NSArray *dataArray) {
-            [weakSelf.dataSource addObjectsFromArray:dataArray];
-            [weakSelf.tableView.mj_footer endRefreshing];
-            [weakSelf.tableView reloadData];
-            page++;
+    if (![self.titleName isEqualToString:@"我的收藏"]) {
+        WeakSelf(weakSelf);
+        footerRefresh = [MJRefreshBackStateFooter footerWithRefreshingBlock:^{
+            NSString *urlStr;
+            CircleListModel *model = [self.dataSource lastObject];
+            if (self.circleModel) {
+                urlStr = [NSString stringWithFormat:@"http://quanzi.caipiao.163.com/circle_getPosts.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&boardId=%@&maxId=%@&sort=hot",self.circleModel.boardId,model.postId];
+            }else{
+                urlStr = [NSString stringWithFormat:@"http://quanzi.caipiao.163.com/circle_getHotPosts.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&maxId=%@&sort=hot",model.postId];
+            }
             
+            [CircleViewModel DetailRequsetDataWithUrlStr:urlStr callback:^(NSArray *dataArray) {
+                [weakSelf.dataSource addObjectsFromArray:dataArray];
+                [weakSelf.tableView.mj_footer endRefreshing];
+                [weakSelf.tableView reloadData];
+                page++;
+                
+            }];
         }];
-    }];
+        
+        self.tableView.mj_footer = footerRefresh;
+    }
     
-    self.tableView.mj_footer = footerRefresh;
-}
-- (void)changeAvatar
-{
-    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    button.layer.cornerRadius = 20;
-    button.clipsToBounds = YES;
-    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    [button setImage:image forState:UIControlStateNormal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
 
@@ -103,7 +82,19 @@
                 urlStr = [NSString stringWithFormat:@"http://quanzi.caipiao.163.com/circle_getHotPosts.html?product=caipiao_client&mobileType=iphone&ver=4.32&channel=i4zhushou&apiVer=1.1&apiLevel=27&deviceId=27&sort=hot"];
             }
             [CircleViewModel DetailRequsetDataWithUrlStr:urlStr callback:^(NSArray *dataArray) {
-                weakSelf.dataSource = [NSMutableArray arrayWithArray:dataArray];
+                if ([self.titleName isEqualToString:@"我的收藏"]) {
+                    weakSelf.dataSource = [NSMutableArray array];
+                    for (CircleListModel *model in dataArray) {
+                        if ([model.likeCount intValue] > 0) {
+                            model.like = @"1";
+                            [weakSelf.dataSource addObject:model];
+                        }
+                    }
+                }else{
+                    
+                    weakSelf.dataSource = [NSMutableArray arrayWithArray:dataArray];
+                }
+                
                 [weakSelf.tableView.mj_header endRefreshing];
                 [weakSelf.tableView reloadData];
                 page++;
@@ -118,7 +109,7 @@
 - (UITableView *)tableView
 {
     if (!_tableView) {
-        if (self.circleModel) {
+        if (self.circleModel || [self.titleName isEqualToString:@"我的收藏"]) {
             _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT)];
         }else{
             _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, NAVIGATION_BAR_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT - MAIN_BOTTOM_TABBAR_HEIGHT)];
@@ -157,6 +148,7 @@
     }
     
     CircleListModel *model = self.dataSource[indexPath.row];
+    
     cell.model = model;
     cell.delegate = self;
     [cell useCellFrameCacheWithIndexPath:indexPath tableView:tableView];
@@ -212,12 +204,6 @@
     OneCircleViewController *circle = [OneCircleViewController new];
     circle.listModel = model;
     [self.navigationController pushViewController:circle animated:YES];
-}
-
-
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:KNOTIFICATION_AVATAR];
 }
 
 

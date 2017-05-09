@@ -20,11 +20,6 @@
 
 - (void)creatUI{
     self.title = @"设置";
-    self.tabBarController.tabBar.hidden = YES;
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSFontAttributeName:[UIFont boldSystemFontOfSize:18],
-       NSForegroundColorAttributeName:[UIColor  whiteColor]}];
-    self.view.backgroundColor = [UIColor  colorWithRed:239/255.0f green:238/255.0f blue:244/255.0f alpha:1.0];
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     CFShow((__bridge CFTypeRef)(infoDictionary));
     // app名称

@@ -19,12 +19,12 @@
 
     NSArray *array = @[@"#50A260",@"#1C4F82",@"#3694DA",@"#58534C",@"#E93F33",@"#EC6252",@"#EC62C5",@"#7962C5",@"#796200",@"#5B0000"];
     
-    self.navigationBar.barTintColor = [UIColor colorWithHexRGB:[array objectAtIndex:[NavigationColor integerValue]]];
-
-    self.navigationBar.tintColor = [UIColor whiteColor];
+//    self.navigationBar.barTintColor = [UIColor colorWithHexRGB:[array objectAtIndex:[NavigationColor integerValue]]];
+    self.navigationBar.barTintColor = [UIColor whiteColor];
+    self.navigationBar.tintColor = Navi_Title_Color;
     [self.navigationBar setTitleTextAttributes:
      @{NSFontAttributeName:[UIFont boldSystemFontOfSize:18],
-       NSForegroundColorAttributeName:[UIColor  whiteColor]}];
+       NSForegroundColorAttributeName:Navi_Title_Color}];
 
  
 }

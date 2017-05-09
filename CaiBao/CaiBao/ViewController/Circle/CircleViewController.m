@@ -12,7 +12,6 @@
 #import "CirclrModel.h"
 #import "MJRefresh.h"
 #import "CircleDetailViewController.h"
-#import "RESideMenu.h"
 
 @interface CircleViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -30,31 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"圈子";
-    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    button.layer.cornerRadius = 20;
-    button.clipsToBounds = YES;
-    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    [button setImage:image forState:UIControlStateNormal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(changeAvatar)
-                                                 name:KNOTIFICATION_AVATAR
-                                               object:nil];
     [self.view addSubview:self.tableView];
-}
-
-- (void)changeAvatar
-{
-    UIImage *image = (USER(USERIMAGE) ? [UIImage imageWithData:USER(USERIMAGE)] : [UIImage imageNamed:@"userHead"]);
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    button.layer.cornerRadius = 20;
-    button.clipsToBounds = YES;
-    [button addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    [button setImage:image forState:UIControlStateNormal];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -131,10 +106,6 @@
     [self.navigationController pushViewController:detail animated:YES];
 }
 
-- (void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:KNOTIFICATION_AVATAR];
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

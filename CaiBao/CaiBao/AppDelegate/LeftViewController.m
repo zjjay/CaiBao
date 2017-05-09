@@ -86,8 +86,8 @@
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
     
-    NSArray *titles = @[@"热帖", @"圈子", @"资讯", @"我的", @"退出"];
-    NSArray *images = @[@"tabbar_home", @"tabbar_new", @"tabbar_discover", @"tabbar_circle", @"logout"];
+    NSArray *titles = @[@"首页", @"资讯", @"消息", @"我的", @"退出"];
+    NSArray *images = @[@"tabbar_home", @"tabbar_new", @"tabbar_message", @"tabbar_circle", @"logout"];
     cell.textLabel.text = titles[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];
     

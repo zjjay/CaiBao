@@ -111,11 +111,11 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
     
     self.textField1 = [[UITextField alloc]initWithFrame:CGRectMake(20, CGRectGetMaxY(self.titleLabel.frame)+15, smallView.frame.size.width-40, 40)];
     self.textField1.delegate = self;
-    self.textField1.textColor = [UIColor colorWithWhite:0.8 alpha:1];
+    self.textField1.textColor = [UIColor colorWithWhite:1 alpha:1];
     self.textField1.layer.cornerRadius = 5;
     self.textField1.layer.borderWidth = .5;
     self.textField1.clearButtonMode = UITextFieldViewModeWhileEditing;
-    self.textField1.layer.borderColor = [UIColor colorWithWhite:0.8 alpha:1].CGColor;
+    self.textField1.layer.borderColor = [UIColor colorWithWhite:1 alpha:1].CGColor;
     self.textField1.placeholder = @"请输入账号";
     self.textField1.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetHeight(self.textField1.frame), CGRectGetHeight(self.textField1.frame))];
     self.textField1.leftViewMode = UITextFieldViewModeAlways;
@@ -126,11 +126,11 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
     
     self.textField2 = [[UITextField alloc]initWithFrame:CGRectMake(CGRectGetMinX(self.textField1.frame), CGRectGetMaxY(self.textField1.frame)+10, CGRectGetWidth(self.textField1.frame), CGRectGetHeight(self.textField1.frame))];
     self.textField2.delegate = self;
-    self.textField2.textColor = [UIColor colorWithWhite:0.8 alpha:1];
+    self.textField2.textColor = [UIColor colorWithWhite:1 alpha:1];
     self.textField2.layer.cornerRadius = 5;
     self.textField2.layer.borderWidth = .5;
     self.textField2.clearButtonMode = UITextFieldViewModeWhileEditing;
-    self.textField2.layer.borderColor = [UIColor colorWithWhite:0.8 alpha:1].CGColor;
+    self.textField2.layer.borderColor = [UIColor colorWithWhite:1 alpha:1].CGColor;
     self.textField2.placeholder = @"请输入密码";
     self.textField2.secureTextEntry = YES;
     self.textField2.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetHeight(self.textField2.frame), CGRectGetHeight(self.textField2.frame))];

@@ -12,5 +12,5 @@
 
 @interface CircleDetailViewController : CBViewController
 @property (nonatomic ,strong) CirclrModel *circleModel;
-
+@property (nonatomic ,copy) NSString *titleName;
 @end

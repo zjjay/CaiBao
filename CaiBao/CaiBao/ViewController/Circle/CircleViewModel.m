@@ -39,6 +39,8 @@
 {
     [[CBHttpManager shareManager] requestWithPath:urlStr HttpRequestType:HttpRequestPost paramenters:@{} success:^(NSURLSessionDataTask *task, id responseObject) {
         NSDictionary *responseJSON = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
+//        NSLog(@"%@",responseJSON);
+
         NSArray *array = [responseJSON objectForKey:@"posts"];
         NSMutableArray *resultArray = [NSMutableArray array];
         for (NSDictionary *dic in array) {
@@ -74,6 +76,8 @@
 {
     [[CBHttpManager shareManager] requestWithPath:urlStr HttpRequestType:HttpRequestPost paramenters:@{} success:^(NSURLSessionDataTask *task, id responseObject) {
         NSDictionary *responseJSON = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
+//        NSLog(@"%@",responseJSON);
+
         NSArray *array = [[responseJSON objectForKey:@"post"] objectForKey:@"comments"];
         NSMutableArray *resultArray = [NSMutableArray array];
         for (NSDictionary *dic in array) {

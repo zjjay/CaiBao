@@ -52,7 +52,7 @@
     
     //昵称
     nameButton = [UIButton new];
-    [nameButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [nameButton setTitleColor:Navi_Title_Color forState:UIControlStateNormal];
     [nameButton addTarget:self action:@selector(userNameClicked) forControlEvents:UIControlEventTouchUpInside];
     nameButton.titleLabel.font = [UIFont systemFontOfSize:15];
     
@@ -163,11 +163,13 @@
     [nameButton sizeToFit];
     
     textLabel.text = model.text;
+    
     if ([model.like intValue]) {
         likeButton.selected = YES;
     }else{
         likeButton.selected = NO;
     }
+    
     likeNumLabel.text = model.likeCount;
     commentNumLabel.text = model.commentCount;
     timeLabel.text = model.createTime;

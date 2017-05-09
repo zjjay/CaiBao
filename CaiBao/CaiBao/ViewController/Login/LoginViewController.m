@@ -35,7 +35,7 @@
             return;
         }
         
-        if ([textField1Text isEqualToString:@"15650779697"] && [textField2Text isEqualToString:@"123123"]) {
+        if ([textField1Text isEqualToString:@"123"] && [textField2Text isEqualToString:@"123"]) {
             [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":textField1Text,@"password":textField2Text}];
             return;
         }

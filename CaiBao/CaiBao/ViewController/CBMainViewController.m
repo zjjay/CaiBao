@@ -7,12 +7,13 @@
 //
 
 #import "CBMainViewController.h"
-#import "HomeViewController.h"
 #import "NewViewController.h"
 #import "CircleViewController.h"
-#import "CircleDetailViewController.h"
 #import "MineViewController.h"
 #import "PublishViewController.h"
+#import "HomeViewController.h"
+#import "MessageViewController.h"
+
 
 #define TAB_ITEM_NUM 4
 
@@ -56,12 +57,13 @@
     [_currentViewController.view addSubview:self.tabBar];
 }
 
-- (void)setupTabbarItems {
-    NSArray *images = @[@"tabbar_home", @"tabbar_new", @"tabbar_discover", @"tabbar_circle"];
+- (void)setupTabbarItems
+{
+    NSArray *images = @[@"tabbar_home", @"tabbar_new", @"tabbar_message", @"tabbar_circle"];
     
-    NSArray *selectedImages =  @[@"tabbar_home_select", @"tabbar_new_select", @"tabbar_discover_select", @"tabbar_circle_select"];
+    NSArray *selectedImages =  @[@"tabbar_home_select", @"tabbar_new_select", @"tabbar_message_select", @"tabbar_circle_select"];
     
-    NSArray *titles = @[@"热帖", @"圈子", @"资讯", @"我的"];
+    NSArray *titles = @[@"首页", @"资讯", @"消息", @"我的"];
     
     NSMutableArray<UITabBarItem *> *items = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i++) {
@@ -97,15 +99,15 @@
     CBViewController *viewController;
     switch (index) {
         case 0: {
-            viewController = [[CircleDetailViewController alloc] init];
+            viewController = [[HomeViewController alloc] init];
             break;
         }
         case 1: {
-            viewController = [[CircleViewController alloc] init];
+            viewController = [[NewViewController alloc] init];
             break;
         }
         case 2 :{
-            viewController = [[NewViewController alloc] init];
+            viewController = [[MessageViewController alloc] init];
             break;
         }
         case 3: {
