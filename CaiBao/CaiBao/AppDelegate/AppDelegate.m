@@ -36,23 +36,18 @@
                                                  name:KNOTIFICATION_LOGIN
                                                object:nil];
     
-    if ([self compareOneDay:[self theTime] withAnotherDay:[self getCurrentTime]]){
-        
-        LaunchViewController *viewController = [LaunchViewController new];
-        viewController.callBack = ^(BOOL isSuccess, NSString *urlStr) {
-            if (isSuccess) {
-                ViewController *view = [[ViewController alloc] init];
-                view.urlStr = urlStr;
-                self.window.rootViewController = view;
-            }else{
-                [self changeRootViewController:nil];
-            }
-        };
-        
-        self.window.rootViewController = viewController;
-        return YES;
-    }
+    LaunchViewController *viewController = [LaunchViewController new];
+    viewController.callBack = ^(BOOL isSuccess, NSString *urlStr) {
+        if (isSuccess) {
+            ViewController *view = [[ViewController alloc] init];
+            view.urlStr = urlStr;
+            self.window.rootViewController = view;
+        }else{
+            [self changeRootViewController:nil];
+        }
+    };
     
+    self.window.rootViewController = viewController;
     return YES;
 }
 
@@ -145,46 +140,6 @@
     NSLog(@"didHideMenuViewController: %@", NSStringFromClass([menuViewController class]));
 }
 
-
-
-- (NSDate *)getCurrentTime{
-    NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
-    [formatter setDateFormat:@"dd-MM-yyyy-HHmmss"];
-    NSString *dateTime=[formatter stringFromDate:[NSDate date]];
-    NSDate *date = [formatter dateFromString:dateTime];
-    return date;
-}
-
-- (NSDate *)theTime
-{
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"dd-MM-yyyy-HHmmss"];
-    NSDate *date = [dateFormatter dateFromString:@"30-08-2017-000000"];
-    return date;
-}
-
-- (int)compareOneDay:(NSDate *)oneDay withAnotherDay:(NSDate *)anotherDay
-{
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"dd-MM-yyyy-HHmmss"];
-    NSString *oneDayStr = [dateFormatter stringFromDate:oneDay];
-    NSString *anotherDayStr = [dateFormatter stringFromDate:anotherDay];
-    NSDate *dateA = [dateFormatter dateFromString:oneDayStr];
-    NSDate *dateB = [dateFormatter dateFromString:anotherDayStr];
-    NSComparisonResult result = [dateA compare:dateB];
-    //    NSLog(@"date1 : %@, date2 : %@", oneDay, anotherDay);
-    if (result == NSOrderedDescending) {
-        //NSLog(@"Date1  is in the future");
-        return 1;
-    }
-    else if (result == NSOrderedAscending){
-        //NSLog(@"Date1 is in the past");
-        return -1;
-    }
-    //NSLog(@"Both dates are the same");
-    return 0;
-    
-}
 
 
 @end

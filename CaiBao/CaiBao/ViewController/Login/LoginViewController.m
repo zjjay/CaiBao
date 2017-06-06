@@ -21,8 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     WSLoginView *wsLoginV = [[WSLoginView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-    wsLoginV.titleLabel.text = @"我是一只猫头鹰";
+    wsLoginV.titleLabel.text = @"我是一头猫头鹰";
     wsLoginV.titleLabel.textColor = [UIColor whiteColor];
     wsLoginV.textField1.text = USER(USERNAME);
     wsLoginV.hideEyesType = AllEyesHide;
@@ -35,7 +36,7 @@
             return;
         }
         
-        if ([textField1Text isEqualToString:@"123"] && [textField2Text isEqualToString:@"123"]) {
+        if ([textField1Text isEqualToString:@"15650779697"] && [textField2Text isEqualToString:@"123123"]) {
             [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":textField1Text,@"password":textField2Text}];
             return;
         }

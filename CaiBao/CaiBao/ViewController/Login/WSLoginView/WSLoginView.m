@@ -71,6 +71,10 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
 
 
     //猫头
+//    UIImageView* imgLogin = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width / 2 - 80 / 2, 70, 80, 80)];
+//    imgLogin.image = [UIImage imageNamed:@"app_icon"];
+//    imgLogin.layer.cornerRadius = 20;
+//    imgLogin.clipsToBounds = YES;
     UIImageView* imgLogin = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width / 2 - 211 / 2, 150-99, 211, 108)];
     imgLogin.image = [UIImage imageNamed:@"owl-login"];
     imgLogin.layer.masksToBounds = YES;
@@ -209,6 +213,7 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
 
 //猫咪动画
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
+//    return;
     if ([textField isEqual:self.textField1]) {
         if (showType != WSLoginShowType_PASS)
         {
@@ -311,7 +316,7 @@ typedef NS_ENUM(NSInteger, WSLoginShowType) {
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
-    
+//    return;
     if ([textField isEqual:self.textField2]) {
         if (showType == WSLoginShowType_PASS)
         {

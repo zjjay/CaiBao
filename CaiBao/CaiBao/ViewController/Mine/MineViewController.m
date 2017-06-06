@@ -196,8 +196,8 @@
         CGFloat headHeight = headViewHeight + offsetY;
         CGFloat avatarHeight = avatarImageViewHeight + offsetY;
         
-        self.avatarImageView.frame = CGRectMake(self.avatarImageView.frame.origin.x, self.avatarImageView.frame.origin.y, avatarHeight, avatarHeight);
         self.tableHeadView.frame = CGRectMake(self.tableHeadView.frame.origin.x, offsetY * -1, self.tableHeadView.frame.size.width, headHeight);
+        self.avatarImageView.frame = CGRectMake(self.avatarImageView.frame.origin.x, self.avatarImageView.frame.origin.y, avatarHeight, avatarHeight);
         self.avatarImageView.center = CGPointMake(self.tableHeadView.center.x, self.avatarImageView.frame.origin.y + avatarHeight/2);
         self.avatarImageView.layer.cornerRadius = avatarHeight*0.5;
         

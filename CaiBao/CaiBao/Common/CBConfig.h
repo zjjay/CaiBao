@@ -54,8 +54,8 @@
 #define JPushAppKey              @"7a55bf8e27dcc6b3039321e4"
 #define Appid                    @"157"
 #define Launch                   @"launch1"
-#define LoginBackImage           @"loginbackground1"
-#define MyBackIamge              @"mybackimage1"
+#define LoginBackImage           @"loginbackground12"
+#define MyBackIamge              @"mybackimage2"
 #define NavigationColor          @"0"
 
 
@@ -123,6 +123,15 @@
 #define LoginBackImage           @"loginbackground7"
 #define MyBackIamge              @"mybackimage7"
 #define NavigationColor          @"6"
+
+#elif c66app13
+
+#define JPushAppKey              @"1ea61aa0eb2a88f9080fef9f"
+#define Appid                    @"c66app13"
+#define Launch                   @"launch4"
+#define LoginBackImage           @"loginbackground12"
+#define MyBackIamge              @"mybackimage2"
+#define NavigationColor          @"0"
 
 
 #endif

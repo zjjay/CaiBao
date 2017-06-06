@@ -55,7 +55,7 @@
     [self hideHud];
     [self showHudInView:self.view hint:@"加载中…"];
 
-    NSString *urlStr = [NSString stringWithFormat:@"http://appmgr.jwoquxoc.com/frontApi/getAboutUs?appid=cbapp%@",Appid];
+    NSString *urlStr = [NSString stringWithFormat:@"http://appmgr.jwoquxoc.com/frontApi/getAboutUs?appid=%@",Appid];
     [[CBHttpManager shareManager] requestWithPath:urlStr HttpRequestType:HttpRequestGet paramenters:@{} success:^(NSURLSessionDataTask *task, id responseObject) {
         
         NSDictionary *responseJSON = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
