@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "GDTSplashAd.h"
-#import "GDTTrack.h"
 #import "WebKit/WebKit.h"
 
 

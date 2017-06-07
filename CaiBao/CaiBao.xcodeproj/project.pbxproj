@@ -70,7 +70,6 @@
 		4B1EA00D1EAE0A4000F4227D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4B1EA00E1EAE0A4000F4227D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4B1EA00F1EAE0A4000F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4B1EA0101EAE0A4000F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0111EAE0A4000F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B1EA0141EAE0A4000F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0151EAE0A4000F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
@@ -147,7 +146,6 @@
 		4B1EA06F1EAE0B3900F4227D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4B1EA0701EAE0B3900F4227D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4B1EA0711EAE0B3900F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4B1EA0721EAE0B3900F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0731EAE0B3900F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B1EA0761EAE0B3900F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0771EAE0B3900F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
@@ -224,7 +222,6 @@
 		4B1EA0D21EAE0C8E00F4227D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4B1EA0D31EAE0C8E00F4227D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4B1EA0D41EAE0C8E00F4227D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4B1EA0D51EAE0C8E00F4227D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B1EA0D61EAE0C8E00F4227D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B1EA0D91EAE0C8E00F4227D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4B1EA0DA1EAE0C8E00F4227D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
@@ -378,7 +375,6 @@
 		4B3462FB1EA1F52C00B1E98F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4B3462FC1EA1F52C00B1E98F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4B3462FD1EA1F52C00B1E98F /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4B3462FE1EA1F52C00B1E98F /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B3462FF1EA1F52C00B1E98F /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B3463011EA1F52C00B1E98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
 		4B3463021EA1F52C00B1E98F /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
@@ -434,7 +430,6 @@
 		4B3463911EA1F9AE00B1E98F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4B3463921EA1F9AE00B1E98F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4B3463931EA1F9AE00B1E98F /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4B3463941EA1F9AE00B1E98F /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4B3463951EA1F9AE00B1E98F /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4B3463971EA1F9AE00B1E98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA586821E979C21007789DF /* LaunchScreen.storyboard */; };
 		4B3463981EA1F9AE00B1E98F /* CircleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA5871D1E9B53BC007789DF /* CircleTableViewCell.xib */; };
@@ -1313,7 +1308,6 @@
 		4BC5F8271EA9FAFE0008D67D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
 		4BC5F8281EA9FAFE0008D67D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4BC5F8291EA9FAFE0008D67D /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4BC5F82A1EA9FAFE0008D67D /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4BC5F82B1EA9FAFE0008D67D /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4BC5F82E1EA9FAFE0008D67D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3463E21EA204E400B1E98F /* RegisterViewController.xib */; };
 		4BC5F82F1EA9FAFE0008D67D /* FeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B54C0E21EA5BFF000410B39 /* FeedBackViewController.xib */; };
@@ -1336,7 +1330,6 @@
 		4BDBD67C1E9DB7C3001DFF51 /* CBAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67B1E9DB7C3001DFF51 /* CBAlertHelper.m */; };
 		4BDBD67F1E9DB979001DFF51 /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4BDBD6821E9DB997001DFF51 /* OneCircleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6811E9DB997001DFF51 /* OneCircleModel.m */; };
-		4BDBD6871E9E014F001DFF51 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4BDBD6881E9E014F001DFF51 /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
 		4BDBD68A1E9E016A001DFF51 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4BDBD68C1E9E0172001DFF51 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD68B1E9E0172001DFF51 /* CoreFoundation.framework */; };
@@ -1452,7 +1445,6 @@
 		4BFC66D41EE68F2C00431EF1 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B45E0BC1EAEE167001AEF71 /* TencentOpenAPI.framework */; };
 		4BFC66D51EE68F2C00431EF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */; };
 		4BFC66D61EE68F2C00431EF1 /* jpush-ios-3.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */; };
-		4BFC66D71EE68F2C00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */; };
 		4BFC66D81EE68F2C00431EF1 /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
 		4BFC66DA1EE68F2C00431EF1 /* compose_live_photo_open_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B45E4381EB05165001AEF71 /* compose_live_photo_open_icon@3x.png */; };
 		4BFC66DB1EE68F2C00431EF1 /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B45E4571EB05165001AEF71 /* 椭圆-1@2x.png */; };
@@ -1544,6 +1536,14 @@
 		4BFC67311EE68F2C00431EF1 /* camera_overturn_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B45E4291EB05165001AEF71 /* camera_overturn_highlighted@2x.png */; };
 		4BFC67321EE68F2C00431EF1 /* compose_guide_check_box_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B45E4301EB05165001AEF71 /* compose_guide_check_box_default@2x.png */; };
 		4BFC67331EE68F2C00431EF1 /* compose_photo_filter_checkbox_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B45E43B1EB05165001AEF71 /* compose_photo_filter_checkbox_checked@2x.png */; };
+		4BFC673D1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC673E1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC673F1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC67401EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC67411EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC67421EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC67431EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4BFC67441EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1755,12 +1755,6 @@
 		4BA586921E979D11007789DF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4BA586941E979D3A007789DF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4BA586951E979D3A007789DF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4BA586981E979E42007789DF /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
-		4BA586991E979E42007789DF /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
-		4BA5869A1E979E42007789DF /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
-		4BA5869B1E979E42007789DF /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
-		4BA5869C1E979E42007789DF /* GDTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTTrack.h; sourceTree = "<group>"; };
-		4BA5869D1E979E42007789DF /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
 		4BA586A01E97A019007789DF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		4BA586A21E97A035007789DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4BA586A41E97A09A007789DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1835,7 +1829,6 @@
 		4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCircleTableViewCell.m; sourceTree = "<group>"; };
 		4BDBD6801E9DB997001DFF51 /* OneCircleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCircleModel.h; sourceTree = "<group>"; };
 		4BDBD6811E9DB997001DFF51 /* OneCircleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCircleModel.m; sourceTree = "<group>"; };
-		4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.2.a"; sourceTree = "<group>"; };
 		4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.3.a"; sourceTree = "<group>"; };
 		4BDBD6861E9E014F001DFF51 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		4BDBD6891E9E016A001DFF51 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -1854,6 +1847,7 @@
 		4BFC67391EE68F2D00431EF1 /* c66app13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = c66app13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFC673A1EE68F3000431EF1 /* c66app13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "c66app13-Info.plist"; path = "/Users/LC/Desktop/CaiBao/CaiBao/c66app13-Info.plist"; sourceTree = "<absolute>"; };
 		4BFC673B1EE68FE000431EF1 /* c66app13.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = c66app13.entitlements; sourceTree = "<group>"; };
+		4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.2.a"; sourceTree = "<group>"; };
 		78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaiBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao.debug.xcconfig"; sourceTree = "<group>"; };
 		C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao.release.xcconfig"; sourceTree = "<group>"; };
@@ -1873,13 +1867,13 @@
 				4B1EA0081EAE0A4000F4227D /* UIKit.framework in Frameworks */,
 				4B1EA0091EAE0A4000F4227D /* Foundation.framework in Frameworks */,
 				4B1EA00A1EAE0A4000F4227D /* CoreGraphics.framework in Frameworks */,
+				4BFC67411EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA00B1EAE0A4000F4227D /* SystemConfiguration.framework in Frameworks */,
 				4B1EA00C1EAE0A4000F4227D /* CoreTelephony.framework in Frameworks */,
 				4B1EA00D1EAE0A4000F4227D /* CoreFoundation.framework in Frameworks */,
 				4B45E0C21EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4B1EA00E1EAE0A4000F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA00F1EAE0A4000F4227D /* jpush-ios-3.0.3.a in Frameworks */,
-				4B1EA0101EAE0A4000F4227D /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA0111EAE0A4000F4227D /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1897,13 +1891,13 @@
 				4B1EA06A1EAE0B3900F4227D /* UIKit.framework in Frameworks */,
 				4B1EA06B1EAE0B3900F4227D /* Foundation.framework in Frameworks */,
 				4B1EA06C1EAE0B3900F4227D /* CoreGraphics.framework in Frameworks */,
+				4BFC67421EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA06D1EAE0B3900F4227D /* SystemConfiguration.framework in Frameworks */,
 				4B1EA06E1EAE0B3900F4227D /* CoreTelephony.framework in Frameworks */,
 				4B1EA06F1EAE0B3900F4227D /* CoreFoundation.framework in Frameworks */,
 				4B45E0C31EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4B1EA0701EAE0B3900F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA0711EAE0B3900F4227D /* jpush-ios-3.0.3.a in Frameworks */,
-				4B1EA0721EAE0B3900F4227D /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA0731EAE0B3900F4227D /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1921,13 +1915,13 @@
 				4B1EA0CD1EAE0C8E00F4227D /* UIKit.framework in Frameworks */,
 				4B1EA0CE1EAE0C8E00F4227D /* Foundation.framework in Frameworks */,
 				4B1EA0CF1EAE0C8E00F4227D /* CoreGraphics.framework in Frameworks */,
+				4BFC67431EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA0D01EAE0C8E00F4227D /* SystemConfiguration.framework in Frameworks */,
 				4B1EA0D11EAE0C8E00F4227D /* CoreTelephony.framework in Frameworks */,
 				4B1EA0D21EAE0C8E00F4227D /* CoreFoundation.framework in Frameworks */,
 				4B45E0C41EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4B1EA0D31EAE0C8E00F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA0D41EAE0C8E00F4227D /* jpush-ios-3.0.3.a in Frameworks */,
-				4B1EA0D51EAE0C8E00F4227D /* jcore-ios-1.1.2.a in Frameworks */,
 				4B1EA0D61EAE0C8E00F4227D /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1945,13 +1939,13 @@
 				4B3462F61EA1F52C00B1E98F /* UIKit.framework in Frameworks */,
 				4B3462F71EA1F52C00B1E98F /* Foundation.framework in Frameworks */,
 				4B3462F81EA1F52C00B1E98F /* CoreGraphics.framework in Frameworks */,
+				4BFC673E1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4B3462F91EA1F52C00B1E98F /* SystemConfiguration.framework in Frameworks */,
 				4B3462FA1EA1F52C00B1E98F /* CoreTelephony.framework in Frameworks */,
 				4B3462FB1EA1F52C00B1E98F /* CoreFoundation.framework in Frameworks */,
 				4B45E0BF1EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4B3462FC1EA1F52C00B1E98F /* CFNetwork.framework in Frameworks */,
 				4B3462FD1EA1F52C00B1E98F /* jpush-ios-3.0.3.a in Frameworks */,
-				4B3462FE1EA1F52C00B1E98F /* jcore-ios-1.1.2.a in Frameworks */,
 				4B3462FF1EA1F52C00B1E98F /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1969,13 +1963,13 @@
 				4B34638A1EA1F9AE00B1E98F /* libz.tbd in Frameworks */,
 				4B34638C1EA1F9AE00B1E98F /* UIKit.framework in Frameworks */,
 				4B34638D1EA1F9AE00B1E98F /* Foundation.framework in Frameworks */,
+				4BFC673F1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4B34638E1EA1F9AE00B1E98F /* CoreGraphics.framework in Frameworks */,
 				4B3463901EA1F9AE00B1E98F /* CoreTelephony.framework in Frameworks */,
 				4B3463911EA1F9AE00B1E98F /* CoreFoundation.framework in Frameworks */,
 				4B45E0C01EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4B3463921EA1F9AE00B1E98F /* CFNetwork.framework in Frameworks */,
 				4B3463931EA1F9AE00B1E98F /* jpush-ios-3.0.3.a in Frameworks */,
-				4B3463941EA1F9AE00B1E98F /* jcore-ios-1.1.2.a in Frameworks */,
 				4B3463951EA1F9AE00B1E98F /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1994,13 +1988,13 @@
 				4BDBD6961E9E01B1001DFF51 /* libz.tbd in Frameworks */,
 				4BDBD6941E9E019F001DFF51 /* UIKit.framework in Frameworks */,
 				4BDBD6921E9E0194001DFF51 /* Foundation.framework in Frameworks */,
+				4BFC673D1EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4BDBD6901E9E018A001DFF51 /* CoreGraphics.framework in Frameworks */,
 				4BDBD68E1E9E0182001DFF51 /* SystemConfiguration.framework in Frameworks */,
 				4BDBD68D1E9E0179001DFF51 /* CoreTelephony.framework in Frameworks */,
 				4BDBD68C1E9E0172001DFF51 /* CoreFoundation.framework in Frameworks */,
 				4BDBD68A1E9E016A001DFF51 /* CFNetwork.framework in Frameworks */,
 				4BDBD6881E9E014F001DFF51 /* jpush-ios-3.0.3.a in Frameworks */,
-				4BDBD6871E9E014F001DFF51 /* jcore-ios-1.1.2.a in Frameworks */,
 				1B9A260F6901F60E4DF2B445 /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2018,13 +2012,13 @@
 				4BC5F8221EA9FAFE0008D67D /* UIKit.framework in Frameworks */,
 				4BC5F8231EA9FAFE0008D67D /* Foundation.framework in Frameworks */,
 				4BC5F8241EA9FAFE0008D67D /* CoreGraphics.framework in Frameworks */,
+				4BFC67401EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4BC5F8251EA9FAFE0008D67D /* SystemConfiguration.framework in Frameworks */,
 				4BC5F8261EA9FAFE0008D67D /* CoreTelephony.framework in Frameworks */,
 				4BC5F8271EA9FAFE0008D67D /* CoreFoundation.framework in Frameworks */,
 				4B45E0C11EAEE167001AEF71 /* TencentOpenAPI.framework in Frameworks */,
 				4BC5F8281EA9FAFE0008D67D /* CFNetwork.framework in Frameworks */,
 				4BC5F8291EA9FAFE0008D67D /* jpush-ios-3.0.3.a in Frameworks */,
-				4BC5F82A1EA9FAFE0008D67D /* jcore-ios-1.1.2.a in Frameworks */,
 				4BC5F82B1EA9FAFE0008D67D /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2042,13 +2036,13 @@
 				4BFC66CE1EE68F2C00431EF1 /* UIKit.framework in Frameworks */,
 				4BFC66CF1EE68F2C00431EF1 /* Foundation.framework in Frameworks */,
 				4BFC66D01EE68F2C00431EF1 /* CoreGraphics.framework in Frameworks */,
+				4BFC67441EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4BFC66D11EE68F2C00431EF1 /* SystemConfiguration.framework in Frameworks */,
 				4BFC66D21EE68F2C00431EF1 /* CoreTelephony.framework in Frameworks */,
 				4BFC66D31EE68F2C00431EF1 /* CoreFoundation.framework in Frameworks */,
 				4BFC66D41EE68F2C00431EF1 /* TencentOpenAPI.framework in Frameworks */,
 				4BFC66D51EE68F2C00431EF1 /* CFNetwork.framework in Frameworks */,
 				4BFC66D61EE68F2C00431EF1 /* jpush-ios-3.0.3.a in Frameworks */,
-				4BFC66D71EE68F2C00431EF1 /* jcore-ios-1.1.2.a in Frameworks */,
 				4BFC66D81EE68F2C00431EF1 /* libPods-CaiBao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2392,7 +2386,6 @@
 				4BDBD6831E9E014F001DFF51 /* JPush */,
 				4BDBD66C1E9D14AD001DFF51 /* SDPhotoBrowser */,
 				4BA586E61E98DE22007789DF /* SDCycleScrollView */,
-				4BA586971E979E42007789DF /* GDT */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -2465,19 +2458,6 @@
 				4B54C0C31EA48F2900410B39 /* LeftViewController.m */,
 			);
 			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		4BA586971E979E42007789DF /* GDT */ = {
-			isa = PBXGroup;
-			children = (
-				4BA586981E979E42007789DF /* GDTMobBannerView.h */,
-				4BA586991E979E42007789DF /* GDTMobInterstitial.h */,
-				4BA5869A1E979E42007789DF /* GDTNativeAd.h */,
-				4BA5869B1E979E42007789DF /* GDTSplashAd.h */,
-				4BA5869C1E979E42007789DF /* GDTTrack.h */,
-				4BA5869D1E979E42007789DF /* libGDTMobSDK.a */,
-			);
-			path = GDT;
 			sourceTree = "<group>";
 		};
 		4BA5869F1E97A019007789DF /* Frameworks */ = {
@@ -2628,7 +2608,7 @@
 		4BDBD6831E9E014F001DFF51 /* JPush */ = {
 			isa = PBXGroup;
 			children = (
-				4BDBD6841E9E014F001DFF51 /* jcore-ios-1.1.2.a */,
+				4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */,
 				4BDBD6851E9E014F001DFF51 /* jpush-ios-3.0.3.a */,
 				4BDBD6861E9E014F001DFF51 /* JPUSHService.h */,
 			);
