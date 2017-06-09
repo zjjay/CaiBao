@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4BCF69D9BE55EA5A75DCA10CBD13A848BC4DD7C6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4BCF69D9BE55EA5A75DCA10CBD13A848BC4DD7C6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ADFCA8F4-C2C9-422A-A7AE-2CE9AD50D0F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4BCF69D9BE55EA5A75DCA10CBD13A848BC4DD7C6" : "CaiBao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CaiBao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CaiBao\/CaiBao.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tianzhilan0\/CaiBao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BCF69D9BE55EA5A75DCA10CBD13A848BC4DD7C6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com:tianzhilan0\/CaiBao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BCF69D9BE55EA5A75DCA10CBD13A848BC4DD7C6"
+    }
+  ]
+}

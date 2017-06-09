@@ -36,9 +36,7 @@
             [self showHint:@"请输入正确的账号和密码！"];
             return;
         }
-        
-        
-        
+                
         
         [self loginWithUserName:textField1Text Password:textField2Text];
         
