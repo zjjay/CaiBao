@@ -37,11 +37,7 @@
             return;
         }
         
-        NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
-        [user setObject:textField1Text forKey:USERNAME];
-        [user setObject:textField2Text forKey:PASSWORD];
-
-        [user synchronize];
+        
         
         
         [self loginWithUserName:textField1Text Password:textField2Text];
@@ -120,6 +116,11 @@
                                       password:password
                                     completion:^(NSString *aUsername, EMError *aError) {
                                         if (!aError) {
+                                            NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+                                            [user setObject:userName forKey:USERNAME];
+                                            [user setObject:password forKey:PASSWORD];
+                                            
+                                            [user synchronize];
                                             [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":userName,@"password":password}];
                                             
                                             NSLog(@"登录成功");

@@ -9,8 +9,7 @@
 #import "ContactListViewController.h"
 #import "NewFriendViewController.h"
 #import "GroupListViewController.h"
-#import "PopoverView.h"
-#import "AddFriendViewController.h"
+
 
 @interface ContactListViewController ()
 
@@ -26,7 +25,7 @@
     self.showRefreshHeader = YES;
     
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(touchRightButton)];
+    
     
 }
 
@@ -103,25 +102,7 @@
     }
 }
 
-//右键
-- (void)touchRightButton
-{
-    NSArray *nameArray = @[@"添加好友",@"创建群聊",@"扫一扫"];
-    PopoverView *popoverView = [PopoverView popoverView];
-    popoverView.showShade = YES; // 显示阴影背景
-    [popoverView showToView:self.navigationItem.rightBarButtonItem.customView withTitleArray:nameArray clickBlock:^(NSInteger index) {
-        if (index == 0) {
-            AddFriendViewController *add = [[AddFriendViewController alloc] init];
-            add.hidesBottomBarWhenPushed = YES;
-            [self.navigationController pushViewController:add animated:YES];
-        }else if (index == 1){
-            
-        }else if (index == 2){
-            
-        }
-        
-    }];
-}
+
 
 //刷新
 - (void)tableViewDidTriggerHeaderRefresh

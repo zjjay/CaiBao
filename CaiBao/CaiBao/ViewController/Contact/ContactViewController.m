@@ -9,6 +9,8 @@
 #import "ContactViewController.h"
 #import "ChatListViewController.h"
 #import "ContactListViewController.h"
+#import "PopoverView.h"
+#import "AddFriendViewController.h"
 
 @interface ContactViewController ()
 {
@@ -17,6 +19,7 @@
     ChatListViewController *chat;
     ContactListViewController *contact;
     CBViewController *currentVC;
+    UIButton *rightButton;
 }
 @property (nonatomic ,strong) UIView *titleView;
 @end
@@ -26,6 +29,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.titleView = self.titleView;
+    
+    rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    rightButton.frame = CGRectMake(0, 0, 60, 40);
+    [rightButton setBackgroundImage:[UIImage imageNamed:@"加号"] forState:UIControlStateNormal];
+    [rightButton addTarget: self action: @selector(touchRightButton) forControlEvents: UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
     
     button_chat.userInteractionEnabled = NO;
     [self addChildController];
@@ -133,6 +142,28 @@
     }];
 }
 
+
+//右键
+- (void)touchRightButton
+{
+    NSArray *nameArray = @[@"添加好友",@"创建群聊",@"扫一扫"];
+    PopoverView *popoverView = [PopoverView popoverView];
+    popoverView.showShade = YES; // 显示阴影背景
+    popoverView.style = PopoverViewStyleDark;
+    
+    [popoverView showToView:rightButton withTitleArray:nameArray clickBlock:^(NSInteger index) {
+        if (index == 0) {
+            AddFriendViewController *add = [[AddFriendViewController alloc] init];
+            add.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:add animated:YES];
+        }else if (index == 1){
+            
+        }else if (index == 2){
+            
+        }
+        
+    }];
+}
 
 - (void)dealloc
 {
