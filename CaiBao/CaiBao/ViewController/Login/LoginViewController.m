@@ -26,6 +26,7 @@
     wsLoginV.titleLabel.text = @"我是一头猫头鹰";
     wsLoginV.titleLabel.textColor = [UIColor whiteColor];
     wsLoginV.textField1.text = USER(USERNAME);
+    wsLoginV.textField2.text = USER(PASSWORD);
     wsLoginV.hideEyesType = AllEyesHide;
     
     [self.view insertSubview:wsLoginV atIndex:0];
@@ -35,6 +36,13 @@
             [self showHint:@"请输入正确的账号和密码！"];
             return;
         }
+        
+        NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+        [user setObject:textField1Text forKey:USERNAME];
+        [user setObject:textField2Text forKey:PASSWORD];
+
+        [user synchronize];
+        
         
         [self loginWithUserName:textField1Text Password:textField2Text];
         

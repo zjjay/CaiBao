@@ -1,0 +1,26 @@
+//
+//  PopoverAction.h
+//  Popover
+//
+//  Created by StevenLee on 2016/12/10.
+//  Copyright © 2016年 lifution. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+typedef NS_ENUM(NSUInteger, PopoverViewStyle) {
+    PopoverViewStyleDefault = 0, // 默认风格, 白色
+    PopoverViewStyleDark, // 黑色风格
+};
+
+@interface PopoverAction : NSObject
+
+@property (nonatomic, strong, readonly) UIImage *image; ///< 图标 (建议使用 60pix*60pix 的图片)
+@property (nonatomic, copy, readonly) NSString *title; ///< 标题
+
++ (instancetype)actionWithTitle:(NSString *)title;
+
++ (instancetype)actionWithImage:(NSString *)image title:(NSString *)title;
+
+@end

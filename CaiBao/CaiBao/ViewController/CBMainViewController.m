@@ -7,14 +7,15 @@
 //
 
 #import "CBMainViewController.h"
-#import "NewViewController.h"
+//#import "NewViewController.h"
 #import "CircleViewController.h"
 #import "MineViewController.h"
 #import "PublishViewController.h"
 #import "HomeViewController.h"
 #import "MessageViewController.h"
+#import "ContactViewController.h"
 
-
+#import "ChatDemoHelper.h"
 #define TAB_ITEM_NUM 4
 
 @interface CBMainViewController ()<UITabBarDelegate, UINavigationControllerDelegate>
@@ -63,7 +64,7 @@
     
     NSArray *selectedImages =  @[@"tabbar_home_select", @"tabbar_new_select", @"tabbar_message_select", @"tabbar_circle_select"];
     
-    NSArray *titles = @[@"首页", @"资讯", @"消息", @"我的"];
+    NSArray *titles = @[@"首页", @"宝友", @"消息", @"我的"];
     
     NSMutableArray<UITabBarItem *> *items = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i++) {
@@ -103,7 +104,7 @@
             break;
         }
         case 1: {
-            viewController = [[NewViewController alloc] init];
+            viewController = [[ContactViewController alloc] init];
             break;
         }
         case 2 :{
@@ -120,6 +121,12 @@
     }
     
     tabBarViewControllers[index] = viewController;
+    
+    ContactListViewController *contactList = [[ContactListViewController alloc] init];
+    [ChatDemoHelper shareHelper].contactListVC = contactList;
+    ChatListViewController *chatList = [[ChatListViewController alloc] init];
+    [ChatDemoHelper shareHelper].chatListVC = chatList;
+    
     return viewController;
 }
 

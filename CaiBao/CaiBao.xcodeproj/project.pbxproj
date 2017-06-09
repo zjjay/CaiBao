@@ -1230,6 +1230,118 @@
 		4BBCA7B51E9B92FE008B67A1 /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
 		4BBCA7B81E9B970D008B67A1 /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
 		4BBCA7BB1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7BA1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m */; };
+		4BBEC4AB1EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4AC1EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4AD1EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4AE1EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4AF1EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4B01EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4B11EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4B21EEA7F310039E40F /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */; };
+		4BBEC4BF1EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C01EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C11EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C21EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C31EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C41EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C51EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C61EEA7F9C0039E40F /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */; };
+		4BBEC4C91EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CA1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CB1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CC1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CD1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CE1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4CF1EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4D01EEA7FFE0039E40F /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */; };
+		4BBEC4D31EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D41EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D51EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D61EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D71EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D81EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4D91EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4DA1EEA903D0039E40F /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */; };
+		4BBEC4DD1EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4DE1EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4DF1EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E01EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E11EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E21EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E31EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E41EEA90500039E40F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */; };
+		4BBEC4E71EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4E81EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4E91EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4EA1EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4EB1EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4EC1EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4ED1EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4EE1EEA907A0039E40F /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */; };
+		4BBEC4F31EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F41EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F51EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F61EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F71EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F81EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4F91EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4FA1EEA92140039E40F /* NewFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */; };
+		4BBEC4FB1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC4FC1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC4FD1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC4FE1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC4FF1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC5001EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC5011EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC5021EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */; };
+		4BBEC5051EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC5061EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC5071EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC5081EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC5091EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC50A1EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC50B1EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC50C1EEA992B0039E40F /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */; };
+		4BBEC50F1EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5101EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5111EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5121EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5131EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5141EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5151EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC5161EEA99890039E40F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC50E1EEA99890039E40F /* ChatViewController.m */; };
+		4BBEC51A1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC51B1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC51C1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC51D1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC51E1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC51F1EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC5201EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC5211EEAA6090039E40F /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5191EEAA6090039E40F /* InvitationManager.m */; };
+		4BBEC5291EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52A1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52B1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52C1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52D1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52E1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC52F1EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC5301EEAA9C40039E40F /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5241EEAA9C40039E40F /* PopoverAction.m */; };
+		4BBEC5311EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5321EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5331EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5341EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5351EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5361EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5371EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5381EEAA9C40039E40F /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5261EEAA9C40039E40F /* PopoverView.m */; };
+		4BBEC5391EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53A1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53B1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53C1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53D1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53E1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC53F1EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
+		4BBEC5401EEAA9C40039E40F /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */; };
 		4BC5F7E51EA9FAFE0008D67D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4BC5F7E61EA9FAFE0008D67D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
 		4BC5F7E91EA9FAFE0008D67D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
@@ -1797,6 +1909,33 @@
 		4BBCA7BA1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDetailTableViewCell.m; sourceTree = "<group>"; };
 		4BBEC4A71EEA59E90039E40F /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 		4BBEC4A81EEA5A3E0039E40F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4BBEC4A91EEA7F310039E40F /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		4BBEC4BD1EEA7F9C0039E40F /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
+		4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
+		4BBEC4C71EEA7FFE0039E40F /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		4BBEC4D11EEA903D0039E40F /* NewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriendViewController.h; sourceTree = "<group>"; };
+		4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriendViewController.m; sourceTree = "<group>"; };
+		4BBEC4DB1EEA90500039E40F /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		4BBEC4E51EEA907A0039E40F /* GroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupListViewController.h; sourceTree = "<group>"; };
+		4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupListViewController.m; sourceTree = "<group>"; };
+		4BBEC4F01EEA92140039E40F /* NewFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriendTableViewCell.h; sourceTree = "<group>"; };
+		4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriendTableViewCell.m; sourceTree = "<group>"; };
+		4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewFriendTableViewCell.xib; sourceTree = "<group>"; };
+		4BBEC5031EEA992B0039E40F /* ChatDemoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDemoHelper.h; sourceTree = "<group>"; };
+		4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDemoHelper.m; sourceTree = "<group>"; };
+		4BBEC50D1EEA99890039E40F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		4BBEC50E1EEA99890039E40F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		4BBEC5181EEAA6090039E40F /* InvitationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationManager.h; sourceTree = "<group>"; };
+		4BBEC5191EEAA6090039E40F /* InvitationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationManager.m; sourceTree = "<group>"; };
+		4BBEC5231EEAA9C40039E40F /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
+		4BBEC5241EEAA9C40039E40F /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
+		4BBEC5251EEAA9C40039E40F /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		4BBEC5261EEAA9C40039E40F /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		4BBEC5271EEAA9C40039E40F /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
+		4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
 		4BC5F8411EA9FAFE0008D67D /* CB270.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB270.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDBD6691E9D0C97001DFF51 /* CirclephoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclephoneView.h; sourceTree = "<group>"; };
 		4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclephoneView.m; sourceTree = "<group>"; };
@@ -2378,6 +2517,7 @@
 		4BA5868B1E979C9E007789DF /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				4BBEC5221EEAA9C40039E40F /* PopoverView */,
 				4B45E3F01EB05165001AEF71 /* HXWeiboPhotoPicker */,
 				4B45E0DE1EAF027B001AEF71 /* Tabbar */,
 				4B45E0BB1EAEE167001AEF71 /* QQ */,
@@ -2396,6 +2536,8 @@
 				4BA586B11E97A335007789DF /* CBMainViewController.m */,
 				4BDBD6A81E9E0FE0001DFF51 /* LaunchViewController.h */,
 				4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */,
+				4BBEC5031EEA992B0039E40F /* ChatDemoHelper.h */,
+				4BBEC5041EEA992B0039E40F /* ChatDemoHelper.m */,
 				4B3463A71EA1FF4800B1E98F /* Login */,
 				4BA586B91E98753E007789DF /* Base */,
 				4BA586C61E987645007789DF /* Home */,
@@ -2592,6 +2734,38 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		4BBEC4EF1EEA91E40039E40F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEC4F01EEA92140039E40F /* NewFriendTableViewCell.h */,
+				4BBEC4F11EEA92140039E40F /* NewFriendTableViewCell.m */,
+				4BBEC4F21EEA92140039E40F /* NewFriendTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4BBEC5171EEAA5F00039E40F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEC5181EEAA6090039E40F /* InvitationManager.h */,
+				4BBEC5191EEAA6090039E40F /* InvitationManager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		4BBEC5221EEAA9C40039E40F /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEC5231EEAA9C40039E40F /* PopoverAction.h */,
+				4BBEC5241EEAA9C40039E40F /* PopoverAction.m */,
+				4BBEC5251EEAA9C40039E40F /* PopoverView.h */,
+				4BBEC5261EEAA9C40039E40F /* PopoverView.m */,
+				4BBEC5271EEAA9C40039E40F /* PopoverViewCell.h */,
+				4BBEC5281EEAA9C40039E40F /* PopoverViewCell.m */,
+			);
+			path = PopoverView;
+			sourceTree = "<group>";
+		};
 		4BDBD66C1E9D14AD001DFF51 /* SDPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -2619,6 +2793,22 @@
 		4BFDA0231EEA3A2600FE62CC /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				4BBEC5171EEAA5F00039E40F /* CoreData */,
+				4BBEC4EF1EEA91E40039E40F /* View */,
+				4BBEC4A91EEA7F310039E40F /* ContactViewController.h */,
+				4BBEC4AA1EEA7F310039E40F /* ContactViewController.m */,
+				4BBEC4BD1EEA7F9C0039E40F /* ContactListViewController.h */,
+				4BBEC4BE1EEA7F9C0039E40F /* ContactListViewController.m */,
+				4BBEC4C71EEA7FFE0039E40F /* ChatListViewController.h */,
+				4BBEC4C81EEA7FFE0039E40F /* ChatListViewController.m */,
+				4BBEC4D11EEA903D0039E40F /* NewFriendViewController.h */,
+				4BBEC4D21EEA903D0039E40F /* NewFriendViewController.m */,
+				4BBEC4DB1EEA90500039E40F /* AddFriendViewController.h */,
+				4BBEC4DC1EEA90500039E40F /* AddFriendViewController.m */,
+				4BBEC4E51EEA907A0039E40F /* GroupListViewController.h */,
+				4BBEC4E61EEA907A0039E40F /* GroupListViewController.m */,
+				4BBEC50D1EEA99890039E40F /* ChatViewController.h */,
+				4BBEC50E1EEA99890039E40F /* ChatViewController.m */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -3010,6 +3200,7 @@
 				4B1EA0211EAE0A4000F4227D /* Tabbar.xcassets in Resources */,
 				4B45E4EE1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5571EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC4FF1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5881EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D51EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3107,6 +3298,7 @@
 				4B1EA0831EAE0B3900F4227D /* Tabbar.xcassets in Resources */,
 				4B45E4EF1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5581EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC5001EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5891EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D61EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3204,6 +3396,7 @@
 				4B1EA0E61EAE0C8E00F4227D /* Tabbar.xcassets in Resources */,
 				4B45E4F01EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5591EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC5011EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E58A1EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D71EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3301,6 +3494,7 @@
 				4B3463061EA1F52C00B1E98F /* Tabbar.xcassets in Resources */,
 				4B45E4EB1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5541EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC4FC1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5851EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D21EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3398,6 +3592,7 @@
 				4B34639C1EA1F9AE00B1E98F /* Tabbar.xcassets in Resources */,
 				4B45E4EC1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5551EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC4FD1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5861EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D31EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3495,6 +3690,7 @@
 				4BA586D91E98802E007789DF /* Tabbar.xcassets in Resources */,
 				4B45E4EA1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5531EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC4FB1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5841EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D11EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3592,6 +3788,7 @@
 				4BC5F83B1EA9FAFE0008D67D /* Tabbar.xcassets in Resources */,
 				4B45E4ED1EB05166001AEF71 /* alert_failed_icon@2x.png in Resources */,
 				4B45E5561EB05166001AEF71 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC4FE1EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4B45E5871EB05166001AEF71 /* compose_guide_check_box_default@2x.png in Resources */,
 				4B45E5D41EB05166001AEF71 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -3689,6 +3886,7 @@
 				4BFC672F1EE68F2C00431EF1 /* Tabbar.xcassets in Resources */,
 				4BFC67301EE68F2C00431EF1 /* alert_failed_icon@2x.png in Resources */,
 				4BFC67311EE68F2C00431EF1 /* camera_overturn_highlighted@2x.png in Resources */,
+				4BBEC5021EEA92140039E40F /* NewFriendTableViewCell.xib in Resources */,
 				4BFC67321EE68F2C00431EF1 /* compose_guide_check_box_default@2x.png in Resources */,
 				4BFC67331EE68F2C00431EF1 /* compose_photo_filter_checkbox_checked@2x.png in Resources */,
 			);
@@ -4066,9 +4264,12 @@
 			files = (
 				4B45E3611EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1E9FCB1EAE0A4000F4227D /* ViewController.m in Sources */,
+				4BBEC51E1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4B1E9FCC1EAE0A4000F4227D /* main.m in Sources */,
+				4BBEC4D71EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E4A11EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358CF1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC5091EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4D91EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A71EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1E9FCF1EAE0A4000F4227D /* UIView+SDExtension.m in Sources */,
@@ -4088,9 +4289,11 @@
 				4B45E48C1EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4D21EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4B1E9FD81EAE0A4000F4227D /* CBJPushHelper.m in Sources */,
+				4BBEC5131EEA99890039E40F /* ChatViewController.m in Sources */,
 				4B1E9FD91EAE0A4000F4227D /* CircleListModel.m in Sources */,
 				4B45E4A81EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C51EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53D1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B1E9FDB1EAE0A4000F4227D /* MineViewController.m in Sources */,
 				4B1E9FDC1EAE0A4000F4227D /* SDCycleScrollView.m in Sources */,
 				4B1E9FDD1EAE0A4000F4227D /* CircleDetailViewController.m in Sources */,
@@ -4103,6 +4306,7 @@
 				4B1E9FE31EAE0A4000F4227D /* LaunchViewController.m in Sources */,
 				4B1E9FE51EAE0A4000F4227D /* CirclrModel.m in Sources */,
 				4B45E4E71EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CD1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4B1E9FE61EAE0A4000F4227D /* TAAnimatedDotView.m in Sources */,
 				4B45E4E01EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1E9FE71EAE0A4000F4227D /* AppDelegate.m in Sources */,
@@ -4111,9 +4315,12 @@
 				4B1E9FEB1EAE0A4000F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CB1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4931EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4E11EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4B1E9FEC1EAE0A4000F4227D /* CBObject.m in Sources */,
 				4B1E9FED1EAE0A4000F4227D /* CBViewController.m in Sources */,
 				4B45E4B61EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C31EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52D1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B1E9FEF1EAE0A4000F4227D /* SweepViewController.m in Sources */,
 				4B1E9FF01EAE0A4000F4227D /* SDWaitingView.m in Sources */,
 				4B2358B31EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4124,9 +4331,11 @@
 				4B1E9FF51EAE0A4000F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F951EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1E9FF61EAE0A4000F4227D /* TADotView.m in Sources */,
+				4BBEC5351EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AE1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1E9FF71EAE0A4000F4227D /* MyCommentViewController.m in Sources */,
 				4B1E9FF81EAE0A4000F4227D /* NewViewController.m in Sources */,
+				4BBEC4AF1EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4B1E9FF91EAE0A4000F4227D /* CBHttpManager.m in Sources */,
 				4B3D8F721EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4771EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4135,6 +4344,7 @@
 				4B45E4C41EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1E9FFC1EAE0A4000F4227D /* CircleDetailTableViewCell.m in Sources */,
 				4B2358AA1EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4EB1EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4B1E9FFD1EAE0A4000F4227D /* HomeModel.m in Sources */,
 				4B1E9FFE1EAE0A4000F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49A1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4144,6 +4354,7 @@
 				4B45E4621EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EE1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E4691EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F71EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B1EA0021EAE0A4000F4227D /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F681EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4155,9 +4366,12 @@
 			files = (
 				4B45E3621EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1EA02D1EAE0B3900F4227D /* ViewController.m in Sources */,
+				4BBEC51F1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4B1EA02E1EAE0B3900F4227D /* main.m in Sources */,
+				4BBEC4D81EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E4A21EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358D01EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC50A1EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4DA1EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A81EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1EA0311EAE0B3900F4227D /* UIView+SDExtension.m in Sources */,
@@ -4177,9 +4391,11 @@
 				4B45E48D1EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4D31EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4B1EA03A1EAE0B3900F4227D /* CBJPushHelper.m in Sources */,
+				4BBEC5141EEA99890039E40F /* ChatViewController.m in Sources */,
 				4B1EA03B1EAE0B3900F4227D /* CircleListModel.m in Sources */,
 				4B45E4A91EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C61EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53E1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B1EA03D1EAE0B3900F4227D /* MineViewController.m in Sources */,
 				4B1EA03E1EAE0B3900F4227D /* SDCycleScrollView.m in Sources */,
 				4B1EA03F1EAE0B3900F4227D /* CircleDetailViewController.m in Sources */,
@@ -4192,6 +4408,7 @@
 				4B1EA0451EAE0B3900F4227D /* LaunchViewController.m in Sources */,
 				4B1EA0471EAE0B3900F4227D /* CirclrModel.m in Sources */,
 				4B45E4E81EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CE1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4B1EA0481EAE0B3900F4227D /* TAAnimatedDotView.m in Sources */,
 				4B45E4E11EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1EA0491EAE0B3900F4227D /* AppDelegate.m in Sources */,
@@ -4200,9 +4417,12 @@
 				4B1EA04D1EAE0B3900F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CC1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4941EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4E21EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4B1EA04E1EAE0B3900F4227D /* CBObject.m in Sources */,
 				4B1EA04F1EAE0B3900F4227D /* CBViewController.m in Sources */,
 				4B45E4B71EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C41EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52E1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B1EA0511EAE0B3900F4227D /* SweepViewController.m in Sources */,
 				4B1EA0521EAE0B3900F4227D /* SDWaitingView.m in Sources */,
 				4B2358B41EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4213,9 +4433,11 @@
 				4B1EA0571EAE0B3900F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F961EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1EA0581EAE0B3900F4227D /* TADotView.m in Sources */,
+				4BBEC5361EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AF1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1EA0591EAE0B3900F4227D /* MyCommentViewController.m in Sources */,
 				4B1EA05A1EAE0B3900F4227D /* NewViewController.m in Sources */,
+				4BBEC4B01EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4B1EA05B1EAE0B3900F4227D /* CBHttpManager.m in Sources */,
 				4B3D8F731EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4781EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4224,6 +4446,7 @@
 				4B45E4C51EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1EA05E1EAE0B3900F4227D /* CircleDetailTableViewCell.m in Sources */,
 				4B2358AB1EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4EC1EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4B1EA05F1EAE0B3900F4227D /* HomeModel.m in Sources */,
 				4B1EA0601EAE0B3900F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49B1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4233,6 +4456,7 @@
 				4B45E4631EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EF1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E46A1EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F81EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B1EA0641EAE0B3900F4227D /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F691EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4244,9 +4468,12 @@
 			files = (
 				4B45E3631EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B1EA0901EAE0C8E00F4227D /* ViewController.m in Sources */,
+				4BBEC5201EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4B1EA0911EAE0C8E00F4227D /* main.m in Sources */,
+				4BBEC4D91EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E4A31EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358D11EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC50B1EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4DB1EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A91EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B1EA0941EAE0C8E00F4227D /* UIView+SDExtension.m in Sources */,
@@ -4266,9 +4493,11 @@
 				4B45E48E1EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4D41EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4B1EA09D1EAE0C8E00F4227D /* CBJPushHelper.m in Sources */,
+				4BBEC5151EEA99890039E40F /* ChatViewController.m in Sources */,
 				4B1EA09E1EAE0C8E00F4227D /* CircleListModel.m in Sources */,
 				4B45E4AA1EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C71EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53F1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B1EA0A01EAE0C8E00F4227D /* MineViewController.m in Sources */,
 				4B1EA0A11EAE0C8E00F4227D /* SDCycleScrollView.m in Sources */,
 				4B1EA0A21EAE0C8E00F4227D /* CircleDetailViewController.m in Sources */,
@@ -4281,6 +4510,7 @@
 				4B1EA0A81EAE0C8E00F4227D /* LaunchViewController.m in Sources */,
 				4B1EA0AA1EAE0C8E00F4227D /* CirclrModel.m in Sources */,
 				4B45E4E91EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CF1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4B1EA0AB1EAE0C8E00F4227D /* TAAnimatedDotView.m in Sources */,
 				4B45E4E21EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B1EA0AC1EAE0C8E00F4227D /* AppDelegate.m in Sources */,
@@ -4289,9 +4519,12 @@
 				4B1EA0B01EAE0C8E00F4227D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CD1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4951EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4E31EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4B1EA0B11EAE0C8E00F4227D /* CBObject.m in Sources */,
 				4B1EA0B21EAE0C8E00F4227D /* CBViewController.m in Sources */,
 				4B45E4B81EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C51EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52F1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B1EA0B41EAE0C8E00F4227D /* SweepViewController.m in Sources */,
 				4B1EA0B51EAE0C8E00F4227D /* SDWaitingView.m in Sources */,
 				4B2358B51EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4302,9 +4535,11 @@
 				4B1EA0BA1EAE0C8E00F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F971EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B1EA0BB1EAE0C8E00F4227D /* TADotView.m in Sources */,
+				4BBEC5371EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6B01EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B1EA0BC1EAE0C8E00F4227D /* MyCommentViewController.m in Sources */,
 				4B1EA0BD1EAE0C8E00F4227D /* NewViewController.m in Sources */,
+				4BBEC4B11EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4B1EA0BE1EAE0C8E00F4227D /* CBHttpManager.m in Sources */,
 				4B3D8F741EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4791EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4313,6 +4548,7 @@
 				4B45E4C61EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B1EA0C11EAE0C8E00F4227D /* CircleDetailTableViewCell.m in Sources */,
 				4B2358AC1EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4ED1EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4B1EA0C21EAE0C8E00F4227D /* HomeModel.m in Sources */,
 				4B1EA0C31EAE0C8E00F4227D /* SDPhotoBrowser.m in Sources */,
 				4B45E49C1EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4322,6 +4558,7 @@
 				4B45E4641EB05166001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0F01EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E46B1EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F91EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B1EA0C71EAE0C8E00F4227D /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F6A1EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4333,9 +4570,12 @@
 			files = (
 				4B45E35E1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B3462C71EA1F52C00B1E98F /* ViewController.m in Sources */,
+				4BBEC51B1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4B3462C91EA1F52C00B1E98F /* main.m in Sources */,
+				4BBEC4D41EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E49E1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358CC1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC5061EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4D61EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A41EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B3462CC1EA1F52C00B1E98F /* UIView+SDExtension.m in Sources */,
@@ -4355,9 +4595,11 @@
 				4B45E4891EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4CF1EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4B3462D31EA1F52C00B1E98F /* CBJPushHelper.m in Sources */,
+				4BBEC5101EEA99890039E40F /* ChatViewController.m in Sources */,
 				4B3462D41EA1F52C00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A51EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C21EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53A1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B54C0CB1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B3462D51EA1F52C00B1E98F /* SDCycleScrollView.m in Sources */,
 				4B3462D61EA1F52C00B1E98F /* CircleDetailViewController.m in Sources */,
@@ -4370,6 +4612,7 @@
 				4B3462DA1EA1F52C00B1E98F /* LaunchViewController.m in Sources */,
 				4B3462DB1EA1F52C00B1E98F /* CirclrModel.m in Sources */,
 				4B45E4E41EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CA1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4B3462DC1EA1F52C00B1E98F /* TAAnimatedDotView.m in Sources */,
 				4B45E4DD1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B3462DD1EA1F52C00B1E98F /* AppDelegate.m in Sources */,
@@ -4378,9 +4621,12 @@
 				4B3462E11EA1F52C00B1E98F /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C81EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4901EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4DE1EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4B3462E21EA1F52C00B1E98F /* CBObject.m in Sources */,
 				4B3462E31EA1F52C00B1E98F /* CBViewController.m in Sources */,
 				4B45E4B31EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C01EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52A1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B54C0D51EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B3462E41EA1F52C00B1E98F /* SDWaitingView.m in Sources */,
 				4B2358B01EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4391,9 +4637,11 @@
 				4B3462E61EA1F52C00B1E98F /* CircleTableViewCell.m in Sources */,
 				4B3D8F921EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B3462E71EA1F52C00B1E98F /* TADotView.m in Sources */,
+				4BBEC5321EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AB1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0EC1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4B3462E81EA1F52C00B1E98F /* NewViewController.m in Sources */,
+				4BBEC4AC1EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4B3462E91EA1F52C00B1E98F /* CBHttpManager.m in Sources */,
 				4B3D8F6F1EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4741EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4402,6 +4650,7 @@
 				4B45E4C11EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B3462EC1EA1F52C00B1E98F /* CircleDetailTableViewCell.m in Sources */,
 				4B2358A71EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4E81EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4B3462ED1EA1F52C00B1E98F /* HomeModel.m in Sources */,
 				4B3462EE1EA1F52C00B1E98F /* SDPhotoBrowser.m in Sources */,
 				4B45E4971EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4411,6 +4660,7 @@
 				4B45E45F1EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EB1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E4661EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F41EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B54C0C01EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F651EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4422,9 +4672,12 @@
 			files = (
 				4B45E35F1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4B34635D1EA1F9AE00B1E98F /* ViewController.m in Sources */,
+				4BBEC51C1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4B34635F1EA1F9AE00B1E98F /* main.m in Sources */,
+				4BBEC4D51EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E49F1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358CD1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC5071EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4D71EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A51EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4B3463621EA1F9AE00B1E98F /* UIView+SDExtension.m in Sources */,
@@ -4444,9 +4697,11 @@
 				4B45E48A1EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4D01EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4B3463691EA1F9AE00B1E98F /* CBJPushHelper.m in Sources */,
+				4BBEC5111EEA99890039E40F /* ChatViewController.m in Sources */,
 				4B34636A1EA1F9AE00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A61EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C31EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53B1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B54C0CC1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B34636B1EA1F9AE00B1E98F /* SDCycleScrollView.m in Sources */,
 				4B34636C1EA1F9AE00B1E98F /* CircleDetailViewController.m in Sources */,
@@ -4459,6 +4714,7 @@
 				4B3463701EA1F9AE00B1E98F /* LaunchViewController.m in Sources */,
 				4B3463711EA1F9AE00B1E98F /* CirclrModel.m in Sources */,
 				4B45E4E51EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CB1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4B3463721EA1F9AE00B1E98F /* TAAnimatedDotView.m in Sources */,
 				4B45E4DE1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4B3463731EA1F9AE00B1E98F /* AppDelegate.m in Sources */,
@@ -4467,9 +4723,12 @@
 				4B3463771EA1F9AE00B1E98F /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C91EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4911EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4DF1EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4B3463781EA1F9AE00B1E98F /* CBObject.m in Sources */,
 				4B3463791EA1F9AE00B1E98F /* CBViewController.m in Sources */,
 				4B45E4B41EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C11EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52B1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B54C0D61EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B34637A1EA1F9AE00B1E98F /* SDWaitingView.m in Sources */,
 				4B2358B11EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4480,9 +4739,11 @@
 				4B34637C1EA1F9AE00B1E98F /* CircleTableViewCell.m in Sources */,
 				4B3D8F931EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4B34637D1EA1F9AE00B1E98F /* TADotView.m in Sources */,
+				4BBEC5331EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AC1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0ED1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4B34637E1EA1F9AE00B1E98F /* NewViewController.m in Sources */,
+				4BBEC4AD1EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4B34637F1EA1F9AE00B1E98F /* CBHttpManager.m in Sources */,
 				4B3D8F701EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4751EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4491,6 +4752,7 @@
 				4B45E4C21EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4B3463821EA1F9AE00B1E98F /* CircleDetailTableViewCell.m in Sources */,
 				4B2358A81EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4E91EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4B3463831EA1F9AE00B1E98F /* HomeModel.m in Sources */,
 				4B3463841EA1F9AE00B1E98F /* SDPhotoBrowser.m in Sources */,
 				4B45E4981EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4500,6 +4762,7 @@
 				4B45E4601EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EC1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E4671EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F51EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B54C0C11EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F661EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4511,9 +4774,12 @@
 			files = (
 				4B45E35D1EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4BA586961E979D3A007789DF /* ViewController.m in Sources */,
+				4BBEC51A1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4BA586761E979C21007789DF /* main.m in Sources */,
+				4BBEC4D31EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E49D1EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358CB1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC5051EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4D51EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A31EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4BA586FC1E98DE23007789DF /* UIView+SDExtension.m in Sources */,
@@ -4533,9 +4799,11 @@
 				4B45E4881EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4CE1EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4BDBD6A41E9E0366001DFF51 /* CBJPushHelper.m in Sources */,
+				4BBEC50F1EEA99890039E40F /* ChatViewController.m in Sources */,
 				4BBCA7B81E9B970D008B67A1 /* CircleListModel.m in Sources */,
 				4B45E4A41EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C11EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC5391EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4B54C0CA1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4BA586FB1E98DE23007789DF /* SDCycleScrollView.m in Sources */,
 				4BBCA7B51E9B92FE008B67A1 /* CircleDetailViewController.m in Sources */,
@@ -4548,6 +4816,7 @@
 				4BDBD6AA1E9E0FE0001DFF51 /* LaunchViewController.m in Sources */,
 				4BA587171E9B3A3F007789DF /* CirclrModel.m in Sources */,
 				4B45E4E31EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4C91EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4BA586F71E98DE23007789DF /* TAAnimatedDotView.m in Sources */,
 				4B45E4DC1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4BA586931E979D11007789DF /* AppDelegate.m in Sources */,
@@ -4556,9 +4825,12 @@
 				4BDBD67F1E9DB979001DFF51 /* OneCircleTableViewCell.m in Sources */,
 				4B45E4C71EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E48F1EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4DD1EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4BA586DD1E98B0EF007789DF /* CBObject.m in Sources */,
 				4BA586C21E98755F007789DF /* CBViewController.m in Sources */,
 				4B45E4B21EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4BF1EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC5291EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4B54C0D41EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4BDBD6761E9D14AD001DFF51 /* SDWaitingView.m in Sources */,
 				4B2358AF1EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4569,9 +4841,11 @@
 				4BA5871E1E9B53BC007789DF /* CircleTableViewCell.m in Sources */,
 				4B3D8F911EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4BA586F81E98DE23007789DF /* TADotView.m in Sources */,
+				4BBEC5311EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AA1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4B54C0EB1EA5C05300410B39 /* MyCommentViewController.m in Sources */,
 				4BA586CC1E9877A2007789DF /* NewViewController.m in Sources */,
+				4BBEC4AB1EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4BA586E01E98B13C007789DF /* CBHttpManager.m in Sources */,
 				4B3D8F6E1EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4731EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4580,6 +4854,7 @@
 				4B45E4C01EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4BBCA7BB1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m in Sources */,
 				4B2358A61EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4E71EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4BA587081E98F095007789DF /* HomeModel.m in Sources */,
 				4BDBD6751E9D14AD001DFF51 /* SDPhotoBrowser.m in Sources */,
 				4B45E4961EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4589,6 +4864,7 @@
 				4B45E45E1EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0EA1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E4651EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F31EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4B54C0BF1EA48EC300410B39 /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F641EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4600,9 +4876,12 @@
 			files = (
 				4B45E3601EB0375A001AEF71 /* LoginViewController.m in Sources */,
 				4BC5F7E51EA9FAFE0008D67D /* ViewController.m in Sources */,
+				4BBEC51D1EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4BC5F7E61EA9FAFE0008D67D /* main.m in Sources */,
+				4BBEC4D61EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4B45E4A01EB05166001AEF71 /* HXPhotoPreviewViewCell.m in Sources */,
 				4B2358CE1EC2185F0049771A /* LikeTableViewCell.m in Sources */,
+				4BBEC5081EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4B45E4D81EB05166001AEF71 /* HXTransition.m in Sources */,
 				4B45E6A61EB05167001AEF71 /* UIImage+HXExtension.m in Sources */,
 				4BC5F7E91EA9FAFE0008D67D /* UIView+SDExtension.m in Sources */,
@@ -4622,9 +4901,11 @@
 				4B45E48B1EB05166001AEF71 /* HXPhotoConst.m in Sources */,
 				4B45E4D11EB05166001AEF71 /* HXPresentTransition.m in Sources */,
 				4BC5F7F21EA9FAFE0008D67D /* CBJPushHelper.m in Sources */,
+				4BBEC5121EEA99890039E40F /* ChatViewController.m in Sources */,
 				4BC5F7F31EA9FAFE0008D67D /* CircleListModel.m in Sources */,
 				4B45E4A71EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C41EC1F5460049771A /* SystemViewController.m in Sources */,
+				4BBEC53C1EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4BC5F7F51EA9FAFE0008D67D /* MineViewController.m in Sources */,
 				4BC5F7F61EA9FAFE0008D67D /* SDCycleScrollView.m in Sources */,
 				4BC5F7F71EA9FAFE0008D67D /* CircleDetailViewController.m in Sources */,
@@ -4637,6 +4918,7 @@
 				4BC5F7FD1EA9FAFE0008D67D /* LaunchViewController.m in Sources */,
 				4BC5F7FF1EA9FAFE0008D67D /* CirclrModel.m in Sources */,
 				4B45E4E61EB05166001AEF71 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4CC1EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4BC5F8001EA9FAFE0008D67D /* TAAnimatedDotView.m in Sources */,
 				4B45E4DF1EB05166001AEF71 /* HXVideoPresentTransition.m in Sources */,
 				4BC5F8011EA9FAFE0008D67D /* AppDelegate.m in Sources */,
@@ -4645,9 +4927,12 @@
 				4BC5F8051EA9FAFE0008D67D /* OneCircleTableViewCell.m in Sources */,
 				4B45E4CA1EB05166001AEF71 /* HXPhotoViewController.m in Sources */,
 				4B45E4921EB05166001AEF71 /* HXPhotoManager.m in Sources */,
+				4BBEC4E01EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4BC5F8061EA9FAFE0008D67D /* CBObject.m in Sources */,
 				4BC5F8071EA9FAFE0008D67D /* CBViewController.m in Sources */,
 				4B45E4B51EB05166001AEF71 /* HXPhotoTools.m in Sources */,
+				4BBEC4C21EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC52C1EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4BC5F8091EA9FAFE0008D67D /* SweepViewController.m in Sources */,
 				4BC5F80A1EA9FAFE0008D67D /* SDWaitingView.m in Sources */,
 				4B2358B21EC1F1460049771A /* LikeViewController.m in Sources */,
@@ -4658,9 +4943,11 @@
 				4BC5F80F1EA9FAFE0008D67D /* CircleTableViewCell.m in Sources */,
 				4B3D8F941EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
 				4BC5F8101EA9FAFE0008D67D /* TADotView.m in Sources */,
+				4BBEC5341EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4B45E6AD1EB05167001AEF71 /* UIView+HXExtension.m in Sources */,
 				4BC5F8111EA9FAFE0008D67D /* MyCommentViewController.m in Sources */,
 				4BC5F8121EA9FAFE0008D67D /* NewViewController.m in Sources */,
+				4BBEC4AE1EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4BC5F8131EA9FAFE0008D67D /* CBHttpManager.m in Sources */,
 				4B3D8F711EC0B8AD004A4983 /* MessageViewController.m in Sources */,
 				4B45E4761EB05166001AEF71 /* HXCameraPreviewViewController.m in Sources */,
@@ -4669,6 +4956,7 @@
 				4B45E4C31EB05166001AEF71 /* HXPhotoViewCell.m in Sources */,
 				4BC5F8161EA9FAFE0008D67D /* CircleDetailTableViewCell.m in Sources */,
 				4B2358A91EC1F1300049771A /* CommentViewController.m in Sources */,
+				4BBEC4EA1EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4BC5F8171EA9FAFE0008D67D /* HomeModel.m in Sources */,
 				4BC5F8181EA9FAFE0008D67D /* SDPhotoBrowser.m in Sources */,
 				4B45E4991EB05166001AEF71 /* HXPhotoModel.m in Sources */,
@@ -4678,6 +4966,7 @@
 				4B45E4611EB05165001AEF71 /* HXAlbumListView.m in Sources */,
 				4B45E0ED1EAF028F001AEF71 /* UIColor+_Hex.m in Sources */,
 				4B45E4681EB05166001AEF71 /* HXAlbumModel.m in Sources */,
+				4BBEC4F61EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4BC5F81C1EA9FAFE0008D67D /* UIViewController+RESideMenu.m in Sources */,
 				4B3D8F671EC0A8FE004A4983 /* HomeViewController.m in Sources */,
 			);
@@ -4689,9 +4978,12 @@
 			files = (
 				4BFC66721EE68F2C00431EF1 /* LoginViewController.m in Sources */,
 				4BFC66731EE68F2C00431EF1 /* ViewController.m in Sources */,
+				4BBEC5211EEAA6090039E40F /* InvitationManager.m in Sources */,
 				4BFC66741EE68F2C00431EF1 /* main.m in Sources */,
+				4BBEC4DA1EEA903D0039E40F /* NewFriendViewController.m in Sources */,
 				4BFC66751EE68F2C00431EF1 /* HXPhotoPreviewViewCell.m in Sources */,
 				4BFC66761EE68F2C00431EF1 /* LikeTableViewCell.m in Sources */,
+				4BBEC50C1EEA992B0039E40F /* ChatDemoHelper.m in Sources */,
 				4BFC66771EE68F2C00431EF1 /* HXTransition.m in Sources */,
 				4BFC66781EE68F2C00431EF1 /* UIImage+HXExtension.m in Sources */,
 				4BFC66791EE68F2C00431EF1 /* UIView+SDExtension.m in Sources */,
@@ -4711,9 +5003,11 @@
 				4BFC66871EE68F2C00431EF1 /* HXPhotoConst.m in Sources */,
 				4BFC66881EE68F2C00431EF1 /* HXPresentTransition.m in Sources */,
 				4BFC66891EE68F2C00431EF1 /* CBJPushHelper.m in Sources */,
+				4BBEC5161EEA99890039E40F /* ChatViewController.m in Sources */,
 				4BFC668A1EE68F2C00431EF1 /* CircleListModel.m in Sources */,
 				4BFC668B1EE68F2C00431EF1 /* HXPhotoPreviewViewController.m in Sources */,
 				4BFC668C1EE68F2C00431EF1 /* SystemViewController.m in Sources */,
+				4BBEC5401EEAA9C40039E40F /* PopoverViewCell.m in Sources */,
 				4BFC668E1EE68F2C00431EF1 /* MineViewController.m in Sources */,
 				4BFC668F1EE68F2C00431EF1 /* SDCycleScrollView.m in Sources */,
 				4BFC66901EE68F2C00431EF1 /* CircleDetailViewController.m in Sources */,
@@ -4726,6 +5020,7 @@
 				4BFC66971EE68F2C00431EF1 /* LaunchViewController.m in Sources */,
 				4BFC66981EE68F2C00431EF1 /* CirclrModel.m in Sources */,
 				4BFC66991EE68F2C00431EF1 /* HXVideoPreviewViewController.m in Sources */,
+				4BBEC4D01EEA7FFE0039E40F /* ChatListViewController.m in Sources */,
 				4BFC669A1EE68F2C00431EF1 /* TAAnimatedDotView.m in Sources */,
 				4BFC669B1EE68F2C00431EF1 /* HXVideoPresentTransition.m in Sources */,
 				4BFC669C1EE68F2C00431EF1 /* AppDelegate.m in Sources */,
@@ -4734,9 +5029,12 @@
 				4BFC669F1EE68F2C00431EF1 /* OneCircleTableViewCell.m in Sources */,
 				4BFC66A01EE68F2C00431EF1 /* HXPhotoViewController.m in Sources */,
 				4BFC66A11EE68F2C00431EF1 /* HXPhotoManager.m in Sources */,
+				4BBEC4E41EEA90500039E40F /* AddFriendViewController.m in Sources */,
 				4BFC66A21EE68F2C00431EF1 /* CBObject.m in Sources */,
 				4BFC66A31EE68F2C00431EF1 /* CBViewController.m in Sources */,
 				4BFC66A41EE68F2C00431EF1 /* HXPhotoTools.m in Sources */,
+				4BBEC4C61EEA7F9C0039E40F /* ContactListViewController.m in Sources */,
+				4BBEC5301EEAA9C40039E40F /* PopoverAction.m in Sources */,
 				4BFC66A61EE68F2C00431EF1 /* SweepViewController.m in Sources */,
 				4BFC66A71EE68F2C00431EF1 /* SDWaitingView.m in Sources */,
 				4BFC66A81EE68F2C00431EF1 /* LikeViewController.m in Sources */,
@@ -4747,9 +5045,11 @@
 				4BFC66AE1EE68F2C00431EF1 /* CircleTableViewCell.m in Sources */,
 				4BFC66AF1EE68F2C00431EF1 /* MessageTableViewCell.m in Sources */,
 				4BFC66B01EE68F2C00431EF1 /* TADotView.m in Sources */,
+				4BBEC5381EEAA9C40039E40F /* PopoverView.m in Sources */,
 				4BFC66B11EE68F2C00431EF1 /* UIView+HXExtension.m in Sources */,
 				4BFC66B21EE68F2C00431EF1 /* MyCommentViewController.m in Sources */,
 				4BFC66B31EE68F2C00431EF1 /* NewViewController.m in Sources */,
+				4BBEC4B21EEA7F310039E40F /* ContactViewController.m in Sources */,
 				4BFC66B41EE68F2C00431EF1 /* CBHttpManager.m in Sources */,
 				4BFC66B51EE68F2C00431EF1 /* MessageViewController.m in Sources */,
 				4BFC66B61EE68F2C00431EF1 /* HXCameraPreviewViewController.m in Sources */,
@@ -4758,6 +5058,7 @@
 				4BFC66B91EE68F2C00431EF1 /* HXPhotoViewCell.m in Sources */,
 				4BFC66BA1EE68F2C00431EF1 /* CircleDetailTableViewCell.m in Sources */,
 				4BFC66BB1EE68F2C00431EF1 /* CommentViewController.m in Sources */,
+				4BBEC4EE1EEA907A0039E40F /* GroupListViewController.m in Sources */,
 				4BFC66BC1EE68F2C00431EF1 /* HomeModel.m in Sources */,
 				4BFC66BD1EE68F2C00431EF1 /* SDPhotoBrowser.m in Sources */,
 				4BFC66BE1EE68F2C00431EF1 /* HXPhotoModel.m in Sources */,
@@ -4767,6 +5068,7 @@
 				4BFC66C21EE68F2C00431EF1 /* HXAlbumListView.m in Sources */,
 				4BFC66C31EE68F2C00431EF1 /* UIColor+_Hex.m in Sources */,
 				4BFC66C41EE68F2C00431EF1 /* HXAlbumModel.m in Sources */,
+				4BBEC4FA1EEA92140039E40F /* NewFriendTableViewCell.m in Sources */,
 				4BFC66C51EE68F2C00431EF1 /* UIViewController+RESideMenu.m in Sources */,
 				4BFC66C61EE68F2C00431EF1 /* HomeViewController.m in Sources */,
 			);
