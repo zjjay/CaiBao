@@ -108,8 +108,6 @@
     [self showHint:@"无网络连接，请设置网络"];
 }
 
-
-
 - (void)loginWithUserName:(NSString *)userName Password:(NSString *)password
 {
     [[EMClient sharedClient] loginWithUsername:userName
