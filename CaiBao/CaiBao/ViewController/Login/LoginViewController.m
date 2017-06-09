@@ -9,11 +9,11 @@
 #import "LoginViewController.h"
 #import "WSLoginView.h"
 #import "RegisterViewController.h"
+
 @interface LoginViewController ()<TencentSessionDelegate>
 {
     TencentOAuth *tencentOAuth;
 }
-
 
 @end
 
@@ -36,21 +36,8 @@
             return;
         }
         
-        if ([textField1Text isEqualToString:@"15650779697"] && [textField2Text isEqualToString:@"123123"]) {
-            [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":textField1Text,@"password":textField2Text}];
-            return;
-        }
+        [self loginWithUserName:textField1Text Password:textField2Text];
         
-        if (![textField1Text isEqualToString:USER(USERNAME)] && textField1Text.length > 0) {
-            [self showHint:@"请输入正确的账号！"];
-            return;
-        }
-        if (![textField2Text isEqualToString:USER(PASSWORD)] && textField2Text.length > 0) {
-            [self showHint:@"请输入正确的密码！"];
-            return;
-        }
-        
-        [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":textField1Text,@"password":textField2Text}];
     }];
     
     [wsLoginV setRegisterBlock:^{
@@ -91,6 +78,7 @@
         [self showHint:@"登录不成功 没有获取accesstoken"];
     }
 }
+
 - (void)getUserInfoResponse:(APIResponse *)response
 {
     //    NSLog(@"--->respons:%@",response.jsonResponse);
@@ -117,19 +105,36 @@
 }
 
 
+
+- (void)loginWithUserName:(NSString *)userName Password:(NSString *)password
+{
+    [[EMClient sharedClient] loginWithUsername:userName
+                                      password:password
+                                    completion:^(NSString *aUsername, EMError *aError) {
+                                        if (!aError) {
+                                            [[NSNotificationCenter  defaultCenter] postNotificationName:KNOTIFICATION_LOGIN object:nil userInfo:@{@"userName":userName,@"password":password}];
+                                            
+                                            NSLog(@"登录成功");
+                                        } else {
+                                            [self showHint:@"登录失败"];
+                                            NSLog(@"登录失败");
+                                        }
+                                    }];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

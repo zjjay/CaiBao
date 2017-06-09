@@ -39,7 +39,8 @@
 }
 
 
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
     int  index = scrollView.contentOffset.x/SCREEN_WIDTH ;
     self.page.currentPage = index;
     if (self.page.currentPage == PictureNumber - 1) {

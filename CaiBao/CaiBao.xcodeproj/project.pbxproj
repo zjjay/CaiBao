@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B9A260F6901F60E4DF2B445 /* libPods-CaiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */; };
+		3CFB5F57DAE2BE1DFAED7C3E /* libPods-CB203.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF686E84C73581C066AB84C /* libPods-CB203.a */; };
+		4590FB4DA9BDC2F9D3C81C14 /* libPods-CB279.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A87612F31D8B10495D46B29 /* libPods-CB279.a */; };
 		4B1E9FCB1EAE0A4000F4227D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586951E979D3A007789DF /* ViewController.m */; };
 		4B1E9FCC1EAE0A4000F4227D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586751E979C21007789DF /* main.m */; };
 		4B1E9FCF1EAE0A4000F4227D /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F51E98DE22007789DF /* UIView+SDExtension.m */; };
@@ -21,7 +23,6 @@
 		4B1E9FD71EAE0A4000F4227D /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D11E9877C2007789DF /* CircleViewController.m */; };
 		4B1E9FD81EAE0A4000F4227D /* CBJPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A31E9E0366001DFF51 /* CBJPushHelper.m */; };
 		4B1E9FD91EAE0A4000F4227D /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
-		4B1E9FDA1EAE0A4000F4227D /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
 		4B1E9FDB1EAE0A4000F4227D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C91EA5A66E00410B39 /* MineViewController.m */; };
 		4B1E9FDC1EAE0A4000F4227D /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4B1E9FDD1EAE0A4000F4227D /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
@@ -38,13 +39,11 @@
 		4B1E9FEB1EAE0A4000F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1E9FEC1EAE0A4000F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
 		4B1E9FED1EAE0A4000F4227D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
-		4B1E9FEE1EAE0A4000F4227D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4B1E9FEF1EAE0A4000F4227D /* SweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D31EA5BFB600410B39 /* SweepViewController.m */; };
 		4B1E9FF01EAE0A4000F4227D /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6731E9D14AD001DFF51 /* SDWaitingView.m */; };
 		4B1E9FF11EAE0A4000F4227D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B41EA48EC300410B39 /* RECommonFunctions.m */; };
 		4B1E9FF21EAE0A4000F4227D /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A01E9E02E1001DFF51 /* AppDelegate+JPushSDK.m */; };
 		4B1E9FF31EAE0A4000F4227D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C31EA48F2900410B39 /* LeftViewController.m */; };
-		4B1E9FF41EAE0A4000F4227D /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
 		4B1E9FF51EAE0A4000F4227D /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
 		4B1E9FF61EAE0A4000F4227D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586ED1E98DE22007789DF /* TADotView.m */; };
 		4B1E9FF71EAE0A4000F4227D /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
@@ -97,7 +96,6 @@
 		4B1EA0391EAE0B3900F4227D /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D11E9877C2007789DF /* CircleViewController.m */; };
 		4B1EA03A1EAE0B3900F4227D /* CBJPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A31E9E0366001DFF51 /* CBJPushHelper.m */; };
 		4B1EA03B1EAE0B3900F4227D /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
-		4B1EA03C1EAE0B3900F4227D /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
 		4B1EA03D1EAE0B3900F4227D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C91EA5A66E00410B39 /* MineViewController.m */; };
 		4B1EA03E1EAE0B3900F4227D /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4B1EA03F1EAE0B3900F4227D /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
@@ -114,13 +112,11 @@
 		4B1EA04D1EAE0B3900F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1EA04E1EAE0B3900F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
 		4B1EA04F1EAE0B3900F4227D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
-		4B1EA0501EAE0B3900F4227D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4B1EA0511EAE0B3900F4227D /* SweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D31EA5BFB600410B39 /* SweepViewController.m */; };
 		4B1EA0521EAE0B3900F4227D /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6731E9D14AD001DFF51 /* SDWaitingView.m */; };
 		4B1EA0531EAE0B3900F4227D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B41EA48EC300410B39 /* RECommonFunctions.m */; };
 		4B1EA0541EAE0B3900F4227D /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A01E9E02E1001DFF51 /* AppDelegate+JPushSDK.m */; };
 		4B1EA0551EAE0B3900F4227D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C31EA48F2900410B39 /* LeftViewController.m */; };
-		4B1EA0561EAE0B3900F4227D /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
 		4B1EA0571EAE0B3900F4227D /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
 		4B1EA0581EAE0B3900F4227D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586ED1E98DE22007789DF /* TADotView.m */; };
 		4B1EA0591EAE0B3900F4227D /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
@@ -173,7 +169,6 @@
 		4B1EA09C1EAE0C8E00F4227D /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D11E9877C2007789DF /* CircleViewController.m */; };
 		4B1EA09D1EAE0C8E00F4227D /* CBJPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A31E9E0366001DFF51 /* CBJPushHelper.m */; };
 		4B1EA09E1EAE0C8E00F4227D /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
-		4B1EA09F1EAE0C8E00F4227D /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
 		4B1EA0A01EAE0C8E00F4227D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C91EA5A66E00410B39 /* MineViewController.m */; };
 		4B1EA0A11EAE0C8E00F4227D /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4B1EA0A21EAE0C8E00F4227D /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
@@ -190,13 +185,11 @@
 		4B1EA0B01EAE0C8E00F4227D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4B1EA0B11EAE0C8E00F4227D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
 		4B1EA0B21EAE0C8E00F4227D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
-		4B1EA0B31EAE0C8E00F4227D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4B1EA0B41EAE0C8E00F4227D /* SweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D31EA5BFB600410B39 /* SweepViewController.m */; };
 		4B1EA0B51EAE0C8E00F4227D /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6731E9D14AD001DFF51 /* SDWaitingView.m */; };
 		4B1EA0B61EAE0C8E00F4227D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B41EA48EC300410B39 /* RECommonFunctions.m */; };
 		4B1EA0B71EAE0C8E00F4227D /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A01E9E02E1001DFF51 /* AppDelegate+JPushSDK.m */; };
 		4B1EA0B81EAE0C8E00F4227D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C31EA48F2900410B39 /* LeftViewController.m */; };
-		4B1EA0B91EAE0C8E00F4227D /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
 		4B1EA0BA1EAE0C8E00F4227D /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
 		4B1EA0BB1EAE0C8E00F4227D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586ED1E98DE22007789DF /* TADotView.m */; };
 		4B1EA0BC1EAE0C8E00F4227D /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
@@ -452,15 +445,6 @@
 		4B3463C31EA1FF6000B1E98F /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4B3463C41EA1FF6000B1E98F /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
 		4B3463C51EA1FF6000B1E98F /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463B01EA1FF6000B1E98F /* WSLoginView.m */; };
-		4B3463D21EA2047E00B1E98F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
-		4B3463D31EA2047E00B1E98F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
-		4B3463D41EA2047E00B1E98F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
-		4B3463DA1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
-		4B3463DB1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
-		4B3463DC1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
-		4B3463DD1EA204A500B1E98F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
-		4B3463DE1EA204A500B1E98F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
-		4B3463DF1EA204A500B1E98F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4B3463E31EA204E400B1E98F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463E11EA204E400B1E98F /* RegisterViewController.m */; };
 		4B3463E41EA204E400B1E98F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463E11EA204E400B1E98F /* RegisterViewController.m */; };
 		4B3463E51EA204E400B1E98F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463E11EA204E400B1E98F /* RegisterViewController.m */; };
@@ -1259,7 +1243,6 @@
 		4BC5F7F11EA9FAFE0008D67D /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586D11E9877C2007789DF /* CircleViewController.m */; };
 		4BC5F7F21EA9FAFE0008D67D /* CBJPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A31E9E0366001DFF51 /* CBJPushHelper.m */; };
 		4BC5F7F31EA9FAFE0008D67D /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
-		4BC5F7F41EA9FAFE0008D67D /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
 		4BC5F7F51EA9FAFE0008D67D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C91EA5A66E00410B39 /* MineViewController.m */; };
 		4BC5F7F61EA9FAFE0008D67D /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4BC5F7F71EA9FAFE0008D67D /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
@@ -1276,13 +1259,11 @@
 		4BC5F8051EA9FAFE0008D67D /* OneCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD67E1E9DB979001DFF51 /* OneCircleTableViewCell.m */; };
 		4BC5F8061EA9FAFE0008D67D /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
 		4BC5F8071EA9FAFE0008D67D /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
-		4BC5F8081EA9FAFE0008D67D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4BC5F8091EA9FAFE0008D67D /* SweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D31EA5BFB600410B39 /* SweepViewController.m */; };
 		4BC5F80A1EA9FAFE0008D67D /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6731E9D14AD001DFF51 /* SDWaitingView.m */; };
 		4BC5F80B1EA9FAFE0008D67D /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B41EA48EC300410B39 /* RECommonFunctions.m */; };
 		4BC5F80C1EA9FAFE0008D67D /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A01E9E02E1001DFF51 /* AppDelegate+JPushSDK.m */; };
 		4BC5F80D1EA9FAFE0008D67D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C31EA48F2900410B39 /* LeftViewController.m */; };
-		4BC5F80E1EA9FAFE0008D67D /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
 		4BC5F80F1EA9FAFE0008D67D /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
 		4BC5F8101EA9FAFE0008D67D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586ED1E98DE22007789DF /* TADotView.m */; };
 		4BC5F8111EA9FAFE0008D67D /* MyCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0EA1EA5C05300410B39 /* MyCommentViewController.m */; };
@@ -1372,7 +1353,6 @@
 		4BFC668A1EE68F2C00431EF1 /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */; };
 		4BFC668B1EE68F2C00431EF1 /* HXPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B45E4061EB05165001AEF71 /* HXPhotoPreviewViewController.m */; };
 		4BFC668C1EE68F2C00431EF1 /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358C01EC1F5460049771A /* SystemViewController.m */; };
-		4BFC668D1EE68F2C00431EF1 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */; };
 		4BFC668E1EE68F2C00431EF1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C91EA5A66E00410B39 /* MineViewController.m */; };
 		4BFC668F1EE68F2C00431EF1 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586F31E98DE22007789DF /* SDCycleScrollView.m */; };
 		4BFC66901EE68F2C00431EF1 /* CircleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCA7B41E9B92FE008B67A1 /* CircleDetailViewController.m */; };
@@ -1396,14 +1376,12 @@
 		4BFC66A21EE68F2C00431EF1 /* CBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586DC1E98B0EF007789DF /* CBObject.m */; };
 		4BFC66A31EE68F2C00431EF1 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA586C11E98755F007789DF /* CBViewController.m */; };
 		4BFC66A41EE68F2C00431EF1 /* HXPhotoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B45E40A1EB05165001AEF71 /* HXPhotoTools.m */; };
-		4BFC66A51EE68F2C00431EF1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D91EA204A500B1E98F /* MBProgressHUD.m */; };
 		4BFC66A61EE68F2C00431EF1 /* SweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0D31EA5BFB600410B39 /* SweepViewController.m */; };
 		4BFC66A71EE68F2C00431EF1 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6731E9D14AD001DFF51 /* SDWaitingView.m */; };
 		4BFC66A81EE68F2C00431EF1 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2358AE1EC1F1460049771A /* LikeViewController.m */; };
 		4BFC66A91EE68F2C00431EF1 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0B41EA48EC300410B39 /* RECommonFunctions.m */; };
 		4BFC66AA1EE68F2C00431EF1 /* AppDelegate+JPushSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBD6A01E9E02E1001DFF51 /* AppDelegate+JPushSDK.m */; };
 		4BFC66AB1EE68F2C00431EF1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54C0C31EA48F2900410B39 /* LeftViewController.m */; };
-		4BFC66AC1EE68F2C00431EF1 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */; };
 		4BFC66AD1EE68F2C00431EF1 /* HXPhotoSubViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B45E4081EB05165001AEF71 /* HXPhotoSubViewCell.m */; };
 		4BFC66AE1EE68F2C00431EF1 /* CircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA5871C1E9B53BC007789DF /* CircleTableViewCell.m */; };
 		4BFC66AF1EE68F2C00431EF1 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D8F8F1EC0C771004A4983 /* MessageTableViewCell.m */; };
@@ -1544,9 +1522,21 @@
 		4BFC67421EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
 		4BFC67431EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
 		4BFC67441EE6A24F00431EF1 /* jcore-ios-1.1.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */; };
+		4CDAB982EDD2B8B46193CF70 /* libPods-CB157.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A419E661F457790BB89D2F /* libPods-CB157.a */; };
+		519CAC4AA2009D44E607E2B4 /* libPods-c66app13.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD412BCF0B9E004B66E4E98 /* libPods-c66app13.a */; };
+		91B715118EE3E4B45BB49699 /* libPods-CB184.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C21A38DB44AE13E215C5EE63 /* libPods-CB184.a */; };
+		935247743B120F34CDFFE71F /* libPods-CB270.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CDB51F99F1C1B85F0DDB66 /* libPods-CB270.a */; };
+		BBB8B39865A4E0C21D8AFFB5 /* libPods-CB278.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E24535DBAD63C6C481E597A8 /* libPods-CB278.a */; };
+		EA353AD3BEF0D18B34848F2A /* libPods-CB227.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E08D67F2D397C1F0BAD26361 /* libPods-CB227.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044A80D380141F155A0C9EE4 /* Pods-CB270.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB270.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB270/Pods-CB270.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF66246062B200BD3016007 /* Pods-CB203.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB203.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB203/Pods-CB203.release.xcconfig"; sourceTree = "<group>"; };
+		3AA5CE3AF98D931F2F4BE5C5 /* Pods-CB279.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB279.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB279/Pods-CB279.release.xcconfig"; sourceTree = "<group>"; };
+		402D8B6DF881CED73F179B42 /* Pods-CB203.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB203.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB203/Pods-CB203.debug.xcconfig"; sourceTree = "<group>"; };
+		44ACECDD3B1A65C1BE4E982C /* Pods-CB184.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB184.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB184/Pods-CB184.debug.xcconfig"; sourceTree = "<group>"; };
+		4A87612F31D8B10495D46B29 /* libPods-CB279.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB279.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1EA0271EAE0A4000F4227D /* CB184.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB184.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1EA0891EAE0B3900F4227D /* CB278.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB278.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1EA0EC1EAE0C8E00F4227D /* CB279.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB279.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1583,12 +1573,6 @@
 		4B3463AE1EA1FF6000B1E98F /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
 		4B3463AF1EA1FF6000B1E98F /* WSLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
 		4B3463B01EA1FF6000B1E98F /* WSLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
-		4B3463D01EA2047E00B1E98F /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
-		4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
-		4B3463D61EA204A500B1E98F /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
-		4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
-		4B3463D81EA204A500B1E98F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		4B3463D91EA204A500B1E98F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4B3463E01EA204E400B1E98F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		4B3463E11EA204E400B1E98F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		4B3463E21EA204E400B1E98F /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
@@ -1811,6 +1795,8 @@
 		4BBCA7B71E9B970D008B67A1 /* CircleListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleListModel.m; sourceTree = "<group>"; };
 		4BBCA7B91E9B9A2B008B67A1 /* CircleDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDetailTableViewCell.h; sourceTree = "<group>"; };
 		4BBCA7BA1E9B9A2B008B67A1 /* CircleDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDetailTableViewCell.m; sourceTree = "<group>"; };
+		4BBEC4A71EEA59E90039E40F /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		4BBEC4A81EEA5A3E0039E40F /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		4BC5F8411EA9FAFE0008D67D /* CB270.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CB270.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDBD6691E9D0C97001DFF51 /* CirclephoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclephoneView.h; sourceTree = "<group>"; };
 		4BDBD66A1E9D0C97001DFF51 /* CirclephoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclephoneView.m; sourceTree = "<group>"; };
@@ -1848,9 +1834,27 @@
 		4BFC673A1EE68F3000431EF1 /* c66app13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "c66app13-Info.plist"; path = "/Users/LC/Desktop/CaiBao/CaiBao/c66app13-Info.plist"; sourceTree = "<absolute>"; };
 		4BFC673B1EE68FE000431EF1 /* c66app13.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = c66app13.entitlements; sourceTree = "<group>"; };
 		4BFC673C1EE6A24F00431EF1 /* jcore-ios-1.1.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.2.a"; sourceTree = "<group>"; };
+		56B3EC737C73054F4F4DE115 /* Pods-CB157.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB157.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB157/Pods-CB157.debug.xcconfig"; sourceTree = "<group>"; };
+		6F6DC65D06DCAEE64B81EBF3 /* Pods-CB278.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB278.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB278/Pods-CB278.release.xcconfig"; sourceTree = "<group>"; };
 		78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaiBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD412BCF0B9E004B66E4E98 /* libPods-c66app13.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-c66app13.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao.debug.xcconfig"; sourceTree = "<group>"; };
+		95CDB51F99F1C1B85F0DDB66 /* libPods-CB270.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB270.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96049CFE7653572519338482 /* Pods-c66app13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-c66app13.release.xcconfig"; path = "Pods/Target Support Files/Pods-c66app13/Pods-c66app13.release.xcconfig"; sourceTree = "<group>"; };
+		98A419E661F457790BB89D2F /* libPods-CB157.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB157.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66E7EF4E15DFB4DFF58542F /* Pods-CB227.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB227.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB227/Pods-CB227.debug.xcconfig"; sourceTree = "<group>"; };
+		A74918BC008CAFE57AFFA760 /* Pods-c66app13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-c66app13.debug.xcconfig"; path = "Pods/Target Support Files/Pods-c66app13/Pods-c66app13.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7B1F5A6D8B8D31C431257C /* Pods-CB279.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB279.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB279/Pods-CB279.debug.xcconfig"; sourceTree = "<group>"; };
+		BFFF02FA1537074C4AC02A0E /* Pods-CB270.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB270.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB270/Pods-CB270.release.xcconfig"; sourceTree = "<group>"; };
+		C21A38DB44AE13E215C5EE63 /* libPods-CB184.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB184.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao.release.xcconfig"; sourceTree = "<group>"; };
+		D92C559F73EF4B54A8660DAC /* Pods-CB184.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB184.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB184/Pods-CB184.release.xcconfig"; sourceTree = "<group>"; };
+		E08D67F2D397C1F0BAD26361 /* libPods-CB227.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB227.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24535DBAD63C6C481E597A8 /* libPods-CB278.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB278.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF686E84C73581C066AB84C /* libPods-CB203.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB203.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB24BD4835D276C39B82C87 /* Pods-CB227.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB227.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB227/Pods-CB227.release.xcconfig"; sourceTree = "<group>"; };
+		F8C1150B096A3B7F03CE0E39 /* Pods-CB157.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB157.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB157/Pods-CB157.release.xcconfig"; sourceTree = "<group>"; };
+		F940381C53A078E14C14AF46 /* Pods-CB278.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB278.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CB278/Pods-CB278.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1875,6 +1879,7 @@
 				4B1EA00E1EAE0A4000F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA00F1EAE0A4000F4227D /* jpush-ios-3.0.3.a in Frameworks */,
 				4B1EA0111EAE0A4000F4227D /* libPods-CaiBao.a in Frameworks */,
+				91B715118EE3E4B45BB49699 /* libPods-CB184.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1899,6 +1904,7 @@
 				4B1EA0701EAE0B3900F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA0711EAE0B3900F4227D /* jpush-ios-3.0.3.a in Frameworks */,
 				4B1EA0731EAE0B3900F4227D /* libPods-CaiBao.a in Frameworks */,
+				BBB8B39865A4E0C21D8AFFB5 /* libPods-CB278.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1923,6 +1929,7 @@
 				4B1EA0D31EAE0C8E00F4227D /* CFNetwork.framework in Frameworks */,
 				4B1EA0D41EAE0C8E00F4227D /* jpush-ios-3.0.3.a in Frameworks */,
 				4B1EA0D61EAE0C8E00F4227D /* libPods-CaiBao.a in Frameworks */,
+				4590FB4DA9BDC2F9D3C81C14 /* libPods-CB279.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1947,6 +1954,7 @@
 				4B3462FC1EA1F52C00B1E98F /* CFNetwork.framework in Frameworks */,
 				4B3462FD1EA1F52C00B1E98F /* jpush-ios-3.0.3.a in Frameworks */,
 				4B3462FF1EA1F52C00B1E98F /* libPods-CaiBao.a in Frameworks */,
+				EA353AD3BEF0D18B34848F2A /* libPods-CB227.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1971,6 +1979,7 @@
 				4B3463921EA1F9AE00B1E98F /* CFNetwork.framework in Frameworks */,
 				4B3463931EA1F9AE00B1E98F /* jpush-ios-3.0.3.a in Frameworks */,
 				4B3463951EA1F9AE00B1E98F /* libPods-CaiBao.a in Frameworks */,
+				3CFB5F57DAE2BE1DFAED7C3E /* libPods-CB203.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1996,6 +2005,7 @@
 				4BDBD68A1E9E016A001DFF51 /* CFNetwork.framework in Frameworks */,
 				4BDBD6881E9E014F001DFF51 /* jpush-ios-3.0.3.a in Frameworks */,
 				1B9A260F6901F60E4DF2B445 /* libPods-CaiBao.a in Frameworks */,
+				4CDAB982EDD2B8B46193CF70 /* libPods-CB157.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2020,6 +2030,7 @@
 				4BC5F8281EA9FAFE0008D67D /* CFNetwork.framework in Frameworks */,
 				4BC5F8291EA9FAFE0008D67D /* jpush-ios-3.0.3.a in Frameworks */,
 				4BC5F82B1EA9FAFE0008D67D /* libPods-CaiBao.a in Frameworks */,
+				935247743B120F34CDFFE71F /* libPods-CB270.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2044,6 +2055,7 @@
 				4BFC66D51EE68F2C00431EF1 /* CFNetwork.framework in Frameworks */,
 				4BFC66D61EE68F2C00431EF1 /* jpush-ios-3.0.3.a in Frameworks */,
 				4BFC66D81EE68F2C00431EF1 /* libPods-CaiBao.a in Frameworks */,
+				519CAC4AA2009D44E607E2B4 /* libPods-c66app13.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2098,17 +2110,6 @@
 				4B3463B01EA1FF6000B1E98F /* WSLoginView.m */,
 			);
 			path = WSLoginView;
-			sourceTree = "<group>";
-		};
-		4B3463D51EA204A500B1E98F /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				4B3463D61EA204A500B1E98F /* MBProgressHUD+Add.h */,
-				4B3463D71EA204A500B1E98F /* MBProgressHUD+Add.m */,
-				4B3463D81EA204A500B1E98F /* MBProgressHUD.h */,
-				4B3463D91EA204A500B1E98F /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		4B3D8F6B1EC0B8A1004A4983 /* Message */ = {
@@ -2351,7 +2352,6 @@
 			children = (
 				4BA586901E979CF0007789DF /* AppDelegate */,
 				4BA5868F1E979CB2007789DF /* Common */,
-				4BA5868C1E979C9E007789DF /* View */,
 				4BA5868E1E979C9E007789DF /* Model */,
 				4BA5868D1E979C9E007789DF /* ViewController */,
 				4BA5868B1E979C9E007789DF /* Third */,
@@ -2382,19 +2382,11 @@
 				4B45E0DE1EAF027B001AEF71 /* Tabbar */,
 				4B45E0BB1EAEE167001AEF71 /* QQ */,
 				4B54C0B21EA48EC300410B39 /* RESideMenu */,
-				4B3463D51EA204A500B1E98F /* MBProgressHUD */,
 				4BDBD6831E9E014F001DFF51 /* JPush */,
 				4BDBD66C1E9D14AD001DFF51 /* SDPhotoBrowser */,
 				4BA586E61E98DE22007789DF /* SDCycleScrollView */,
 			);
 			path = Third;
-			sourceTree = "<group>";
-		};
-		4BA5868C1E979C9E007789DF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		4BA5868D1E979C9E007789DF /* ViewController */ = {
@@ -2404,14 +2396,15 @@
 				4BA586B11E97A335007789DF /* CBMainViewController.m */,
 				4BDBD6A81E9E0FE0001DFF51 /* LaunchViewController.h */,
 				4BDBD6A91E9E0FE0001DFF51 /* LaunchViewController.m */,
-				4B3D8F6B1EC0B8A1004A4983 /* Message */,
-				4B45E36B1EB03FC7001AEF71 /* Publish */,
 				4B3463A71EA1FF4800B1E98F /* Login */,
 				4BA586B91E98753E007789DF /* Base */,
-				4BA586C31E987645007789DF /* Circle */,
-				4BA586C51E987645007789DF /* New */,
 				4BA586C61E987645007789DF /* Home */,
+				4BFDA0231EEA3A2600FE62CC /* Contact */,
+				4BA586C31E987645007789DF /* Circle */,
+				4B45E36B1EB03FC7001AEF71 /* Publish */,
+				4B3D8F6B1EC0B8A1004A4983 /* Message */,
 				4B54C0C71EA5A66000410B39 /* Mine */,
+				4BA586C51E987645007789DF /* New */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2434,6 +2427,8 @@
 		4BA5868F1E979CB2007789DF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4BBEC4A71EEA59E90039E40F /* PrefixHeader.h */,
+				4BBEC4A81EEA5A3E0039E40F /* Common.h */,
 				4BA586D31E9879FE007789DF /* CBConfig.h */,
 				4BDBD6A21E9E0366001DFF51 /* CBJPushHelper.h */,
 				4BDBD6A31E9E0366001DFF51 /* CBJPushHelper.m */,
@@ -2483,6 +2478,14 @@
 				4BA586A21E97A035007789DF /* CoreLocation.framework */,
 				4BA586A01E97A019007789DF /* AdSupport.framework */,
 				78D1A6011FF74521B38B66A8 /* libPods-CaiBao.a */,
+				98A419E661F457790BB89D2F /* libPods-CB157.a */,
+				C21A38DB44AE13E215C5EE63 /* libPods-CB184.a */,
+				EAF686E84C73581C066AB84C /* libPods-CB203.a */,
+				E08D67F2D397C1F0BAD26361 /* libPods-CB227.a */,
+				95CDB51F99F1C1B85F0DDB66 /* libPods-CB270.a */,
+				E24535DBAD63C6C481E597A8 /* libPods-CB278.a */,
+				4A87612F31D8B10495D46B29 /* libPods-CB279.a */,
+				8CD412BCF0B9E004B66E4E98 /* libPods-c66app13.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2545,8 +2548,6 @@
 		4BA586D41E987B9F007789DF /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				4B3463D01EA2047E00B1E98F /* UIViewController+HUD.h */,
-				4B3463D11EA2047E00B1E98F /* UIViewController+HUD.m */,
 				4BA586D51E987BCD007789DF /* UIColor+CBExt.h */,
 				4BA586D61E987BCD007789DF /* UIColor+CBExt.m */,
 			);
@@ -2615,11 +2616,34 @@
 			path = JPush;
 			sourceTree = "<group>";
 		};
+		4BFDA0231EEA3A2600FE62CC /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
 		B572B48B761D339E3405E598 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */,
 				C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */,
+				56B3EC737C73054F4F4DE115 /* Pods-CB157.debug.xcconfig */,
+				F8C1150B096A3B7F03CE0E39 /* Pods-CB157.release.xcconfig */,
+				44ACECDD3B1A65C1BE4E982C /* Pods-CB184.debug.xcconfig */,
+				D92C559F73EF4B54A8660DAC /* Pods-CB184.release.xcconfig */,
+				402D8B6DF881CED73F179B42 /* Pods-CB203.debug.xcconfig */,
+				1DF66246062B200BD3016007 /* Pods-CB203.release.xcconfig */,
+				A66E7EF4E15DFB4DFF58542F /* Pods-CB227.debug.xcconfig */,
+				EFB24BD4835D276C39B82C87 /* Pods-CB227.release.xcconfig */,
+				044A80D380141F155A0C9EE4 /* Pods-CB270.debug.xcconfig */,
+				BFFF02FA1537074C4AC02A0E /* Pods-CB270.release.xcconfig */,
+				F940381C53A078E14C14AF46 /* Pods-CB278.debug.xcconfig */,
+				6F6DC65D06DCAEE64B81EBF3 /* Pods-CB278.release.xcconfig */,
+				BD7B1F5A6D8B8D31C431257C /* Pods-CB279.debug.xcconfig */,
+				3AA5CE3AF98D931F2F4BE5C5 /* Pods-CB279.release.xcconfig */,
+				A74918BC008CAFE57AFFA760 /* Pods-c66app13.debug.xcconfig */,
+				96049CFE7653572519338482 /* Pods-c66app13.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -3685,7 +3709,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB157/Pods-CB157-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1E9FC91EAE0A4000F4227D /* [CP] Check Pods Manifest.lock */ = {
@@ -3715,7 +3739,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB184/Pods-CB184-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1EA0231EAE0A4000F4227D /* [CP] Copy Pods Resources */ = {
@@ -3730,7 +3754,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB184/Pods-CB184-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1EA02B1EAE0B3900F4227D /* [CP] Check Pods Manifest.lock */ = {
@@ -3760,7 +3784,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB278/Pods-CB278-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1EA0851EAE0B3900F4227D /* [CP] Copy Pods Resources */ = {
@@ -3775,7 +3799,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB278/Pods-CB278-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1EA08E1EAE0C8E00F4227D /* [CP] Check Pods Manifest.lock */ = {
@@ -3805,7 +3829,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB279/Pods-CB279-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B1EA0E81EAE0C8E00F4227D /* [CP] Copy Pods Resources */ = {
@@ -3820,7 +3844,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB279/Pods-CB279-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B3462C51EA1F52C00B1E98F /* [CP] Check Pods Manifest.lock */ = {
@@ -3850,7 +3874,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB227/Pods-CB227-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B3463081EA1F52C00B1E98F /* [CP] Copy Pods Resources */ = {
@@ -3865,7 +3889,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB227/Pods-CB227-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B34635B1EA1F9AE00B1E98F /* [CP] Check Pods Manifest.lock */ = {
@@ -3895,7 +3919,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB203/Pods-CB203-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B34639E1EA1F9AE00B1E98F /* [CP] Copy Pods Resources */ = {
@@ -3910,7 +3934,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB203/Pods-CB203-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BC5F7E31EA9FAFE0008D67D /* [CP] Check Pods Manifest.lock */ = {
@@ -3940,7 +3964,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB270/Pods-CB270-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BC5F83D1EA9FAFE0008D67D /* [CP] Copy Pods Resources */ = {
@@ -3955,7 +3979,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB270/Pods-CB270-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BFC66701EE68F2C00431EF1 /* [CP] Check Pods Manifest.lock */ = {
@@ -3985,7 +4009,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-c66app13/Pods-c66app13-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BFC67351EE68F2D00431EF1 /* [CP] Copy Pods Resources */ = {
@@ -4000,7 +4024,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-c66app13/Pods-c66app13-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EDF1D0B63F4A99A9E3F71274 /* [CP] Copy Pods Resources */ = {
@@ -4015,7 +4039,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiBao/Pods-CaiBao-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CB157/Pods-CB157-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4A7E210E3F8DA8B380B2611 /* [CP] Check Pods Manifest.lock */ = {
@@ -4067,7 +4091,6 @@
 				4B1E9FD91EAE0A4000F4227D /* CircleListModel.m in Sources */,
 				4B45E4A81EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C51EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B1E9FDA1EAE0A4000F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1E9FDB1EAE0A4000F4227D /* MineViewController.m in Sources */,
 				4B1E9FDC1EAE0A4000F4227D /* SDCycleScrollView.m in Sources */,
 				4B1E9FDD1EAE0A4000F4227D /* CircleDetailViewController.m in Sources */,
@@ -4091,14 +4114,12 @@
 				4B1E9FEC1EAE0A4000F4227D /* CBObject.m in Sources */,
 				4B1E9FED1EAE0A4000F4227D /* CBViewController.m in Sources */,
 				4B45E4B61EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B1E9FEE1EAE0A4000F4227D /* MBProgressHUD.m in Sources */,
 				4B1E9FEF1EAE0A4000F4227D /* SweepViewController.m in Sources */,
 				4B1E9FF01EAE0A4000F4227D /* SDWaitingView.m in Sources */,
 				4B2358B31EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1E9FF11EAE0A4000F4227D /* RECommonFunctions.m in Sources */,
 				4B1E9FF21EAE0A4000F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1E9FF31EAE0A4000F4227D /* LeftViewController.m in Sources */,
-				4B1E9FF41EAE0A4000F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4AF1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1E9FF51EAE0A4000F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F951EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4159,7 +4180,6 @@
 				4B1EA03B1EAE0B3900F4227D /* CircleListModel.m in Sources */,
 				4B45E4A91EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C61EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B1EA03C1EAE0B3900F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1EA03D1EAE0B3900F4227D /* MineViewController.m in Sources */,
 				4B1EA03E1EAE0B3900F4227D /* SDCycleScrollView.m in Sources */,
 				4B1EA03F1EAE0B3900F4227D /* CircleDetailViewController.m in Sources */,
@@ -4183,14 +4203,12 @@
 				4B1EA04E1EAE0B3900F4227D /* CBObject.m in Sources */,
 				4B1EA04F1EAE0B3900F4227D /* CBViewController.m in Sources */,
 				4B45E4B71EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B1EA0501EAE0B3900F4227D /* MBProgressHUD.m in Sources */,
 				4B1EA0511EAE0B3900F4227D /* SweepViewController.m in Sources */,
 				4B1EA0521EAE0B3900F4227D /* SDWaitingView.m in Sources */,
 				4B2358B41EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1EA0531EAE0B3900F4227D /* RECommonFunctions.m in Sources */,
 				4B1EA0541EAE0B3900F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1EA0551EAE0B3900F4227D /* LeftViewController.m in Sources */,
-				4B1EA0561EAE0B3900F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4B01EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1EA0571EAE0B3900F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F961EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4251,7 +4269,6 @@
 				4B1EA09E1EAE0C8E00F4227D /* CircleListModel.m in Sources */,
 				4B45E4AA1EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C71EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B1EA09F1EAE0C8E00F4227D /* MBProgressHUD+Add.m in Sources */,
 				4B1EA0A01EAE0C8E00F4227D /* MineViewController.m in Sources */,
 				4B1EA0A11EAE0C8E00F4227D /* SDCycleScrollView.m in Sources */,
 				4B1EA0A21EAE0C8E00F4227D /* CircleDetailViewController.m in Sources */,
@@ -4275,14 +4292,12 @@
 				4B1EA0B11EAE0C8E00F4227D /* CBObject.m in Sources */,
 				4B1EA0B21EAE0C8E00F4227D /* CBViewController.m in Sources */,
 				4B45E4B81EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B1EA0B31EAE0C8E00F4227D /* MBProgressHUD.m in Sources */,
 				4B1EA0B41EAE0C8E00F4227D /* SweepViewController.m in Sources */,
 				4B1EA0B51EAE0C8E00F4227D /* SDWaitingView.m in Sources */,
 				4B2358B51EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B1EA0B61EAE0C8E00F4227D /* RECommonFunctions.m in Sources */,
 				4B1EA0B71EAE0C8E00F4227D /* AppDelegate+JPushSDK.m in Sources */,
 				4B1EA0B81EAE0C8E00F4227D /* LeftViewController.m in Sources */,
-				4B1EA0B91EAE0C8E00F4227D /* UIViewController+HUD.m in Sources */,
 				4B45E4B11EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B1EA0BA1EAE0C8E00F4227D /* CircleTableViewCell.m in Sources */,
 				4B3D8F971EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4343,7 +4358,6 @@
 				4B3462D41EA1F52C00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A51EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C21EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B3463DB1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CB1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B3462D51EA1F52C00B1E98F /* SDCycleScrollView.m in Sources */,
 				4B3462D61EA1F52C00B1E98F /* CircleDetailViewController.m in Sources */,
@@ -4367,14 +4381,12 @@
 				4B3462E21EA1F52C00B1E98F /* CBObject.m in Sources */,
 				4B3462E31EA1F52C00B1E98F /* CBViewController.m in Sources */,
 				4B45E4B31EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B3463DE1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D51EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B3462E41EA1F52C00B1E98F /* SDWaitingView.m in Sources */,
 				4B2358B01EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0BA1EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4B3462E51EA1F52C00B1E98F /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C51EA48F2900410B39 /* LeftViewController.m in Sources */,
-				4B3463D31EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AC1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B3462E61EA1F52C00B1E98F /* CircleTableViewCell.m in Sources */,
 				4B3D8F921EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4435,7 +4447,6 @@
 				4B34636A1EA1F9AE00B1E98F /* CircleListModel.m in Sources */,
 				4B45E4A61EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C31EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B3463DC1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CC1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4B34636B1EA1F9AE00B1E98F /* SDCycleScrollView.m in Sources */,
 				4B34636C1EA1F9AE00B1E98F /* CircleDetailViewController.m in Sources */,
@@ -4459,14 +4470,12 @@
 				4B3463781EA1F9AE00B1E98F /* CBObject.m in Sources */,
 				4B3463791EA1F9AE00B1E98F /* CBViewController.m in Sources */,
 				4B45E4B41EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B3463DF1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D61EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4B34637A1EA1F9AE00B1E98F /* SDWaitingView.m in Sources */,
 				4B2358B11EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0BB1EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4B34637B1EA1F9AE00B1E98F /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C61EA48F2900410B39 /* LeftViewController.m in Sources */,
-				4B3463D41EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AD1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4B34637C1EA1F9AE00B1E98F /* CircleTableViewCell.m in Sources */,
 				4B3D8F931EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4527,7 +4536,6 @@
 				4BBCA7B81E9B970D008B67A1 /* CircleListModel.m in Sources */,
 				4B45E4A41EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C11EC1F5460049771A /* SystemViewController.m in Sources */,
-				4B3463DA1EA204A500B1E98F /* MBProgressHUD+Add.m in Sources */,
 				4B54C0CA1EA5A66E00410B39 /* MineViewController.m in Sources */,
 				4BA586FB1E98DE23007789DF /* SDCycleScrollView.m in Sources */,
 				4BBCA7B51E9B92FE008B67A1 /* CircleDetailViewController.m in Sources */,
@@ -4551,14 +4559,12 @@
 				4BA586DD1E98B0EF007789DF /* CBObject.m in Sources */,
 				4BA586C21E98755F007789DF /* CBViewController.m in Sources */,
 				4B45E4B21EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4B3463DD1EA204A500B1E98F /* MBProgressHUD.m in Sources */,
 				4B54C0D41EA5BFB600410B39 /* SweepViewController.m in Sources */,
 				4BDBD6761E9D14AD001DFF51 /* SDWaitingView.m in Sources */,
 				4B2358AF1EC1F1460049771A /* LikeViewController.m in Sources */,
 				4B54C0B91EA48EC300410B39 /* RECommonFunctions.m in Sources */,
 				4BDBD6A11E9E02E1001DFF51 /* AppDelegate+JPushSDK.m in Sources */,
 				4B54C0C41EA48F2900410B39 /* LeftViewController.m in Sources */,
-				4B3463D21EA2047E00B1E98F /* UIViewController+HUD.m in Sources */,
 				4B45E4AB1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4BA5871E1E9B53BC007789DF /* CircleTableViewCell.m in Sources */,
 				4B3D8F911EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4619,7 +4625,6 @@
 				4BC5F7F31EA9FAFE0008D67D /* CircleListModel.m in Sources */,
 				4B45E4A71EB05166001AEF71 /* HXPhotoPreviewViewController.m in Sources */,
 				4B2358C41EC1F5460049771A /* SystemViewController.m in Sources */,
-				4BC5F7F41EA9FAFE0008D67D /* MBProgressHUD+Add.m in Sources */,
 				4BC5F7F51EA9FAFE0008D67D /* MineViewController.m in Sources */,
 				4BC5F7F61EA9FAFE0008D67D /* SDCycleScrollView.m in Sources */,
 				4BC5F7F71EA9FAFE0008D67D /* CircleDetailViewController.m in Sources */,
@@ -4643,14 +4648,12 @@
 				4BC5F8061EA9FAFE0008D67D /* CBObject.m in Sources */,
 				4BC5F8071EA9FAFE0008D67D /* CBViewController.m in Sources */,
 				4B45E4B51EB05166001AEF71 /* HXPhotoTools.m in Sources */,
-				4BC5F8081EA9FAFE0008D67D /* MBProgressHUD.m in Sources */,
 				4BC5F8091EA9FAFE0008D67D /* SweepViewController.m in Sources */,
 				4BC5F80A1EA9FAFE0008D67D /* SDWaitingView.m in Sources */,
 				4B2358B21EC1F1460049771A /* LikeViewController.m in Sources */,
 				4BC5F80B1EA9FAFE0008D67D /* RECommonFunctions.m in Sources */,
 				4BC5F80C1EA9FAFE0008D67D /* AppDelegate+JPushSDK.m in Sources */,
 				4BC5F80D1EA9FAFE0008D67D /* LeftViewController.m in Sources */,
-				4BC5F80E1EA9FAFE0008D67D /* UIViewController+HUD.m in Sources */,
 				4B45E4AE1EB05166001AEF71 /* HXPhotoSubViewCell.m in Sources */,
 				4BC5F80F1EA9FAFE0008D67D /* CircleTableViewCell.m in Sources */,
 				4B3D8F941EC0C771004A4983 /* MessageTableViewCell.m in Sources */,
@@ -4711,7 +4714,6 @@
 				4BFC668A1EE68F2C00431EF1 /* CircleListModel.m in Sources */,
 				4BFC668B1EE68F2C00431EF1 /* HXPhotoPreviewViewController.m in Sources */,
 				4BFC668C1EE68F2C00431EF1 /* SystemViewController.m in Sources */,
-				4BFC668D1EE68F2C00431EF1 /* MBProgressHUD+Add.m in Sources */,
 				4BFC668E1EE68F2C00431EF1 /* MineViewController.m in Sources */,
 				4BFC668F1EE68F2C00431EF1 /* SDCycleScrollView.m in Sources */,
 				4BFC66901EE68F2C00431EF1 /* CircleDetailViewController.m in Sources */,
@@ -4735,14 +4737,12 @@
 				4BFC66A21EE68F2C00431EF1 /* CBObject.m in Sources */,
 				4BFC66A31EE68F2C00431EF1 /* CBViewController.m in Sources */,
 				4BFC66A41EE68F2C00431EF1 /* HXPhotoTools.m in Sources */,
-				4BFC66A51EE68F2C00431EF1 /* MBProgressHUD.m in Sources */,
 				4BFC66A61EE68F2C00431EF1 /* SweepViewController.m in Sources */,
 				4BFC66A71EE68F2C00431EF1 /* SDWaitingView.m in Sources */,
 				4BFC66A81EE68F2C00431EF1 /* LikeViewController.m in Sources */,
 				4BFC66A91EE68F2C00431EF1 /* RECommonFunctions.m in Sources */,
 				4BFC66AA1EE68F2C00431EF1 /* AppDelegate+JPushSDK.m in Sources */,
 				4BFC66AB1EE68F2C00431EF1 /* LeftViewController.m in Sources */,
-				4BFC66AC1EE68F2C00431EF1 /* UIViewController+HUD.m in Sources */,
 				4BFC66AD1EE68F2C00431EF1 /* HXPhotoSubViewCell.m in Sources */,
 				4BFC66AE1EE68F2C00431EF1 /* CircleTableViewCell.m in Sources */,
 				4BFC66AF1EE68F2C00431EF1 /* MessageTableViewCell.m in Sources */,
@@ -4796,7 +4796,7 @@
 /* Begin XCBuildConfiguration section */
 		4B1EA0251EAE0A4000F4227D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = 44ACECDD3B1A65C1BE4E982C /* Pods-CB184.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4807,7 +4807,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB184=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB184-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4844,7 +4844,7 @@
 		};
 		4B1EA0261EAE0A4000F4227D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = D92C559F73EF4B54A8660DAC /* Pods-CB184.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4855,7 +4855,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB184=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB184-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4892,7 +4892,7 @@
 		};
 		4B1EA0871EAE0B3900F4227D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = F940381C53A078E14C14AF46 /* Pods-CB278.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4903,7 +4903,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB278=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB278-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4940,7 +4940,7 @@
 		};
 		4B1EA0881EAE0B3900F4227D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = 6F6DC65D06DCAEE64B81EBF3 /* Pods-CB278.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4951,7 +4951,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB278=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB278-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -4988,7 +4988,7 @@
 		};
 		4B1EA0EA1EAE0C8E00F4227D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = BD7B1F5A6D8B8D31C431257C /* Pods-CB279.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -4999,7 +4999,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB279=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB279-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5036,7 +5036,7 @@
 		};
 		4B1EA0EB1EAE0C8E00F4227D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = 3AA5CE3AF98D931F2F4BE5C5 /* Pods-CB279.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -5047,7 +5047,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB279=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB279-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5084,7 +5084,7 @@
 		};
 		4B34630A1EA1F52C00B1E98F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = A66E7EF4E15DFB4DFF58542F /* Pods-CB227.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5095,7 +5095,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB227=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB227-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5132,7 +5132,7 @@
 		};
 		4B34630B1EA1F52C00B1E98F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = EFB24BD4835D276C39B82C87 /* Pods-CB227.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5143,7 +5143,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = "/Users/LC/Desktop/彩宝/CaiBao/CaiBao/Common/CBConfig.h";
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB227=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB227-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5180,7 +5180,7 @@
 		};
 		4B3463A01EA1F9AE00B1E98F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = 402D8B6DF881CED73F179B42 /* Pods-CB203.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5191,7 +5191,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB203=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB203-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5228,7 +5228,7 @@
 		};
 		4B3463A11EA1F9AE00B1E98F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = 1DF66246062B200BD3016007 /* Pods-CB203.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5239,7 +5239,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB203=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB203-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5305,6 +5305,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -5352,6 +5353,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -5368,7 +5370,7 @@
 		};
 		4BA586891E979C21007789DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = 56B3EC737C73054F4F4DE115 /* Pods-CB157.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-278";
@@ -5379,7 +5381,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB157=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB157-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5416,7 +5418,7 @@
 		};
 		4BA5868A1E979C21007789DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = F8C1150B096A3B7F03CE0E39 /* Pods-CB157.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-278";
@@ -5427,7 +5429,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB157=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB157-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5464,7 +5466,7 @@
 		};
 		4BC5F83F1EA9FAFE0008D67D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = 044A80D380141F155A0C9EE4 /* Pods-CB270.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5475,7 +5477,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB270=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB270-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5512,7 +5514,7 @@
 		};
 		4BC5F8401EA9FAFE0008D67D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = BFFF02FA1537074C4AC02A0E /* Pods-CB270.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-227";
@@ -5523,7 +5525,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "CB270=1";
 				INFOPLIST_FILE = "$(SRCROOT)/CaiBao/Plist/CB270-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5560,7 +5562,7 @@
 		};
 		4BFC67371EE68F2D00431EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E94CE22C3488AFA0AE186BF /* Pods-CaiBao.debug.xcconfig */;
+			baseConfigurationReference = A74918BC008CAFE57AFFA760 /* Pods-c66app13.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-13";
@@ -5572,7 +5574,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "c66app13=1";
 				INFOPLIST_FILE = "$(SRCROOT)/c66app13-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -5610,7 +5612,7 @@
 		};
 		4BFC67381EE68F2D00431EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C63142D6622A95253C54D67E /* Pods-CaiBao.release.xcconfig */;
+			baseConfigurationReference = 96049CFE7653572519338482 /* Pods-c66app13.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-13";
@@ -5622,7 +5624,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/CaiBao/Third/QQ",
 				);
-				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/CBConfig.h;
+				GCC_PREFIX_HEADER = /Users/LC/Desktop/CaiBao/CaiBao/CaiBao/Common/PrefixHeader.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "c66app13=1";
 				INFOPLIST_FILE = "$(SRCROOT)/c66app13-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
